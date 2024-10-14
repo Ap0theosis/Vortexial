@@ -5,90 +5,25 @@
 	group: "29665EDF34C45838"
 	icon: "kubejs:ponto_cozinheiro"
 	id: "659EC601E04E11CB"
-	images: [
-		{
-			height: 3.0d
-			image: "cookingforblockheads:block/oven_front_active"
-			rotation: 0.0d
-			width: 2.5d
-			x: -12.0d
-			y: -0.5d
-		}
-		{
-			height: 3.0d
-			image: "cookingforblockheads:block/white_oven_front_powered"
-			rotation: 0.0d
-			width: 2.5d
-			x: -14.0d
-			y: -0.5d
-		}
-		{
-			height: 2.0d
-			image: "cookingforblockheads:block/toaster"
-			rotation: 0.0d
-			width: 2.0d
-			x: -18.0d
-			y: -2.0d
-		}
-		{
-			height: 3.0d
-			image: "cookingforblockheads:block/cooking_table_side"
-			rotation: 0.0d
-			width: 3.0d
-			x: -18.0d
-			y: -0.5d
-		}
-		{
-			height: 3.0d
-			image: "cookingforblockheads:block/cooking_table_front"
-			rotation: 0.0d
-			width: 3.0d
-			x: -16.0d
-			y: -0.5d
-		}
-		{
-			height: 3.0d
-			image: "cookingforblockheads:block/fridge_top"
-			rotation: 180.0d
-			width: 3.0d
-			x: -10.0d
-			y: -2.5d
-		}
-		{
-			height: 3.0d
-			image: "cookingforblockheads:block/fridge_side"
-			rotation: 0.0d
-			width: 3.0d
-			x: -10.0d
-			y: -0.5d
-		}
-		{
-			height: 2.0d
-			image: "cookingforblockheads:block/white_oven_top"
-			rotation: 0.0d
-			width: 2.0d
-			x: -12.0d
-			y: 2.0d
-		}
-		{
-			height: 2.0d
-			image: "cookingforblockheads:block/white_oven_top"
-			rotation: 0.0d
-			width: 2.0d
-			x: -14.0d
-			y: 2.0d
-		}
-		{
-			height: 1.4d
-			image: "stalwart_dungeons:textures/ancient_fire_particle.png"
-			rotation: 0.0d
-			width: 3.2d
-			x: -13.95d
-			y: 0.12d
-		}
-	]
+	images: [{
+		height: 20.0d
+		image: "kubejs:block/fundo2"
+		rotation: 0.0d
+		width: 35.51622418879056d
+		x: -12.5d
+		y: -3.5d
+	}]
 	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "614E0CCE9A2F2A58"
+		tasks: [{
+			id: "064503CC55355E81"
+			item: "minecraft:apple"
+			type: "item"
+		}]
+		x: -24.5d
+		y: -3.0d
+	}]
 	title: "Cozinheiro"
 }

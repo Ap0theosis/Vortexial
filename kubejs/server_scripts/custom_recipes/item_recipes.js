@@ -319,7 +319,25 @@ ServerEvents.recipes(event => {
     C: 'minecraft:netherite_ingot',
     D: 'minecraft:nether_star'
   })
-  
+  event.shaped('reliquary:lantern_of_paranoia', [
+    'ABA',
+    'DCD',
+    ' A '
+  ], {
+    A: 'minecraft:iron_ingot',
+    B: 'enigmaticlegacy:golden_ring',
+    C: 'minecraft:torch',
+    D: 'minecraft:glass'
+  })
+  event.shaped(Item.of('apotheosis:potion_charm').copyNBT(), [
+    ' A ',
+    ' B ',
+    ' C '
+  ], {
+    A: 'minecraft:nether_wart',
+    B: Item.of('minecraft:potion').ignoreNBT(), // Accept any potion type by ignoring NBT
+    C: 'minecraft:glass_bottle'
+ });
   // Smelting
   event.smelting('3x minecraft:experience_bottle', 'kubejs:ponto_alquimista')
 
@@ -354,5 +372,6 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'reliquary:apothecary_mortar' })
   event.remove({ output: 'enigmaticlegacy:golden_ring' })
   event.remove({ output: 'reliquary:alkahestry_tome' })
+  event.remove({ output: 'reliquary:lantern_of_paranoia' })
 
 })

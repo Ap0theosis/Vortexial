@@ -21,7 +21,6 @@
 				id: "enigmaticlegacy:enigmatic_amulet"
 				tag: {
 					AssignedColor: 0.1f
-					Inscription: "Nixelheim"
 				}
 			}
 			type: "item"

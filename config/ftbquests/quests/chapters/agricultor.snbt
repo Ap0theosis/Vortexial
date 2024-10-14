@@ -1622,6 +1622,7 @@
 			dependencies: ["728B37AFE5F5AC9A"]
 			hide: true
 			id: "2B8E8E3233C2B3F8"
+			optional: true
 			shape: "heart"
 			tasks: [
 				{

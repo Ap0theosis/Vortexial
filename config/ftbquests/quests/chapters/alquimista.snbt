@@ -822,6 +822,72 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			id: "39AE2F8C547C4792"
+			rewards: [{
+				count: 4
+				id: "5BDFC7D56FB8031F"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FCD5756211DAC37"
+				item: "kubejs:ponto_alquimista"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "0BE038E40796D2E7"
+			tasks: [{
+				count: 3L
+				id: "3EDB5F6C4E80EC2C"
+				item: {
+					Count: 3
+					id: "reliquary:potion"
+					tag: {
+						effects: [
+							{
+								duration: 4833
+								name: "minecraft:haste"
+								potency: 4
+							}
+							{
+								duration: 4833
+								name: "minecraft:health_boost"
+								potency: 4
+							}
+							{
+								duration: 5689
+								name: "minecraft:speed"
+								potency: 4
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "1F6CC7C341FBB2B6"
+			tasks: [{
+				id: "3715A271450E6EF7"
+				item: {
+					Count: 1
+					id: "reliquary:lantern_of_paranoia"
+					tag: {
+						coolDown: 605108L
+						enabled: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
 	]
 	title: "Alquimista"
 }

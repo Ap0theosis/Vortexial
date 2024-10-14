@@ -6,12 +6,12 @@
 	icon: "kubejs:ponto_atirador"
 	id: "443854774D776077"
 	images: [{
-		height: 3.0d
-		image: "twilightforest:item/triple_bow_pulling_2"
-		rotation: 90.0d
-		width: 3.0d
-		x: -4.0d
-		y: 3.5d
+		height: 20.0d
+		image: "kubejs:block/fundo1"
+		rotation: 0.0d
+		width: 33.29305135951662d
+		x: 1.0d
+		y: 1.5d
 	}]
 	order_index: 4
 	quest_links: [ ]
