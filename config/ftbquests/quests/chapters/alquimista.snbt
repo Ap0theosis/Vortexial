@@ -336,26 +336,6 @@
 			y: 4.5d
 		}
 		{
-			id: "2AC4947C7B1C058A"
-			tasks: [{
-				id: "37EF244478E0F047"
-				item: {
-					Count: 1
-					id: "apotheosis:potion_charm"
-					tag: {
-						Damage: 0
-						Modifier: "forbidden_arcanus:eternal"
-						Potion: "apotheosis:strong_resistance"
-						Repair: 1b
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.0d
-		}
-		{
 			id: "4E233D60917F8D2F"
 			tasks: [{
 				count: 6L

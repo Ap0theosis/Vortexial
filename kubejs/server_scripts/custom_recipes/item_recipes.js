@@ -329,15 +329,17 @@ ServerEvents.recipes(event => {
     C: 'minecraft:torch',
     D: 'minecraft:glass'
   })
-  event.shaped(Item.of('apotheosis:potion_charm').copyNBT(), [
-    ' A ',
-    ' B ',
-    ' C '
-  ], {
-    A: 'minecraft:nether_wart',
-    B: Item.of('minecraft:potion').ignoreNBT(), // Accept any potion type by ignoring NBT
-    C: 'minecraft:glass_bottle'
- });
+  event.shaped(Item.of('apotheosis:potion_charm', { Potion: "minecraft:strength" }), [
+    'ADA',
+    'BBB',
+    'ECE'
+], {
+    A: 'minecraft:ender_eye',
+    B: 'minecraft:gold_ingot',
+    C: 'kubejs:ponto_alquimista',
+    E: 'minecraft:golden_carrot'
+});
+
   // Smelting
   event.smelting('3x minecraft:experience_bottle', 'kubejs:ponto_alquimista')
 
@@ -373,5 +375,6 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'enigmaticlegacy:golden_ring' })
   event.remove({ output: 'reliquary:alkahestry_tome' })
   event.remove({ output: 'reliquary:lantern_of_paranoia' })
+  event.remove({ output: 'apotheosis:potion_charm' })
 
 })
