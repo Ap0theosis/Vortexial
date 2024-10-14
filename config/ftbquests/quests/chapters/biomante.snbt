@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomante"
+	group: "29665EDF34C45838"
+	icon: "kubejs:ponto_biomante"
+	id: "09CD84A2775BC466"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Biomante"
+}

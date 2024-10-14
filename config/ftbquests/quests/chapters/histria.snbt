@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "histria"
+	group: "5A6A8FD9B4C80A97"
+	icon: "minecraft:writable_book"
+	id: "60CE3C3B10187AFF"
+	images: [{
+		height: 3.0d
+		image: "botania:block/mana_void_overlay"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: -4.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				" &oHumanos e Deuses... Nenhum deles conseguiu prever aquilo, aquela coisa de outro mundo. Em um piscar de olhos, o universo foi engolido por uma força giratória mais rápido do que a própria luz."
+				" &oEu o batizei de Vórtice, e coloquei um alvo na sua cabeça, ou de seu dono. Não sabemos se é uma criatura ou um objeto, talvez mera força da natureza... Mas &lnós&r&o somos a natureza!"
+			]
+			id: "23118A65A890C5C1"
+			subtitle: "E seus crimes"
+			tasks: [{
+				id: "4FAE44C1A4F0CEBA"
+				title: "O Vórtice"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "405E9FC92D59D801"
+			subtitle: "Acorde!"
+			tasks: [{
+				id: "73300784A909C03C"
+				title: "Você"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "46E5E9537032AB76"
+			tasks: [{
+				id: "5E64CC2F1E3D3DE8"
+				title: "Deuses"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "5AF7832027147760"
+			tasks: [{
+				id: "2F114B975E75BD1B"
+				title: "Zeus"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "77AF12949AECBF35"
+			tasks: [{
+				id: "4561FFA3A2FD2876"
+				title: "Zeus1"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "1B79403DCC78773A"
+			tasks: [{
+				id: "16A29ACE84C66BD0"
+				title: "Zeus 2"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "4B0E389BC8605516"
+			tasks: [{
+				id: "05EA4442DB01119E"
+				title: "Zeus 3"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "3FC92CB596E1475F"
+			tasks: [{
+				id: "4A25DDC2218B3A1F"
+				title: "Zeus4"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "2579765087A5A3B1"
+			tasks: [{
+				id: "083C838042F10654"
+				title: "Zeus5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "363DD90271F89D5B"
+			tasks: [{
+				id: "22D3725B3956F860"
+				title: "???"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "47C917C658F80513"
+			tasks: [{
+				id: "3A3CF544A8E94144"
+				title: "Controlar"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "2ED02AE6A6434422"
+			tasks: [{
+				id: "14D36433545DB3BE"
+				title: "Destruir"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "670A3725A9C8A1DA"
+			tasks: [{
+				id: "78CB947772EA4438"
+				title: "Zeus6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+	title: "História"
+}

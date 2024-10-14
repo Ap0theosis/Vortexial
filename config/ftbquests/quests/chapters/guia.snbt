@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guia"
+	group: "5A6A8FD9B4C80A97"
+	icon: "forbidden_arcanus:xpetrified_orb"
+	id: "53B5E4A1C66EF7DA"
+	images: [
+		{
+			height: 10.0d
+			image: "watut:textures/particles/book.png"
+			rotation: 0.0d
+			width: 8.11111111111111d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/g_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/u_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/mythicmetals_compat/longsword/longsword_metallurgium"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/mythicmetals_compat/longsword/longsword_metallurgium"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			height: 5.0d
+			image: "ftblibrary:icons/feather"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 5.0d
+			image: "hexerei:textures/book/arrow_left.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "pneumaticcraft:textures/gui/icon/gui_warning.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ainda não tem :D"
+				""
+				"Plugin e servidor dedicado são necessários."
+			]
+			id: "4E1DEB37F721F070"
+			rewards: [{
+				id: "25FD164D179CDB79"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			subtitle: "Uma lista dos mais úteis:"
+			tasks: [{
+				id: "2B5497A9C58D6587"
+				title: "Zero"
+				type: "checkmark"
+			}]
+			title: "Comandos"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Este modpack tem 3 sessões separadas que podem ser acessadas no canto extremo da esquerda."
+				""
+				"&bAlinhamento: &fSão os primeiros passos para ingressar na jornada em busca do &1Vórtice&f, como este guia, sua &9Gênesis &fonde você será guiado para as outras sessões, e a &bHistória&f onde estão os objetivos principais da sua jornada."
+				"{@pagebreak}"
+				""
+				"&bDevoção: &fUm breve resumo, você gastará seus &5Talismãs da Devoção &fpara escolher um Deus, e seguir suas provações para se fortalecer e receber recompensas e fragmentos importantes da história principal."
+				""
+				"&bFoco: &fVocê precisará gastar &dTalismãs de Foco &fpara acessar uma classe, como em um RPG. Cada classe lhe dará acesso aos mods desse modpack, uma explicação mais aprofundada está na introdução delas, onde você poderá verificar com cautela o que cada uma provê."
+			]
+			id: "7DB3E6E816E3B41A"
+			rewards: [{
+				count: 8
+				id: "0279C439BE660F9A"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			subtitle: "E como funcionam:"
+			tasks: [{
+				id: "59E725D3D91A62F1"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Cada jogador pode proteger até 25 Chunks e forçar o carregamento de 2."
+				""
+				"Ainda está em progresso o sistema de Party em relação ás quests, então por gentileza evite."
+			]
+			id: "3F62AEEABCF66EEF"
+			rewards: [{
+				id: "3E4754AF2D8776DE"
+				item: "minecraft:white_shulker_box"
+				type: "item"
+			}]
+			subtitle: "Aperte M e depois C"
+			tasks: [{
+				id: "79B0F71802711A6F"
+				title: "Proteção de Terreno"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Modpacks em seu contexto geral são um aglomerado de mods, que customizam a experiência do jogador"
+				"implementando novas mecânicas, construções e etc."
+				""
+				"Existem modpacks temáticos, que juntam todos os mods e alteram seu funcionamento pra fazer sentido"
+				"em um contexto. Servidor Vortex é um desses modpacks."
+				""
+				"Ainda em construção, mudanças SERÃO feitas, pode haver uma implementação na dificuldade de diversos itens, esteja avisado(a). Portanto, qualquer furo de conteúdo e contexto pode reportar a vontade."
+			]
+			id: "20AF2C44011166C0"
+			rewards: [{
+				id: "7D1B5D1ABB23CE06"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "O que é e como funciona:"
+			tasks: [{
+				id: "62D3E1E6D72D4002"
+				title: "Modpack"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"- Cataclysm"
+				"- Twilight Forest"
+				"- Mekanism"
+				"- Ars Nouveau"
+				"- Create"
+				"- Botania"
+				"- Blood Magic"
+				"- Mystical Agriculture"
+				"- Enigmatic Legacy"
+				"- Applied Energistics 2"
+				"- Apotheosis"
+				"- Alchemistry"
+				"- Biomancy"
+				"- Sons of Sins"
+				"- Born in Chaos"
+				"- Relics"
+				"- Artifacts"
+				"- Thermal Expansion"
+				"- Reliquary"
+				""
+				"E outros Addons, QoL, Performance e etc."
+			]
+			id: "5E7DB5B10F43A423"
+			rewards: [{
+				id: "0184FD15B47AEF3D"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			subtitle: "Dos mais notáveis:"
+			tasks: [{
+				id: "23346B1BF75BD5EC"
+				title: "Lista de Mods"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Ainda está em desenvolvimento por uma única pessoa levemente perdida no vasto mundo da programação, qualquer auxílio é bem vindo. Este projeto tem a exclusiva finalidade de unificar e balancear a experiência de Minecraft com relação aos mods de todos os gostos."]
+			id: "12BD1A975A71CA1C"
+			rewards: [{
+				id: "04FB09A37FC85957"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sobre o projeto"
+			tasks: [{
+				id: "602B9322AD9160D1"
+				title: "Extras"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Não é um modpack fácil!"
+				""
+				"- Após se afiliar a um deus, seu amuleto guardará seus itens se você morrer, não esqueça de equipá-lo!"
+				""
+				"- Evite pegar amuletos dos corpos de outros jogadores para evitar problemas."
+				""
+				"- PVP é desativado nos terrenos com proteção."
+				""
+				"- Griefing e roubo é PROIBIDO! Mesmo que só as pessoas de confiança estejam no servidor."
+				""
+				"- Tenha bom senso e seja uma pessoa legal."
+			]
+			id: "0127FB674CD91033"
+			shape: "gear"
+			tasks: [{
+				id: "31176D10D1EC773B"
+				title: "Importante!"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+	]
+	title: "Guia"
+}

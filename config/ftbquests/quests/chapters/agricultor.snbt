@@ -1,0 +1,1648 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "agricultor"
+	group: "29665EDF34C45838"
+	icon: "kubejs:ponto_agricultor"
+	id: "4C312405C6D8572B"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:block/farmland_moist"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/farmland_moist"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/farmland_moist"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			color: 4364799
+			height: 3.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			color: 4364799
+			height: 3.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			color: 4364799
+			height: 3.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			color: 43520
+			height: 3.0d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			color: 43520
+			height: 3.0d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			color: 43520
+			height: 3.0d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			color: 43520
+			height: 3.0d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "artifacts:item/villager_hat"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/netherite_hoe"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/wheat_seeds"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/composter_bottom"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/composter_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/composter_ready"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/wheat_stage7"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "mysticalagriculture:block/flower/inferium_flower"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "mysticalagriculture:block/mystical_resource_crop_7"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "thermal:block/devices/nyi/flux_anvil_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "titanium:items/tool/handle_hammer"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "titanium:items/tool/base_hammer"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "twilightforest:item/trophy"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/ponto_agricultor"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/g_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/r_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/u_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/l_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/t_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/u_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/r_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/e_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/hanging_signs/oak.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C2CC740ECBF617E"]
+			hide: true
+			id: "5A0E01299BD2B497"
+			rewards: [{
+				id: "2E88EE6294779CF7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 3L
+				id: "7868FEA262786FC4"
+				item: { Count: 3, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			title: "A Colheita começa"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["281F26E0749A53B9"]
+			hide: true
+			id: "755A3E8475B948E5"
+			tasks: [{
+				id: "7856E3EDA1D42320"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			title: "Domine a terra, agora mire nos céus!"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C70019454268938"]
+			hide: true
+			id: "7777760F75EE6204"
+			rewards: [{
+				count: 3
+				id: "778427AD0281B421"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5D827C7394A7656F"
+				item: { Count: 8, id: "mysticalagriculture:inferium_seeds" }
+				type: "item"
+			}]
+			title: "Ascenção"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["795DDCBA2CA47980"]
+			hide: true
+			hide_dependency_lines: true
+			id: "473CD59732A13EAB"
+			rewards: [{
+				id: "428868F167BFDBDB"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 3L
+				id: "5889EBC5D0DFA8C4"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A0E01299BD2B497"]
+			id: "71EC1A5AC920B9BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66E2E31492777E6A"
+				table_id: 3420215705334860646L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "2B28C760AD1A01BB"
+				item: { Count: 3, id: "farmersdelight:milk_bottle" }
+				type: "item"
+			}]
+			title: "Cadê a mimosa?"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71EC1A5AC920B9BE"]
+			hide: true
+			id: "6B7E1868CF1D39C0"
+			rewards: [{
+				id: "4746512CF22C2C90"
+				item: "mysticalagriculture:inferium_furnace"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6FB20FD1BAFEF7"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			title: "A Mentira"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B7E1868CF1D39C0"]
+			hide: true
+			id: "338ECF9C59E773D5"
+			rewards: [{
+				count: 32
+				id: "547EDC2FE8DDB011"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15BEB2086D428242"
+				title: "A"
+				type: "checkmark"
+			}]
+			title: "Sonho lúcido"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["338ECF9C59E773D5"]
+			hide: true
+			id: "73A39C956CF28724"
+			rewards: [{
+				id: "708DC4E4FCD28033"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1397F9222A27B07F"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			title: "Sussurros da Terra"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["338ECF9C59E773D5"]
+			hide: true
+			id: "795DDCBA2CA47980"
+			rewards: [{
+				id: "2910134083C22949"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "209CB2D028BF77A2"
+				item: "farmersdelight:tomato_sauce"
+				type: "item"
+			}]
+			title: "Não conte ao Cozinheiro."
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["795DDCBA2CA47980"]
+			hide: true
+			id: "5C70019454268938"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "278BF2B1678EAD51"
+				table_id: 3420215705334860646L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4B031AC2DEDECF43"
+				item: "mysticalagriculture:infusion_altar"
+				type: "item"
+			}]
+			title: "O Verdadeiro Agricultor"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["795DDCBA2CA47980"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7C8A4DFE7D6A5617"
+			rewards: [{
+				count: 64
+				id: "5CD0F617CC4F01B4"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "5ABC51DAD7B9C5ED"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73A39C956CF28724"]
+			hide_details_until_startable: true
+			id: "1087F6178FDAAEC4"
+			optional: true
+			rewards: [{
+				id: "542A187BF03D5CB7"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0162E50904AC074C"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EF7D10CA1C1C607"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_watering_can"
+						tag: {
+							Active: 0b
+							Water: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quebra-Galho"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["795DDCBA2CA47980"]
+			hide: true
+			hide_dependency_lines: true
+			id: "674DB2EE70BF3CAC"
+			rewards: [{
+				id: "34456A5430E411B0"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:natures_blessing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 3L
+				id: "5CF43BD015628FD5"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7777760F75EE6204"]
+			hide: true
+			hide_dependency_lines: false
+			id: "013DE25A54D49B57"
+			rewards: [{
+				id: "39350CCF1CA891B7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3845AA970B5BB482"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Braço Esquerdo de Gaia"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7777760F75EE6204"]
+			hide: true
+			hide_dependency_lines: false
+			id: "3FDF53F3A1C45279"
+			rewards: [{
+				id: "3F563E1A88B981BF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7ECB1DA52DF5DFA9"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Braço Direito de Gaia"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["795DDCBA2CA47980"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5583B4280E238D39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4643A8CD3481D37A"
+				table_id: 3420215705334860646L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "1B529407A14CAF3F"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3FDF53F3A1C45279"]
+			hide: true
+			id: "73A1B16ED0E60BD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "538076A7CD42FE8F"
+				table_id: 3420215705334860646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27596DC7FF7D313C"
+				item: "mysticalagriculture:wood_seeds"
+				type: "item"
+			}]
+			title: "Sementes de Madeira"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["013DE25A54D49B57"]
+			hide: true
+			id: "59F768E946CE3182"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E5A5BEDFEB6F872"
+				table_id: 3420215705334860646L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B7B1D017AC1C5DC"
+				item: "mysticalagriculture:ice_seeds"
+				type: "item"
+			}]
+			title: "Sementes de Gelo"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7777760F75EE6204"]
+			hide: true
+			id: "6D4BE5E44F02303C"
+			tasks: [{
+				id: "61C2943320D76D7A"
+				item: "mysticalagriculture:nature_agglomeratio"
+				type: "item"
+			}]
+			title: "Pele de Gaia"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"59F768E946CE3182"
+				"73A1B16ED0E60BD0"
+				"6D4BE5E44F02303C"
+			]
+			hide: true
+			id: "31BF52ECD5E1BEC7"
+			rewards: [{
+				id: "1B27C5E557076AC7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "4E6443093F120EAE"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Coração de Gaia"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["013DE25A54D49B57"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:soul_speed"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "3D62476B2852D2B2"
+			optional: true
+			rewards: [{
+				id: "31701EF3817CC6F7"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [
+				{
+					count: 2L
+					id: "18EA5F20D62E8394"
+					item: { Count: 2, id: "mysticalagriculture:deepslate_seeds" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1E6EA17EAE5736E4"
+					item: { Count: 2, id: "mysticalagriculture:stone_seeds" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6F3B50FF417CCACB"
+					item: { Count: 2, id: "mysticalagriculture:dirt_seeds" }
+					type: "item"
+				}
+			]
+			title: "Quebra-Gelo"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31BF52ECD5E1BEC7"]
+			hide: true
+			id: "4CE3A4C23CA4FB55"
+			tasks: [{
+				id: "57C1344370C3DBD8"
+				item: "mysticalagriculture:nature_seeds"
+				type: "item"
+			}]
+			title: "Não conte ao Alquimista."
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["31BF52ECD5E1BEC7"]
+			hide: true
+			id: "4BBDBA7F05D33497"
+			rewards: [{
+				id: "264DABA85C2BB40D"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 14L
+				id: "7654A66065AD78A7"
+				item: { Count: 64, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			title: "Palavras da Terra"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["795DDCBA2CA47980"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "mysticalagradditions:inferium_coal"
+			id: "4C4A7E5B7EF487FF"
+			rewards: [{
+				count: 64
+				id: "532005A309DB68C9"
+				item: "mysticalagradditions:inferium_coal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "7C8ABDA3FD7B8945"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4BBDBA7F05D33497"]
+			id: "04F3397B4400A6FE"
+			rewards: [
+				{
+					id: "33A36B47F7C68CA0"
+					item: "mysticalagriculture:prudentium_furnace"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "65EC871E10DBD1E6"
+					item: "mysticalagradditions:prudentium_coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5853C2159A44CAA9"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E3125902447859B"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "015AA18D6E69B3BD"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5055209B59C23C83"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prudentium_watering_can"
+						tag: {
+							Active: 0b
+							Water: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quebra-Galho II"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CE3A4C23CA4FB55"]
+			hide: true
+			id: "570A09E928FA3DBF"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "0CC11745E649A52B"
+					type: "dimension"
+				}
+				{
+					count: 4L
+					id: "0C3A2A41D7F58360"
+					item: { Count: 4, id: "mysticalagriculture:soulium_dust" }
+					type: "item"
+				}
+			]
+			title: "Hora do perigo"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["570A09E928FA3DBF"]
+			hide: true
+			id: "26701BAD433ACD79"
+			tasks: [{
+				id: "1CC80B097EAECF6D"
+				item: "mysticalagriculture:soulium_seed_base"
+				type: "item"
+			}]
+			title: "Você enlouqueceu?"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26701BAD433ACD79"]
+			hide: true
+			id: "05D77941AF975E60"
+			tasks: [{
+				id: "0314D0BB045375AF"
+				item: "mysticalagriculture:soul_jar"
+				type: "item"
+			}]
+			title: "E agora quer plantar a mimosa?!"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05D77941AF975E60"]
+			hide: true
+			id: "1EE642A57463C340"
+			tasks: [{
+				id: "128B705FF0E1BBA6"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:soulium_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Feche os olhos."
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EE642A57463C340"]
+			hide: true
+			id: "0AEA1316C7961796"
+			tasks: [
+				{
+					id: "4F7105FAD3185CEF"
+					item: "mysticalagriculture:pig_seeds"
+					type: "item"
+				}
+				{
+					id: "35104127FC46975A"
+					item: "mysticalagriculture:honey_seeds"
+					type: "item"
+				}
+			]
+			title: "Ascenção II"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AEA1316C7961796"]
+			hide: true
+			id: "6A95AF9715FAD1AC"
+			rewards: [{
+				id: "22FCF8459431AB01"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 2L
+				id: "3DD30084D7C2D934"
+				item: { Count: 16, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			title: "Sacrifício"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A95AF9715FAD1AC"]
+			id: "2FBFADF42539CF3A"
+			rewards: [
+				{
+					id: "4C6F3A411D09E506"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22B349C5D6750923"
+					item: "mysticalagriculture:tertium_furnace"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "03300168227B6522"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72B2B67F35EA2D49"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73B0E932692D8987"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CBCBD734C655364"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_watering_can"
+						tag: {
+							Active: 0b
+							Water: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quebra-Galho III"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AEA1316C7961796"]
+			hide: true
+			id: "762EE59DC946D8FF"
+			tasks: [{
+				id: "6D96827F1EE953AA"
+				item: "mysticalagriculture:iron_seeds"
+				type: "item"
+			}]
+			title: "Plantando Minérios"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["762EE59DC946D8FF"]
+			hide: true
+			id: "7F9A51AE025139F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0316DE5FC19DAE68"
+				table_id: 4842083744390030744L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 2L
+				id: "7A43C72A7B06CF31"
+				item: { Count: 8, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			title: "Apostanto Alto"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["762EE59DC946D8FF"]
+			hide: true
+			id: "3532621179E0E113"
+			rewards: [{
+				count: 8
+				id: "0BAD5CBDAA92BD4A"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4212E31A05A5C55B"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			title: "Ascenção III"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3532621179E0E113"]
+			hide: true
+			id: "145FBB4AC6F0AAF7"
+			rewards: [
+				{
+					id: "6BDBAC7F480F6FBF"
+					item: "mysticalagriculture:supremium_furnace"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0E6DA9402BDCB3DE"
+					item: "mysticalagradditions:supremium_coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "24B2CC21FDBBF9FE"
+					item: "mysticalagriculture:supremium_sword"
+					type: "item"
+				}
+				{
+					id: "5D7DB4F8A1C3466F"
+					item: "mysticalagriculture:supremium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "02AFC4F92CD8CB1B"
+					item: "mysticalagriculture:supremium_scythe"
+					type: "item"
+				}
+				{
+					id: "1A8F634BB17FEC0A"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:supremium_watering_can"
+						tag: {
+							Active: 0b
+							Water: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quebra-Galho V"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F9A51AE025139F0"]
+			id: "5CE41CEFF34D841B"
+			rewards: [
+				{
+					id: "5BBF14DC296E808F"
+					item: "mysticalagriculture:imperium_furnace"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "06A154C607BBD66A"
+					item: "mysticalagradditions:imperium_coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "53DA8964925FAF2D"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D7CF656C8EE792D"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D10D1D8DFC55222"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_watering_can"
+						tag: {
+							Active: 0b
+							Water: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EB02E420436DBF2"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:imperium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Quebra-Galho IV"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3532621179E0E113"]
+			hide: true
+			id: "728B37AFE5F5AC9A"
+			tasks: [{
+				id: "61BD0D7C966FFC15"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			title: "Gaia na palma da mão."
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["728B37AFE5F5AC9A"]
+			hide: true
+			id: "50A649DE9D673936"
+			tasks: [{
+				id: "4C07CEF010A6DD23"
+				item: "mysticalagriculture:air_seeds"
+				type: "item"
+			}]
+			title: "Ar,"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["728B37AFE5F5AC9A"]
+			hide: true
+			id: "7A57291A5C5A3050"
+			tasks: [{
+				id: "51BB11ACEB611CB0"
+				item: "mysticalagriculture:fire_seeds"
+				type: "item"
+			}]
+			title: "Fogo..."
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["728B37AFE5F5AC9A"]
+			hide: true
+			id: "468518DDEC4B1502"
+			tasks: [{
+				id: "0A67664A43078299"
+				item: "mysticalagriculture:water_seeds"
+				type: "item"
+			}]
+			title: "Água,"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["728B37AFE5F5AC9A"]
+			hide: true
+			id: "3D128518D0607B84"
+			tasks: [{
+				id: "64158C2B31161017"
+				item: "mysticalagriculture:earth_seeds"
+				type: "item"
+			}]
+			title: "e Terra"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"50A649DE9D673936"
+				"468518DDEC4B1502"
+				"7A57291A5C5A3050"
+				"3D128518D0607B84"
+			]
+			hide: true
+			id: "628D0D4B864543D8"
+			tasks: [{
+				id: "654912BB9A1D49D5"
+				item: "mysticalagriculture:awakening_altar"
+				type: "item"
+			}]
+			title: "Altar do Despertar"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D909A4E754B5511"]
+			hide: true
+			id: "24A8031CBFF8A520"
+			tasks: [{
+				id: "674DEC9F4D5F5100"
+				item: "mysticalagriculture:cognizant_dust"
+				type: "item"
+			}]
+			title: "Dissolvendo almas"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["728B37AFE5F5AC9A"]
+			hide: true
+			id: "4D909A4E754B5511"
+			tasks: [{
+				id: "04CF85590F6CCFBB"
+				item: "mysticalagriculture:wither_skeleton_seeds"
+				type: "item"
+			}]
+			title: "Ceifando almas novamente"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D909A4E754B5511"]
+			icon: "kubejs:ponto_agricultor"
+			id: "1F344E9FA35A51C1"
+			rewards: [{
+				count: 5
+				id: "2A724234B00652BE"
+				item: "kubejs:ponto_agricultor"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 5L
+					id: "25F8F42AA92253D2"
+					item: { Count: 5, id: "mysticalagriculture:wither_skeleton_essence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "229F8610EB6BB573"
+					item: { Count: 2, id: "mysticalagriculture:emerald_essence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C9987073FFCCC79"
+					item: { Count: 2, id: "mysticalagriculture:diamond_essence" }
+					type: "item"
+				}
+				{
+					id: "255969BB3ED61299"
+					item: "mysticalagriculture:supremium_essence"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"628D0D4B864543D8"
+				"24A8031CBFF8A520"
+			]
+			hide: true
+			id: "281F26E0749A53B9"
+			tasks: [{
+				id: "496897FBFF959280"
+				item: "mysticalagriculture:awakened_supremium_block"
+				type: "item"
+			}]
+			title: "Transcender"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["755A3E8475B948E5"]
+			hide: true
+			id: "535915A65670FD5F"
+			rewards: [
+				{
+					id: "2B46332BBF057970"
+					item: "mysticalagradditions:awakened_supremium_paxel"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1075EABA65AD8A01"
+					item: "mysticalagradditions:insanium_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "16D8537CCCB5FB91"
+				item: "mysticalagriculture:awakened_supremium_scythe"
+				type: "item"
+			}]
+			title: "Mestre Agricultor!!!"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["570A09E928FA3DBF"]
+			hide: true
+			id: "6085044300B6038E"
+			rewards: [{
+				count: 8
+				id: "756D5ED1E8928596"
+				item: "mysticalagradditions:inferium_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75BCE3025C69D6A9"
+				item: "mysticalagriculture:tinkering_table"
+				type: "item"
+			}]
+			title: "O que? Achou que seria fácil?"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6085044300B6038E"]
+			id: "56F16096A9F1551F"
+			tasks: [{
+				id: "0FEF43C3F2CDEE96"
+				item: "mysticalagriculture:unattuned_augment"
+				type: "item"
+			}]
+			title: "Toque do Ferreiro"
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["56F16096A9F1551F"]
+			id: "1DAA18E8A166197A"
+			tasks: [{
+				id: "5FA35D269E8206E0"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56F16096A9F1551F"]
+			id: "49E44469F6F3C23C"
+			tasks: [{
+				id: "6819DFE34FB8500F"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56F16096A9F1551F"]
+			id: "4D772413DC5C9391"
+			tasks: [{
+				id: "2C8699FD4B59A6A7"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["56F16096A9F1551F"]
+			id: "1A2E514A45A9D8D4"
+			tasks: [{
+				id: "487400D1450AFA55"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["728B37AFE5F5AC9A"]
+			hide: true
+			id: "2B8E8E3233C2B3F8"
+			shape: "heart"
+			tasks: [
+				{
+					id: "7B5DE593828D1796"
+					item: "mysticalagriculture:machine_frame"
+					type: "item"
+				}
+				{
+					id: "6B5F01B04D58542B"
+					item: "mysticalagriculture:soul_extractor"
+					type: "item"
+				}
+				{
+					id: "37A368AF1C39C034"
+					item: "mysticalagriculture:harvester"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 0.5d
+		}
+	]
+	title: "Agricultor"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qumico"
+	group: "29665EDF34C45838"
+	icon: "kubejs:ponto_quimico"
+	id: "5393C695445BB8D2"
+	order_index: 12
+	quest_links: [ ]
+	quests: [ ]
+	title: "Químico"
+}

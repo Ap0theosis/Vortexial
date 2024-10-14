@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ferreiro"
+	group: "29665EDF34C45838"
+	icon: "kubejs:ponto_ferreiro"
+	id: "5728ADC1C114DB47"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:block/smithing_table_front"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/smithing_table_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 3.45d
+			image: "thermal:block/devices/nyi/flux_anvil_side"
+			rotation: 0.0d
+			width: 3.3d
+			x: 0.0d
+			y: 0.85d
+		}
+		{
+			height: 4.0d
+			image: "enigmaticlegacy:textures/unused/astral_hammer.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: -22.0d
+			y: 0.9d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/diamond_sword"
+			order: 1
+			rotation: 57.0d
+			width: 3.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:item/armor_stand"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/obsidian/simple_obsidian_pillar"
+			rotation: 0.0d
+			width: 3.0d
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/obsidian/simple_obsidian_pillar"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/crying_obsidian/ctm/cut_crying_obsidian_column_ctm/0"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/crying_obsidian/ctm/cut_crying_obsidian_column_ctm/0"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/crying_obsidian/ctm/cut_crying_obsidian_column_ctm/0"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "chipped:block/crying_obsidian/ctm/cut_crying_obsidian_column_ctm/0"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: -110.0d
+			width: 3.0d
+			x: -5.0d
+			y: -0.5d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ferreiro"
+}

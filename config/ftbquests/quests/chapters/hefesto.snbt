@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hefesto"
+	group: "07086E1A2C4D20AF"
+	icon: "kubejs:talisma_hefesto"
+	id: "7AFE15974773C7A0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["78A893ECA4A313F7"]
+		hide: true
+		id: "77B9F5B23AFAB794"
+		optional: true
+		rewards: [{
+			id: "1DE1412E81CFC579"
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.5f
+					Inscription: "Nixelheim"
+				}
+			}
+			type: "item"
+		}]
+		shape: "hexagon"
+		tasks: [{
+			id: "087104F275AB335C"
+			title: "Filho de Hefesto"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Hefesto"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bruxo"
+	group: "29665EDF34C45838"
+	icon: "kubejs:ponto_bruxo"
+	id: "60FE65EECC224468"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bruxo"
+}

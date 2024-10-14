@@ -1,0 +1,827 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alquimista"
+	group: "29665EDF34C45838"
+	icon: "kubejs:ponto_alquimista"
+	id: "6FE39EA048A94D57"
+	images: [
+		{
+			height: 10.0d
+			image: "bloodmagic:models/alchemyarrays/sunarrayspikes"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 13.5d
+			image: "forbidden_arcanus:effect/magic_circle/outer/corrupt_interpolate"
+			order: -1
+			rotation: 0.0d
+			width: 13.5d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/l_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/h_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/e_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/m_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "hexerei:textures/book/y_upper.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 5.0d
+			image: "bloodmagic:models/simpletranscircle"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.7d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:item/eternal_stella"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.53d
+			y: 2.5d
+		}
+		{
+			height: 5.0d
+			image: "bloodmagic:models/simpletranscircle"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.75d
+			y: -0.5d
+		}
+		{
+			height: 5.0d
+			image: "bloodmagic:models/simpletranscircle"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			height: 5.0d
+			image: "forbidden_arcanus:effect/magic_circle/outer/pure"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "bloodmagic:item/weakbloodorb"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.75d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "reliquary:item/alkahest_tome"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.7d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:item/labeledalchemic_vial"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.7d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.7d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			image: "hexerei:item/crow_ankh_amulet"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/cauldron_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: 5.7d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/cauldron_inner"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: 5.7d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "479F05E524B075DE"
+			tasks: [{
+				id: "4AF644480506B02A"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "Alquimia1"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["479F05E524B075DE"]
+			hide: true
+			id: "402A1B2741EFE04D"
+			rewards: [{
+				count: 2
+				id: "59815FDB4EBB6EAE"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BF69B68216E8EE6"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ultimate_potion"
+					tag: {
+						EnigmaticPotion: "ultimate_weakness"
+					}
+				}
+				type: "item"
+			}]
+			title: "Alquimista2"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["402A1B2741EFE04D"]
+			hide: true
+			id: "10C890E2B197BA33"
+			tasks: [{
+				id: "33AB82C95FA679AF"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			title: "Alquimista3"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10C890E2B197BA33"]
+			hide: true
+			id: "5023195DC75A6441"
+			rewards: [
+				{
+					id: "387CB639BB0410E5"
+					item: "kubejs:ponto_alquimista"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "79F12533F972B1E4"
+					item: {
+						Count: 1
+						id: "ars_nouveau:potion_flask"
+						tag: {
+							Damage: 8
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					id: "4160C4C7AE776581"
+					item: {
+						Count: 1
+						id: "ars_nouveau:potion_flask"
+						tag: {
+							Damage: 0
+							an_potion_flask: {
+								PotionData: {
+									Potion: "minecraft:night_vision"
+									includedPotions: ["minecraft:night_vision"]
+								}
+								count: 8
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2F35CEE2731B3F76"
+					item: {
+						Count: 1
+						id: "ars_nouveau:potion_flask"
+						tag: {
+							Damage: 0
+							an_potion_flask: {
+								PotionData: {
+									Potion: "apotheosis:knowledge"
+									includedPotions: ["apotheosis:knowledge"]
+								}
+								count: 8
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "AlquimistaP1"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "51B9A9D8B74E8532"
+			tasks: [{
+				count: 3L
+				id: "48A3A19E44434E5D"
+				item: { Count: 3, id: "enigmaticlegacy:recall_potion" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "0E3D330C62AA62EE"
+			tasks: [{
+				count: 5L
+				id: "27A911026A0585AD"
+				item: { Count: 5, id: "born_in_chaos_v1:potion_of_rampage" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "2AC4947C7B1C058A"
+			tasks: [{
+				id: "37EF244478E0F047"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Modifier: "forbidden_arcanus:eternal"
+						Potion: "apotheosis:strong_resistance"
+						Repair: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "4E233D60917F8D2F"
+			tasks: [{
+				count: 6L
+				id: "24E0901314E51EE4"
+				item: { Count: 6, id: "enigmaticaddons:ichor_droplet" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "270B76AC5676BA08"
+			tasks: [{
+				count: 6L
+				id: "4F81662E32AAD4F3"
+				item: {
+					Count: 6
+					id: "enigmaticaddons:ultimate_potion"
+					tag: {
+						EnigmaticPotion: "extreme_regeneration"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "3201EEA411A5ADBE"
+			rewards: [{
+				id: "632255162E3889D5"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20B130EDFAF8B545"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "6270401B6140157A"
+			tasks: [
+				{
+					id: "2F8B51B632FA74DE"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+				{
+					id: "43D5F0CEFFE42DF6"
+					item: "bloodmagic:weakbloodorb"
+					type: "item"
+				}
+			]
+			x: -6.75d
+			y: -0.5d
+		}
+		{
+			id: "143831683378F4B3"
+			tasks: [{
+				id: "4EA97DB0420311B5"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "293A6305D210C100"
+			tasks: [
+				{
+					id: "6E4D6DE024BD7275"
+					item: "reliquary:apothecary_mortar"
+					type: "item"
+				}
+				{
+					id: "25C0E09C3AB62FDC"
+					item: "reliquary:apothecary_cauldron"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "47F723FDE92792EE"
+			tasks: [{
+				id: "2039E1FDCAE9555C"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "6070C2DDFDC0DF01"
+			tasks: [{
+				id: "1213077DB939EB68"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "minecraft:night_vision"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			id: "654964FBE7F53A20"
+			tasks: [{
+				id: "0FDB4D67863E758F"
+				item: "bloodmagic:weapon_repair_anointment"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -2.5d
+		}
+		{
+			id: "446C7B1EE8ABEEF1"
+			tasks: [
+				{
+					id: "0154D7820F6E9DBB"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "7E213EF9D63C76E0"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "0E4D8AD790F69C47"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "0F07C3227D99ACCF"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "423593696A9F1843"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "6C8556373B0ED5E0"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "60ED2586844F14C9"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "1522D34FC5158DBD"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "63A3C1911313A31E"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "3EBC7A4232E02E34"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "33C14F92395FA99D"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "4E983CC72D44EA1F"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "4708F11332E1A79C"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					id: "3D259D0828422DC4"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					id: "4C6A5940267201FB"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "72C8B962681E75EF"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "619C46555368EA4E"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "672141456566C0A8"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "5FA0F188D44C7F54"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "120C94E6476DC836"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "5B61DB2D141AC5C4"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "732B9BA84091ADB5"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "279DAA5604D0B562"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			title: "Ingredientes Tier 1"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "24474521C069DA41"
+			rewards: [{
+				id: "4F4950E422777133"
+				item: "kubejs:ponto_alquimista"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2750364118E3A1BA"
+					item: {
+						Count: 1
+						id: "reliquary:potion_essence"
+						tag: {
+							effects: [{
+								duration: 500
+								name: "minecraft:slowness"
+								potency: 0
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29FE3FBB50924759"
+					item: {
+						Count: 1
+						id: "reliquary:potion_essence"
+						tag: {
+							effects: [{
+								duration: 2045
+								name: "minecraft:absorption"
+								potency: 0
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5DC848377C906CD4"
+			tasks: [{
+				id: "6CFDB3DA517BCDE5"
+				title: "a"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "12824AD864A6555C"
+			tasks: [{
+				id: "613E133377A6E7E7"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "5962A6DDA41A6F88"
+			tasks: [{
+				count: 6L
+				id: "246C9F1909D14509"
+				item: { Count: 6, id: "botania:ender_air_bottle" }
+				type: "item"
+			}]
+			x: 3.7d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10C890E2B197BA33"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4B3B86D371EC2744"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B2406A49EFD7246"
+				table_id: 1143305974548971461L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "28E6D27247BC9E4E"
+				item: "kubejs:ponto_alquimista"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10C890E2B197BA33"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2B436ECA69A7A515"
+			shape: "rsquare"
+			tasks: [{
+				id: "4F143D41D9DE2848"
+				item: "kubejs:ponto_alquimista"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10C890E2B197BA33"]
+			hide: true
+			hide_dependency_lines: true
+			id: "12E76336E36FC80F"
+			shape: "rsquare"
+			tasks: [{
+				id: "6BE7B1EBC4178642"
+				item: "kubejs:ponto_alquimista"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10C890E2B197BA33"]
+			hide: true
+			hide_dependency_lines: true
+			id: "08CA4F7B8290E441"
+			rewards: [{
+				id: "052C479827F1B506"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "reliquary:severing"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0D97E735113FF8A9"
+				item: "kubejs:ponto_alquimista"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "787A3B2AFA991788"
+			tasks: [{
+				count: 4L
+				id: "7EE5DA5407850CED"
+				item: { Count: 4, id: "enigmaticlegacy:astral_dust" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "3B117A94F21ADAB9"
+			tasks: [{
+				id: "790FDC6B78C7EB8A"
+				item: {
+					Count: 1
+					id: "reliquary:alkahestry_tome"
+					tag: {
+						Damage: 1001
+					}
+				}
+				type: "item"
+			}]
+			x: 3.7d
+			y: -1.0d
+		}
+		{
+			id: "56CCFD4F0D2724A8"
+			shape: "hexagon"
+			tasks: [{
+				count: 3L
+				id: "628911029E77DE4B"
+				item: {
+					Count: 3
+					id: "reliquary:potion"
+					tag: {
+						effects: [
+							{
+								duration: 4833
+								name: "minecraft:haste"
+								potency: 4
+							}
+							{
+								duration: 4833
+								name: "minecraft:health_boost"
+								potency: 4
+							}
+							{
+								duration: 5689
+								name: "minecraft:speed"
+								potency: 4
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "Alquimista"
+}

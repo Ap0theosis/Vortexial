@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "druida"
+	group: "29665EDF34C45838"
+	icon: "kubejs:ponto_druida"
+	id: "4CB0AEBC87C3B209"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Druida"
+}

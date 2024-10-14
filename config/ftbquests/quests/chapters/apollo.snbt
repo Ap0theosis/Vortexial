@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apollo"
+	group: "07086E1A2C4D20AF"
+	icon: "kubejs:talisma_apollo"
+	id: "513FABDC6C80BBAD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["78A893ECA4A313F7"]
+		hide: true
+		id: "108F39177EC21799"
+		optional: true
+		rewards: [{
+			id: "3DEC3564E6F5D7CC"
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.4f
+					Inscription: "Nixelheim"
+				}
+			}
+			type: "item"
+		}]
+		shape: "hexagon"
+		tasks: [{
+			id: "638299465C12827A"
+			title: "F"
+			type: "checkmark"
+		}]
+		title: "Filho de Apolo"
+		x: 2.5d
+		y: -2.5d
+	}]
+	title: "Apolo"
+}

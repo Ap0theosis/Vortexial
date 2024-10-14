@@ -1,0 +1,1272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "genesis"
+	group: "5A6A8FD9B4C80A97"
+	icon: "kubejs:talisma_possessao"
+	id: "671BB63AC2A36580"
+	images: [
+		{
+			height: 1.0d
+			image: "apotheosis:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1000.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/black_candle"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:item/talisma_possessao"
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.5d
+			y: -996.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/black_candle"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "bloodmagic:models/alchemyarrays/sunarray"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/f_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/o_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/d_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/e_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/v_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/o_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/t_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/o_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/n_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/u_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/s_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 6.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Você deixou sua vida para trás, agora é um &1Herói do Vórtice&f, seu único objetivo é seguir a vontade dos deuses."
+				""
+				"Após chegar nessa dimensão, você perdeu o contato com seus líderes... A única forma de reestabelecer a comunicação é consumindo os &9Talismãs &fem sua mão."
+				""
+				"Escolha com cautela qual caminho seguir, suas ações são limitadas e têm consequências."
+				""
+				"Boa jornada em seu cosmo interior."
+			]
+			id: "78A893ECA4A313F7"
+			rewards: [
+				{
+					count: 2
+					id: "1500CD0BAEB26202"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "39335509404A259E"
+					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+			]
+			subtitle: "Os deuses lhe convocam..."
+			tasks: [{
+				id: "71176996562A00A8"
+				type: "checkmark"
+			}]
+			title: "Despertar"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_details_until_startable: true
+			id: "4AE6805C08A9C2B4"
+			rewards: [
+				{
+					count: 2
+					id: "1DE6F6947D85E000"
+					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7CE8A5114EAEC727"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 5L
+				id: "0E03065C65782E24"
+				item: { Count: 5, id: "kubejs:talisma_controle" }
+				type: "item"
+			}]
+			title: "Construir"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: false
+			id: "29E8587B035CAB6C"
+			rewards: [
+				{
+					id: "5A2F852292211AB2"
+					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+				{
+					id: "5F190DDA81C65A85"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 5L
+				id: "63954AD5E68E5952"
+				item: { Count: 5, id: "kubejs:talisma_destruicao" }
+				type: "item"
+			}]
+			title: "Consumir"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["4AE6805C08A9C2B4"]
+			hide: true
+			hide_details_until_startable: true
+			id: "520EA8C15CDF1BF1"
+			rewards: [
+				{
+					count: 2
+					id: "74D225942D56F175"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B97C3B89A928B7F"
+					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 5L
+				id: "76D66C265B8BE8CA"
+				item: { Count: 5, id: "kubejs:talisma_controle" }
+				type: "item"
+			}]
+			title: "Observar"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["29E8587B035CAB6C"]
+			hide: true
+			hide_dependency_lines: false
+			id: "61D65E91932DBE85"
+			rewards: [
+				{
+					id: "312675991C9679ED"
+					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+				{
+					id: "3C15746A21C55EC6"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 5L
+				id: "3CE3B842F22C6168"
+				item: { Count: 5, id: "kubejs:talisma_destruicao" }
+				type: "item"
+			}]
+			title: "Absorver"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["520EA8C15CDF1BF1"]
+			hide: true
+			hide_details_until_startable: true
+			id: "6C0563AF5FE5A7CA"
+			rewards: [
+				{
+					count: 2
+					id: "35DA9E3287B48A1E"
+					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "71673B458231B182"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 5L
+				id: "7F5661860F6823B6"
+				item: { Count: 5, id: "kubejs:talisma_controle" }
+				type: "item"
+			}]
+			title: "Recriar"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["61D65E91932DBE85"]
+			hide: true
+			hide_dependency_lines: false
+			id: "79A3A383E8FE8433"
+			rewards: [
+				{
+					id: "291598B67E140B1F"
+					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+				{
+					id: "6C7993C65956068C"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 5L
+				id: "213BE26422BCD729"
+				item: { Count: 5, id: "kubejs:talisma_destruicao" }
+				type: "item"
+			}]
+			title: "Restringir"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_agricultor"
+			id: "4C2CC740ECBF617E"
+			rewards: [
+				{
+					id: "3A821321ABF81C75"
+					item: {
+						Count: 1
+						id: "artifacts:villager_hat"
+						tag: {
+							abilities: {
+								discount: {
+									points: 0
+									stats: {
+										multiplier: 16.05885d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B2CA6627804C2DA"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:mending"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "0F6DABC47C2E0377"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Agricultor"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_arqueologo"
+			id: "00C1CB54A67AE62E"
+			rewards: [
+				{
+					id: "1C1B8EA8EFD21772"
+					item: "artifacts:running_shoes"
+					type: "item"
+				}
+				{
+					id: "34B66C5E52AAA30B"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "11E1A42338FE07F9"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Arqueólogo"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_atirador"
+			id: "5853F68BE1F871CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "148598F11B5DCD48"
+					table_id: 6938967332717087361L
+					type: "choice"
+				}
+				{
+					id: "611ABFD8CA60FB1F"
+					item: {
+						Count: 1
+						id: "relics:arrow_quiver"
+						tag: {
+							abilities: {
+								agility: {
+									points: 0
+									stats: {
+										modifier: 1.0d
+									}
+								}
+								leap: {
+									points: 0
+									stats: {
+										cooldown: 13.07821d
+										duration: 5.89001d
+										multiplier: 0.27816d
+									}
+								}
+								rain: {
+									points: 0
+									stats: {
+										delay: 0.79516d
+										duration: 12.10968d
+										radius: 3.37661d
+									}
+								}
+								receptacle: {
+									points: 0
+									stats: {
+										slots: 2.71751d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "090F315618DC4ADB"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "61EA2CE5BEEA4CD7"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Atirador"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_bruxo"
+			id: "13C6D480BCE9A36B"
+			rewards: [
+				{
+					id: "4D6CB95C4F772959"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+				{
+					id: "476AEFD66007854E"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:enigmatic_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "48DFDA3FD1E0F323"
+					item: "enigmaticlegacy:the_acknowledgment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "44239933B5F95078"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Bruxo"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_druida"
+			id: "1F1BE745567724A0"
+			rewards: [
+				{
+					id: "2631CAA03DC2BD97"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "3C38780A4907789D"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "500DA00127295E66"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "0B34550CF070D610"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Druida"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_mago"
+			id: "204F799C469D85F0"
+			rewards: [
+				{
+					id: "0AA15759C9E5C738"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "743470A1F4018B6A"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					id: "127E4070D56B3817"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "01DDF5506F3EFAF6"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Mago"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_arcanista"
+			id: "753682AC395542B4"
+			rewards: [
+				{
+					id: "6059DB7AA2C5DE76"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "1B855F975E4F1D3E"
+					item: {
+						Count: 1
+						id: "experienceobelisk:experience_obelisk"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2EE568A086E22701"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2F15418160A4B05F"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Arcanista"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_cozinheiro"
+			id: "0009129B8601EFC0"
+			rewards: [
+				{
+					id: "5E17B2309D3BA825"
+					item: {
+						Count: 1
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:mending"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C587FAF7EE297EA"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75B643C78DAF2A5C"
+					table_id: 6479632623413219388L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "341FC4498DB0C999"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Cozinheiro"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_alquimista"
+			id: "725B5BDC4D7D5026"
+			rewards: [
+				{
+					id: "75FDC469EBD65FA9"
+					item: "ars_nouveau:potion_melder"
+					type: "item"
+				}
+				{
+					id: "0666ED9202A38578"
+					item: {
+						Count: 1
+						id: "artifacts:novelty_drinking_hat"
+						tag: {
+							abilities: {
+								drinking: {
+									points: 0
+									stats: {
+										speed: 0.30506d
+									}
+								}
+								nutrition: {
+									points: 0
+									stats: {
+										hunger: 1.11073d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "15EB7C84DB2A6FCF"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Alquimista"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_quimico"
+			id: "31E153408F11F3EE"
+			rewards: [
+				{
+					id: "0A1CEAB6865D4F9B"
+					item: "alchemistry:dissolver"
+					type: "item"
+				}
+				{
+					id: "16475ED5BA0A22EA"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "alchemistry:alchemistry_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3D1FEB6E9FD3BF50"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Químico"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_mecanico"
+			id: "13199A38D99FEF93"
+			rewards: [
+				{
+					id: "68B7AA11E8CB3C0E"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "0498DEDC6D7F9BDA"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5CC4138E31CDEDBE"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5FE26B72CA5B64C8"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Mecânico"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_biomante"
+			id: "11CF931EAE49EA5C"
+			rewards: [
+				{
+					id: "57150DC3A034642B"
+					item: {
+						Count: 1
+						id: "biomancy:despoil_sickle"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:mending"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "689F02432B891F5E"
+					item: {
+						Count: 1
+						id: "sons_of_sins:sickle_of_struggle"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:mending"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "7F6AC7372C408737"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Biomante"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:ponto_ferreiro"
+			id: "40323620471212BF"
+			rewards: [
+				{
+					id: "2554FCA6CA800742"
+					item: "mysticalagriculture:tertium_furnace"
+					type: "item"
+				}
+				{
+					id: "472C240CE463D02D"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:tertium_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:mending"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CCCFDBC3FB74D44"
+					item: "apotheosis:salvaging_table"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5250D92084B8B500"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			title: "Ferreiro"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_ares"
+			id: "4396D786769CC977"
+			rewards: [
+				{
+					id: "611517DB6069B64D"
+					item: "kubejs:talisma_destruicao"
+					type: "item"
+				}
+				{
+					id: "10F7E3E48B781B44"
+					item: {
+						Count: 1
+						id: "simplyswords:diamond_chakram"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "4FEAC029D994E470"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Ares"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_apollo"
+			id: "4D02870FE9A597CC"
+			rewards: [
+				{
+					id: "5B017661DEEE8029"
+					item: "kubejs:talisma_destruicao"
+					type: "item"
+				}
+				{
+					id: "2DC8F38D63A83D5D"
+					item: {
+						Count: 1
+						id: "ars_nouveau:jar_of_light"
+						tag: {
+							light_exists: 0b
+							x: -61
+							y: -60
+							z: -35
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "1B59C430EEE6496D"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Apolo"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_atena"
+			id: "65B9E4DC38607E65"
+			rewards: [
+				{
+					id: "6F5FA80DE6854D0A"
+					item: "kubejs:talisma_controle"
+					type: "item"
+				}
+				{
+					id: "259316784103325B"
+					item: {
+						Count: 1
+						id: "botania:sextant"
+						tag: {
+							sourceX: -65
+							sourceY: -61
+							sourceZ: -37
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "1742AD1D607F9D58"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Atena"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_poseidon"
+			id: "64017CF89498B65B"
+			rewards: [
+				{
+					id: "531BAF7436A7C1A5"
+					item: "kubejs:talisma_controle"
+					type: "item"
+				}
+				{
+					id: "3A8E9BAA64EB3A27"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:loyalty"
+									lvl: 9s
+								}
+								{
+									id: "apotheosis:spearfishing"
+									lvl: 6s
+								}
+							]
+							RepairCost: 3
+							affix_data: {
+								gems: [{
+									Count: 1b
+									id: "apotheosis:gem"
+									tag: {
+										affix_data: {
+											rarity: "apotheosis:ancient"
+										}
+										gem: "apotheosis:core/brawlers"
+										uuids: [[I;
+											-1297208623
+											-99596956
+											-1427068470
+											1367836679
+										]]
+									}
+								}]
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "235C2189E5F1B258"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Poseidon"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_hermes"
+			id: "1F48231DF6AA6221"
+			rewards: [
+				{
+					id: "56ED284F1AD458E2"
+					item: "kubejs:talisma_controle"
+					type: "item"
+				}
+				{
+					id: "25E80AAC8AA047F6"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								gems: [{
+									Count: 1b
+									id: "apotheosis:gem"
+									tag: {
+										affix_data: {
+											rarity: "apotheosis:ancient"
+										}
+										gem: "apotheosis:core/lightning"
+										uuids: [[I;
+											-1209761212
+											-711111002
+											-1326790845
+											109414590
+										]]
+									}
+								}]
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "1B970C08E747612A"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Hermes"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_demeter"
+			id: "47E7460BC189CCBC"
+			rewards: [
+				{
+					id: "21F3FC872E292B79"
+					item: "kubejs:talisma_destruicao"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29A0B947852949D1"
+					item: "mysticalagriculture:mystical_fertilizer"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "7E6716E4FBDF2006"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Deméter"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_hades"
+			id: "0852EEE96D65161C"
+			rewards: [
+				{
+					id: "035D45BB3D67A322"
+					item: "kubejs:talisma_destruicao"
+					type: "item"
+				}
+				{
+					id: "57F6A6AA9B4B1220"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:forbidden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "79C41FA88FB2EF84"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Hades"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "kubejs:talisma_hefesto"
+			id: "1C8EAF7CB6691F5F"
+			rewards: [
+				{
+					id: "3C36DBF7966930D6"
+					item: "kubejs:talisma_controle"
+					type: "item"
+				}
+				{
+					id: "651EDB8A5589493D"
+					item: "artifacts:digging_claws"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "0430C930AAC85593"
+				item: "kubejs:talisma_devo"
+				type: "item"
+			}]
+			title: "Hefesto"
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: "Genesis"
+}

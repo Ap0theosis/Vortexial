@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atena"
+	group: "07086E1A2C4D20AF"
+	icon: "kubejs:talisma_atena"
+	id: "383E925548B441E8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["78A893ECA4A313F7"]
+		hide: true
+		id: "60F04E6C81C73A1D"
+		optional: true
+		rewards: [{
+			id: "59D68F4CDEB8F727"
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.3f
+					Inscription: "Nixelheim"
+				}
+			}
+			type: "item"
+		}]
+		shape: "hexagon"
+		tasks: [{
+			id: "2ACAF41142D6BA59"
+			title: "Filho de Atena"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Atena"
+}

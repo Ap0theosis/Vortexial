@@ -1,0 +1,39 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "ares"
+	group: "07086E1A2C4D20AF"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:talisma_ares"
+	id: "255DFEFB96D4FEEA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["78A893ECA4A313F7"]
+		hide: true
+		id: "6F48101B22CA0FFE"
+		optional: true
+		rewards: [{
+			id: "6A99D00955FF2422"
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.1f
+					Inscription: "Nixelheim"
+				}
+			}
+			type: "item"
+		}]
+		shape: "hexagon"
+		tasks: [{
+			id: "22B3721BEEFB88AE"
+			title: "Filho de Ares"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Ares"
+}

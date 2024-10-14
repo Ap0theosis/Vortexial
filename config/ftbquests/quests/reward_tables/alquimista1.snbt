@@ -1,0 +1,11 @@
+{
+	id: "0FDDD6B9F292BFC5"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 3, item: "reliquary:zombie_heart" }
+		{ count: 3, item: "reliquary:squid_beak" }
+		{ count: 3, item: "reliquary:rib_bone" }
+	]
+	title: "Alquimista1"
+}

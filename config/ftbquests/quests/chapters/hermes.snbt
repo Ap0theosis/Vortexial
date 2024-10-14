@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hermes"
+	group: "07086E1A2C4D20AF"
+	icon: "kubejs:talisma_hermes"
+	id: "74C42C498820843C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["78A893ECA4A313F7"]
+		hide: true
+		id: "45C621CAC27F271E"
+		optional: true
+		rewards: [{
+			id: "00FAB2E7E51E6008"
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.2f
+					Inscription: "Nixelheim"
+				}
+			}
+			type: "item"
+		}]
+		shape: "hexagon"
+		tasks: [{
+			id: "0FA1168C72D44C4A"
+			title: "Filho de Hermes"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Hermes"
+}

@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "poseidon"
+	group: "07086E1A2C4D20AF"
+	icon: "kubejs:talisma_poseidon"
+	id: "675AB224804F85C9"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["78A893ECA4A313F7"]
+		hide: true
+		id: "6B33B0E0EA46BB4E"
+		optional: true
+		rewards: [{
+			id: "321982B007B00743"
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.7f
+					Inscription: "Nixelheim"
+				}
+			}
+			type: "item"
+		}]
+		shape: "hexagon"
+		tasks: [{
+			id: "25278ECDE3B0A9B8"
+			title: "Filho de Poseidon"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Poseidon"
+}
