@@ -544,17 +544,32 @@
 			dependencies: ["795DDCBA2CA47980"]
 			hide: true
 			id: "5C70019454268938"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "278BF2B1678EAD51"
-				table_id: 3420215705334860646L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "4B031AC2DEDECF43"
-				item: "mysticalagriculture:infusion_altar"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "278BF2B1678EAD51"
+					table_id: 3420215705334860646L
+					type: "choice"
+				}
+				{
+					id: "51279F435A79CFA2"
+					item: "mysticalagriculture:inferium_seeds"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B031AC2DEDECF43"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "09FB8E1F7104E589"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
 			title: "O Verdadeiro Agricultor"
 			x: 2.5d
 			y: 3.0d

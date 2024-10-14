@@ -6,6 +6,14 @@
 		{ count: 3, item: "reliquary:zombie_heart" }
 		{ count: 3, item: "reliquary:squid_beak" }
 		{ count: 3, item: "reliquary:rib_bone" }
+		{ count: 3, item: "reliquary:catalyzing_gland" }
+		{ count: 3, item: "reliquary:chelicerae" }
+		{ count: 3, item: "reliquary:slime_pearl" }
+		{ item: "reliquary:molten_core" }
+		{ item: "reliquary:frozen_core" }
+		{ item: "reliquary:eye_of_the_storm" }
+		{ count: 2, item: "reliquary:nebulous_heart" }
+		{ count: 3, item: "reliquary:bat_wing" }
 	]
 	title: "Alquimista1"
 }

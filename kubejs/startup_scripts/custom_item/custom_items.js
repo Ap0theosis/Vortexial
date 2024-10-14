@@ -2,6 +2,7 @@ StartupEvents.registry('item', event => {
     // Talismã Base
     event.create('kubejs:talisma_devo').displayName('Talismã da Devoção');
     event.create('kubejs:talisma_foco').displayName('Talismã do Foco');
+    event.create('kubejs:heranca').displayName('Herança de Sangue');
     // Talismã Deuses
     event.create('kubejs:talisma_ares').displayName('Talismã da Guerra');
     event.create('kubejs:talisma_hades').displayName('Talismã da Morte');

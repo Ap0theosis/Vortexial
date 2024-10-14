@@ -291,12 +291,13 @@ ServerEvents.recipes(event => {
     C: 'kubejs:talisma_hades'
   })
   event.shaped('enigmaticlegacy:golden_ring', [
-    ' B ',
-    ' A ',
+    'CCC',
+    'CAC',
     ' B '
   ], {
     A: 'enigmaticlegacy:iron_ring',
-    B: 'kubejs:ponto_alquimista'
+    B: 'enigmaticlegacy:recall_potion',
+    C: 'born_in_chaos_v1:potion_of_rampage'
   })
   event.shaped('5x enigmaticlegacy:astral_dust', [
     'AAA',
@@ -310,14 +311,16 @@ ServerEvents.recipes(event => {
     E: 'botania:ender_air_bottle'
   })
   event.shaped('reliquary:alkahestry_tome', [
-    'ABA',
+    'EFE',
     'ACA',
     'BDB'
   ], {
-    A: 'minecraft:gunpowder',
+    A: 'enigmaticlegacy:astral_dust',
     B: 'enigmaticlegacy:golden_ring',
     C: 'minecraft:netherite_ingot',
-    D: 'minecraft:nether_star'
+    D: 'minecraft:nether_star',
+    E: 'bloodmagic:weapon_repair_anointment',
+    F: 'reliquary:witherless_rose'
   })
   event.shaped('reliquary:lantern_of_paranoia', [
     'ABA',
@@ -329,16 +332,125 @@ ServerEvents.recipes(event => {
     C: 'minecraft:torch',
     D: 'minecraft:glass'
   })
-  event.shaped(Item.of('apotheosis:potion_charm', { Potion: "minecraft:strength" }), [
-    'ADA',
+  event.shaped(Item.of('apotheosis:potion_charm', { Potion: "minecraft:night_vision" }), [
+    'A A',
     'BBB',
     'ECE'
-], {
+ ], {
     A: 'minecraft:ender_eye',
     B: 'minecraft:gold_ingot',
     C: 'kubejs:ponto_alquimista',
     E: 'minecraft:golden_carrot'
-});
+ })
+ event.shaped(Item.of('apotheosis:potion_charm', { Potion: "apotheosis:flying" }), [
+  ' A ',
+  'DBC',
+  ' E '
+ ], {
+  A: 'minecraft:elytra',
+  B: 'reliquary:alkahestry_tome',
+  C: 'enigmaticlegacy:golden_ring',
+  D: 'reliquary:lantern_of_paranoia',
+  E: Item.of('apotheosis:potion_charm').ignoreNBT()
+ }).keepIngredient('apotheosis:potion_charm').keepIngredient('enigmaticlegacy:golden_ring').keepIngredient('reliquary:alkahestry_tome')
+ event.shaped(Item.of('reliquary:fertile_essence'), [
+  'AB ',
+  'CD ',
+  '   '
+ ], {
+  A: 'reliquary:rib_bone',
+  B: 'reliquary:catalyzing_gland',
+  C: 'enigmaticlegacy:golden_ring',
+  D: 'reliquary:slime_pearl'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('reliquary:infernal_claw'), [
+  'AB ',
+  'CD ',
+  '   '
+ ], {
+  A: 'reliquary:rib_bone',
+  B: 'reliquary:molten_core',
+  C: 'enigmaticlegacy:golden_ring',
+  D: 'reliquary:slime_pearl'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('reliquary:infernal_tear'), [
+  'AB ',
+  'CD ',
+  '   '
+ ], {
+  A: 'reliquary:void_tear',
+  B: 'reliquary:molten_core',
+  C: 'enigmaticlegacy:golden_ring',
+  D: 'reliquary:infernal_claw'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('reliquary:void_tear'), [
+  'AB ',
+  'CD ',
+  '   '
+ ], {
+  A: 'minecraft:ghast_tear',
+  B: 'reliquary:nebulous_heart',
+  C: 'enigmaticlegacy:golden_ring',
+  D: 'reliquary:slime_pearl'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('reliquary:alkahestry_altar'), [
+  ' C ',
+  'ADA',
+  ' B '
+ ], {
+  A: 'minecraft:glowstone',
+  B: 'reliquary:alkahestry_tome',
+  C: 'enigmaticlegacy:golden_ring',
+  D: 'reliquary:lantern_of_paranoia'
+ }).keepIngredient('enigmaticlegacy:golden_ring').keepIngredient('reliquary:alkahestry_tome')
+ event.shaped(Item.of('reliquary:glowing_water'), [
+  ' A ',
+  'DDD',
+  ' C '
+ ], {
+  A: 'minecraft:glowstone_dust',
+  C: 'reliquary:empty_potion_vial',
+  D: 'enigmaticaddons:ichor_droplet'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('3x reliquary:empty_potion_vial'), [
+  ' A ',
+  'ABA',
+  '   '
+ ], {
+  A: 'minecraft:glass_bottle',
+  B: 'enigmaticlegacy:golden_ring',
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('3x reliquary:angelheart_vial'), [
+  ' A ',
+  ' C ',
+  'DBD'
+ ], {
+  A: 'reliquary:glowing_water',
+  B: 'enigmaticlegacy:golden_ring',
+  C: 'reliquary:infernal_claw',
+  D: 'reliquary:fertile_essence'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('3x reliquary:witherless_rose'), [
+  'ABA',
+  'DCD',
+  'DDD'
+ ], {
+  A: 'reliquary:fertile_essence',
+  B: 'kubejs:ponto_druida',
+  C: 'minecraft:rose_bush',
+  D: 'botania:ender_air_bottle'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+ event.shaped(Item.of('reliquary:midas_touchstone'), [
+  'AAA',
+  'DBD',
+  'CCC'
+ ], {
+  A: 'minecraft:gold_block',
+  B: 'enigmaticlegacy:golden_ring',
+  C: 'enigmaticaddons:ichor_droplet',
+  D: 'chemlib:gold'
+ }).keepIngredient('enigmaticlegacy:golden_ring')
+
 
   // Smelting
   event.smelting('3x minecraft:experience_bottle', 'kubejs:ponto_alquimista')
@@ -375,6 +487,22 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'enigmaticlegacy:golden_ring' })
   event.remove({ output: 'reliquary:alkahestry_tome' })
   event.remove({ output: 'reliquary:lantern_of_paranoia' })
+  event.remove({ output: 'minecraft:popped_chorus_fruit' })
   event.remove({ output: 'apotheosis:potion_charm' })
-
+  event.remove({ output: 'reliquary:fertile_essence' })
+  event.remove({ output: 'reliquary:infernal_claw' })
+  event.remove({ output: 'reliquary:fertile_lily_pad' })
+  event.remove({ output: 'reliquary:fertile_potion' })
+  event.remove({ output: 'reliquary:void_tear' })
+  event.remove({ output: 'reliquary:infernal_tear' })
+  event.remove({ output: 'reliquary:alkahestry_altar' })
+  event.remove({ output: 'reliquary:glowing_water' })
+  event.remove({ output: 'reliquary:empty_potion_vial' })
+  event.remove({ output: 'reliquary:magicbane' })
+  event.remove({ output: 'bloodmagic:altar' })
+  event.remove({ output: 'reliquary:angelheart_vial' })
+  event.remove({ output: 'reliquary:witherless_rose' })
+  event.remove({ output: 'born_in_chaos_v1:potion_of_rampage'})
+  event.remove({ output: 'reliquary:midas_touchstone'})
+  event.remove({ output: 'mysticalagriculture:inferium_essence'})
 })
