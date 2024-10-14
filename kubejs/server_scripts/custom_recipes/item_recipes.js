@@ -18,6 +18,14 @@ ServerEvents.recipes(event => {
     C: 'kubejs:ponto_ferreiro',
     D: 'minecraft:smooth_stone'
   })
+  event.shaped('minecraft:diamond_sword', [
+    ' A ',
+    ' A ',
+    ' B '
+  ], {
+    A: 'minecraft:oak_log',
+    B: 'minecraft:stick'
+  })
   event.shaped('industrialforegoing:hydroponic_bed', [
     'ABA',
     'ACA',
