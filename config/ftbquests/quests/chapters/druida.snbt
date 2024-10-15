@@ -5,6 +5,14 @@
 	group: "29665EDF34C45838"
 	icon: "kubejs:ponto_druida"
 	id: "4CB0AEBC87C3B209"
+	images: [{
+		height: 20.0d
+		image: "kubejs:block/fundo7"
+		rotation: 0.0d
+		width: 35.55555555555556d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 8
 	quest_links: [ ]
 	quests: [ ]

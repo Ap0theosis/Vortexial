@@ -1,3 +1,23 @@
+BlockEvents.broken('minecraft:brewing_stand', event => {
+  event.block.set('minecraft:blaze_rod')
+  event.cancel()
+})
+BlockEvents.broken('minecraft:enchanting_table', event => {
+  event.block.set('minecraft:blaze_rod')
+  event.cancel()
+})
+// Bloqueios de Classe
+BlockEvents.rightClicked(event => {
+  if (event.block.id === 'minecraft:brewing_stand') {
+    const questStageID = 'alquimista';
+    
+    if (!event.player.stages.has(questStageID)) {
+      event.player.tell('§cEi! Você não faz ideia de como faz uma poção, deixe isso para Alquimistas!');
+      event.cancel();
+    }
+  }
+});
+
 ServerEvents.recipes(event => { 
   //Crafting Table Shaped
   event.shaped('kubejs:talisma_possessao', [
@@ -230,14 +250,6 @@ ServerEvents.recipes(event => {
   ], {
     A: 'kubejs:ponto_agricultor',
     B: 'kubejs:ponto_arcanista'
-  })
-  event.shaped('mysticalagriculture:soulium_spawner', [
-    ' A ',
-    'ABA',
-    ' A '
-  ], {
-    A: 'kubejs:ponto_agricultor',
-    B: 'kubejs:ponto_bruxo'
   })
   event.shaped('thermal:machine_insolator', [
     ' A ',
@@ -504,5 +516,21 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'reliquary:witherless_rose' })
   event.remove({ output: 'born_in_chaos_v1:potion_of_rampage'})
   event.remove({ output: 'reliquary:midas_touchstone'})
-  event.remove({ output: 'mysticalagriculture:inferium_essence'})
+  event.remove({ output: 'mysticalagriculture:inferium_seeds'})
+  event.remove({ output: 'apotheosis:ender_lead'})
+  event.remove({ output: 'experienceobelisk:experience_jelly'})
+  event.remove({ output: 'enigmaticlegacy:the_acknowledgment'})
+  event.remove({ output: 'pneumaticcraft:memory_stick'})
+  event.remove({ output: 'reliquary:hero_medallion'})
+  event.remove({ output: 'reliquary:fortune_coin'})
+  event.remove({ output: 'mob_grinding_utils:entity_spawner'})
+  event.remove({ output: 'bloodmagic:experiencebook'})
+  event.remove({ output: 'mysticalagriculture:experience_capsule'})
+  event.remove({ output: 'thermal:xp_crystal'})
+  event.remove({ output: 'mob_grinding_utils:tank_sink'})
+  event.remove({ output: 'evilcraft:blook'})
+  event.remove({ output: 'evilcraft:invigorating_pendant'})
+  event.remove({ output: 'evilcraft:primed_pendant'})
+  event.remove({ output: 'minecraft:brewing_stand'})
+  event.remove({ output: 'minecraft:enchanting_table'})
 })

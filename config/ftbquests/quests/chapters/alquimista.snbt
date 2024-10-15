@@ -194,18 +194,21 @@
 			dependencies: ["725B5BDC4D7D5026"]
 			hide: true
 			id: "479F05E524B075DE"
-			rewards: [{
-				count: 2
-				id: "711D7C60B05C8312"
-				item: "minecraft:nether_wart"
-				type: "item"
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "4AF644480506B02A"
+					count: 2
+					id: "711D7C60B05C8312"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "198EDD2E8E8737C8"
 					item: "minecraft:brewing_stand"
 					type: "item"
 				}
+			]
+			tasks: [
 				{
 					id: "6954D14EE27EBCBB"
 					item: "minecraft:cauldron"
@@ -282,7 +285,7 @@
 				type: "item"
 			}]
 			title: "Poções Grandes"
-			x: 0.0d
+			x: -0.25d
 			y: 4.5d
 		}
 		{
@@ -436,7 +439,7 @@
 				type: "item"
 			}]
 			title: "Formula Mediana"
-			x: -3.0d
+			x: -2.75d
 			y: 4.5d
 		}
 		{
@@ -563,7 +566,7 @@
 				type: "item"
 			}]
 			title: "Formulas Avançadas"
-			x: -3.0d
+			x: -2.75d
 			y: 0.5d
 		}
 		{
@@ -804,7 +807,7 @@
 			]
 			title: "Eureka!"
 			x: -1.5d
-			y: -0.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0E3D330C62AA62EE"]

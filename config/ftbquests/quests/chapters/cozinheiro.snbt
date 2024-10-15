@@ -15,15 +15,6 @@
 	}]
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		id: "614E0CCE9A2F2A58"
-		tasks: [{
-			id: "064503CC55355E81"
-			item: "minecraft:apple"
-			type: "item"
-		}]
-		x: -24.5d
-		y: -3.0d
-	}]
+	quests: [ ]
 	title: "Cozinheiro"
 }

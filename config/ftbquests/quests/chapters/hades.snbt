@@ -25,9 +25,10 @@
 		}]
 		shape: "hexagon"
 		tasks: [{
-			id: "4C1165DCC8232B63"
-			title: "Filho de Hades"
-			type: "checkmark"
+			consume_items: true
+			id: "006BD077FB77BE9D"
+			item: "kubejs:heranca"
+			type: "item"
 		}]
 		x: 0.0d
 		y: 0.0d

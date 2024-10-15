@@ -25,9 +25,10 @@
 		}]
 		shape: "hexagon"
 		tasks: [{
-			id: "087104F275AB335C"
-			title: "Filho de Hefesto"
-			type: "checkmark"
+			consume_items: true
+			id: "29B70092418721E0"
+			item: "kubejs:heranca"
+			type: "item"
 		}]
 		x: 0.0d
 		y: 0.0d
