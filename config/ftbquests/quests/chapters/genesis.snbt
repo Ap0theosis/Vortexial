@@ -156,7 +156,7 @@
 	quests: [
 		{
 			description: [
-				"Você deixou sua vida para trás, agora é um &1Herói do Vórtice&f, seu único objetivo é seguir a vontade dos deuses."
+				"Você deixou sua vida para trás, agora é um &6Herói do Vórtice&f, seu único objetivo é seguir a vontade dos deuses."
 				""
 				"Após chegar nessa dimensão, você perdeu o contato com seus líderes... A única forma de reestabelecer a comunicação é consumindo os &9Talismãs &fem sua mão."
 				""
@@ -176,6 +176,11 @@
 					count: 2
 					id: "39335509404A259E"
 					item: "kubejs:talisma_devo"
+					type: "item"
+				}
+				{
+					id: "60AB7D2738B4D1E5"
+					item: "kubejs:heranca"
 					type: "item"
 				}
 			]
@@ -305,7 +310,7 @@
 				type: "item"
 			}]
 			title: "Absorver"
-			x: -3.5d
+			x: -3.25d
 			y: 1.5d
 		}
 		{
@@ -365,7 +370,7 @@
 				type: "item"
 			}]
 			title: "Restringir"
-			x: 0.5d
+			x: 0.25d
 			y: 1.5d
 		}
 		{
@@ -645,6 +650,7 @@
 			id: "753682AC395542B4"
 			rewards: [
 				{
+					count: 2
 					id: "6059DB7AA2C5DE76"
 					item: "minecraft:enchanting_table"
 					type: "item"
@@ -756,6 +762,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "415CD42CD4F1E039"
+					ignore_reward_blocking: true
+					stage: "alquimista"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -1268,6 +1281,7 @@
 			y: -1.5d
 		}
 		{
+
 			icon: {
 				Count: 1
 				id: "jeg:holy_shotgun"
@@ -1312,6 +1326,7 @@
 			}]
 			x: 6.0d
 			y: 1.5d
+
 		}
 	]
 	title: "Genesis"

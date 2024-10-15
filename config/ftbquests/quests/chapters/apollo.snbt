@@ -25,9 +25,10 @@
 		}]
 		shape: "hexagon"
 		tasks: [{
-			id: "638299465C12827A"
-			title: "F"
-			type: "checkmark"
+			consume_items: true
+			id: "4CE0A78CC36DAA6C"
+			item: "kubejs:heranca"
+			type: "item"
 		}]
 		title: "Filho de Apolo"
 		x: 2.5d

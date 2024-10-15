@@ -92,9 +92,11 @@
 	quests: [
 		{
 			description: [
-				"Ainda não tem :D"
+				"Comandos de chat ainda não tem :D"
 				""
 				"Plugin e servidor dedicado são necessários."
+				""
+				"Mas o Modpack utiliza o JEI para mostrar a receita, ou como obter (Aperte R com o mouse no item) ou a utilidade, e os itens que o utilizam de ingrediente (Aperte U com o mouse no item)."
 			]
 			id: "4E1DEB37F721F070"
 			rewards: [{

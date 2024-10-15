@@ -25,9 +25,10 @@
 		}]
 		shape: "hexagon"
 		tasks: [{
-			id: "0FA1168C72D44C4A"
-			title: "Filho de Hermes"
-			type: "checkmark"
+			consume_items: true
+			id: "54BD968D1D09E330"
+			item: "kubejs:heranca"
+			type: "item"
 		}]
 		x: 0.0d
 		y: 0.0d

@@ -27,7 +27,7 @@
 		offset_x = -1.4749999999999985
 		#Third person camera y-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_y = 0.0
+		offset_y = 0.025
 		#Third person camera z-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		offset_z = 0.8750000000000105

@@ -25,9 +25,10 @@
 		}]
 		shape: "hexagon"
 		tasks: [{
-			id: "2ACAF41142D6BA59"
-			title: "Filho de Atena"
-			type: "checkmark"
+			consume_items: true
+			id: "426598F982A5939B"
+			item: "kubejs:heranca"
+			type: "item"
 		}]
 		x: 0.0d
 		y: 0.0d

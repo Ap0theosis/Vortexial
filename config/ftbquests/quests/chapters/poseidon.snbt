@@ -25,9 +25,10 @@
 		}]
 		shape: "hexagon"
 		tasks: [{
-			id: "25278ECDE3B0A9B8"
-			title: "Filho de Poseidon"
-			type: "checkmark"
+			consume_items: true
+			id: "5C4A1ABEA9B2D916"
+			item: "kubejs:heranca"
+			type: "item"
 		}]
 		x: 0.0d
 		y: 0.0d

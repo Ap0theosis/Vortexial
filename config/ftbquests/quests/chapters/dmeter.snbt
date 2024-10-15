@@ -19,9 +19,10 @@
 		}]
 		shape: "hexagon"
 		tasks: [{
-			id: "7B61EFBE3EDD9E60"
-			title: "Filho de Deméter"
-			type: "checkmark"
+			consume_items: true
+			id: "398518F62DA33128"
+			item: "kubejs:heranca"
+			type: "item"
 		}]
 		x: 0.0d
 		y: 0.0d
