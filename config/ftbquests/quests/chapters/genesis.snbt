@@ -1267,6 +1267,52 @@
 			x: 1.5d
 			y: -1.5d
 		}
+		{
+			icon: {
+				Count: 1
+				id: "jeg:holy_shotgun"
+				tag: {
+					AmmoCount: 8
+					Damage: 0
+				}
+			}
+			id: "24ED74D8ABEADC63"
+			rewards: [{
+				auto: "enabled"
+				command: "/kubejs custom_command scaleDwarf"
+				elevate_perms: true
+				id: "6E72405EEB82209A"
+				silent: true
+				title: "ComandoAnao"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B6CB33D204C7426"
+				title: "Anao"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "4DE6E5F55B93AC63"
+			rewards: [{
+				auto: "invisible"
+				command: "/kubejs custom_command scaleElf"
+				id: "1E12DEBC9FABC2E3"
+				silent: true
+				title: "ComandoElfo"
+				type: "command"
+			}]
+			tasks: [{
+				id: "092D60D12B317415"
+				title: "Elfo"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
 	]
 	title: "Genesis"
 }
