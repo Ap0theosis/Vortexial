@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "5A6A8FD9B4C80A97", title: "Alinhamento" }
+		{ id: "1A8198508B2B5A4F", title: "Debug" }
 		{ id: "07086E1A2C4D20AF", title: "Devoção" }
 		{ id: "29665EDF34C45838", title: "Foco" }
 	]

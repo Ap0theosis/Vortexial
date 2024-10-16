@@ -15,6 +15,888 @@
 	}]
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["4F62E433F0CBFBFA"]
+			id: "2B468B54C43E7343"
+			optional: true
+			rewards: [{
+				id: "2B1384BCFF47495F"
+				item: "kubejs:ponto_arcanista"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "141698B9087208A9"
+				points: false
+				type: "xp"
+				value: 5L
+			}]
+			title: "Absorver conhecimento"
+			x: -1.75d
+			y: -14.25d
+		}
+		{
+			dependencies: ["4F62E433F0CBFBFA"]
+			hide: true
+			id: "01173EAC353C9B85"
+			rewards: [{
+				id: "13A5B0F20F7F15E0"
+				item: "minecraft:lectern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C01893DF3660151"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			title: "Primeira sinapse"
+			x: -0.75d
+			y: -13.25d
+		}
+		{
+			dependencies: ["01173EAC353C9B85"]
+			hide: true
+			id: "780B9A63999E17F7"
+			rewards: [{
+				count: 2
+				id: "5929BE54BABF04A0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A1DC89590933BC0"
+				item: "experienceobelisk:cognitive_amalgam"
+				type: "item"
+			}]
+			title: "Psiquê"
+			x: 0.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["780B9A63999E17F7"]
+			hide: true
+			id: "3328AB2D07400201"
+			tasks: [{
+				id: "2093B732F11C1D08"
+				item: "experienceobelisk:cognitive_alloy"
+				type: "item"
+			}]
+			title: "Liga de Sinapse"
+			x: 1.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["780B9A63999E17F7"]
+			hide: true
+			id: "3BE23E471F29DC33"
+			tasks: [{
+				id: "5CCC6A556514392F"
+				item: "experienceobelisk:cognitive_crystal"
+				type: "item"
+			}]
+			title: "Cristal de Sinapse"
+			x: 1.5d
+			y: -14.25d
+		}
+		{
+			dependencies: [
+				"3BE23E471F29DC33"
+				"3328AB2D07400201"
+			]
+			hide: true
+			id: "1F2F7E7B87B2947A"
+			tasks: [{
+				id: "4E5DB65FFCFA072A"
+				item: "experienceobelisk:astute_assembly"
+				type: "item"
+			}]
+			title: "Núcleo Neural"
+			x: 2.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["791B3C32D7B1B878"]
+			id: "5935E541FA95F354"
+			tasks: [
+				{
+					id: "6D0698808B6B1188"
+					item: {
+						Count: 1
+						id: "experienceobelisk:cognitive_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5493727C0CF50EC6"
+					item: {
+						Count: 1
+						id: "experienceobelisk:cognitive_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17E7D11387238B0C"
+					item: {
+						Count: 1
+						id: "experienceobelisk:attunement_staff"
+						tag: {
+							boundX: 55
+							boundY: -60
+							boundZ: -10
+							type: "obelisk"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcanista Novato"
+			x: 4.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["791B3C32D7B1B878"]
+			hide: true
+			id: "465B6EA822E56F5A"
+			tasks: [{
+				id: "1EC140453A8A187B"
+				item: {
+					Count: 1
+					id: "experienceobelisk:enlightened_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Elevar psique"
+			x: 4.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["1F2F7E7B87B2947A"]
+			description: ["Use o item da missão anterior em uma pedra de rebolo para concluir"]
+			hide: true
+			icon: "experienceobelisk:precision_dispeller"
+			id: "791B3C32D7B1B878"
+			tasks: [{
+				id: "2D0C4739ABC42A6C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "experienceobelisk:precision_dispeller"
+				type: "observation"
+			}]
+			title: "Reassimilar Realidade"
+			x: 3.5d
+			y: -13.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BAE988E9E3036E7"]
+			hide: true
+			id: "2127235416D7E776"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "46EB0AA21064EB23"
+				item: "kubejs:ponto_arcanista"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "1DBEF71FDF6D1C43"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Leitura avançada"
+			x: 3.5d
+			y: -15.25d
+		}
+		{
+			dependencies: ["791B3C32D7B1B878"]
+			hide: true
+			id: "4BAE988E9E3036E7"
+			tasks: [{
+				id: "5CB596D562A32693"
+				item: "apotheosis:chestplate_tome"
+				type: "item"
+			}]
+			title: "Desvio arcano"
+			x: 3.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["753682AC395542B4"]
+			hide: true
+			id: "4F62E433F0CBFBFA"
+			rewards: [{
+				id: "451E6545140DBE51"
+				item: "kubejs:ponto_arcanista"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D166669725FBF47"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{ }]
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Sussurros"
+			x: -1.75d
+			y: -13.25d
+		}
+		{
+			dependencies: [
+				"465B6EA822E56F5A"
+				"5935E541FA95F354"
+			]
+			hide: true
+			id: "1B727AC34B872518"
+			tasks: [{
+				id: "108CA016F409DFD2"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Sinapse Avançada"
+			x: 5.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["1B727AC34B872518"]
+			hide: true
+			id: "07F9F7E45EAC6FE4"
+			tasks: [{
+				id: "570A6472E66916EB"
+				item: "experienceobelisk:primordial_assembly"
+				type: "item"
+			}]
+			title: "Resquício Primordial"
+			x: 6.5d
+			y: -14.25d
+		}
+		{
+			dependencies: [
+				"07F9F7E45EAC6FE4"
+				"0378B7FE3902F1D6"
+			]
+			description: ["Use o resquício primordial em um zumbi para adquirir o primeiro bibliófago"]
+			hide: true
+			id: "27384F0AD5665D37"
+			tasks: [{
+				id: "7A3DC67B1580E6E6"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			title: "Ser de outro mundo"
+			x: 7.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["27384F0AD5665D37"]
+			description: ["Use seu primeiro bibliófago em uma estante de livros, ela começará a gerar orbes de experiência e após alguns minutos, ela irá se decompor em cinzas esquecidas. Você pode colocar mais estantes adjacentes áquelas infectadas para propagar o bibliófago, cuidado para não perder o ciclo!"]
+			hide: true
+			icon: "experienceobelisk:infected_bookshelf"
+			id: "0DFBF8BD12DAB9C4"
+			tasks: [{
+				id: "30A13AF0CBD66FF2"
+				observe_type: 0
+				timer: 0L
+				to_observe: "experienceobelisk:infected_bookshelf"
+				type: "observation"
+			}]
+			title: "Escrita do outro mundo"
+			x: 8.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["0DFBF8BD12DAB9C4"]
+			hide: true
+			id: "7EC90B688310D9EF"
+			tasks: [
+				{
+					count: 8L
+					id: "23D08B0CFAB1EBCA"
+					item: { Count: 8, id: "experienceobelisk:forgotten_dust" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "68903E620D5F49FC"
+					item: "experienceobelisk:enchanted_bookshelf"
+					type: "item"
+				}
+			]
+			title: "Conhecimento arcano"
+			x: 9.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["1B727AC34B872518"]
+			hide: true
+			id: "0378B7FE3902F1D6"
+			tasks: [
+				{
+					id: "3607E69DC5ECF337"
+					item: {
+						Count: 1
+						id: "experienceobelisk:cognitive_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "568B0EEB10B20369"
+					item: {
+						Count: 1
+						id: "experienceobelisk:cognitive_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Extração de Vida sintética"
+			x: 6.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["7EC90B688310D9EF"]
+			description: ["Seus bibliófagos são muito mais eficientes nessas estantes do outro mundo, se você segurar um &acognitive axe&f na mão secundária e interagir com as que estiverem infectadas, você extrairá o bibliófago com segurança. Continue tratando-os com cautela!"]
+			hide: true
+			icon: "experienceobelisk:infected_enchanted_bookshelf"
+			id: "3FDA373E0C886FC0"
+			tasks: [{
+				id: "64AA5C61BD93608C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "experienceobelisk:infected_enchanted_bookshelf"
+				type: "observation"
+			}]
+			title: "Incubação"
+			x: 10.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["7EC90B688310D9EF"]
+			hide: true
+			id: "5EBC671DA4A2C6CB"
+			rewards: [{
+				count: 6
+				id: "694CB84FA1AE8783"
+				item: "kubejs:ponto_arcanista"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 4L
+					id: "2323DD890F4A0237"
+					item: { Count: 4, id: "experienceobelisk:forgotten_dust" }
+					type: "item"
+				}
+				{
+					id: "6406F5948CC804FD"
+					points: false
+					type: "xp"
+					value: 15L
+				}
+			]
+			title: "Cinzas da verdade"
+			x: 9.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["3FDA373E0C886FC0"]
+			hide: true
+			id: "569273BF3036A94A"
+			rewards: [{
+				id: "7CEF33120C9FA3D5"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "521CDDF9D235E20D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Arcanista Mediano"
+			x: 11.5d
+			y: -13.25d
+		}
+		{
+			dependencies: ["569273BF3036A94A"]
+			hide: true
+			id: "1DB5ED299547F9EA"
+			tasks: [{
+				id: "318445C1C2208B3E"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			title: "Resquício Infernal"
+			x: 12.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["1DB5ED299547F9EA"]
+			hide: true
+			id: "6D96C05872E80946"
+			tasks: [{
+				id: "3AB3A6A4DC9867E5"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			title: "Infusão Infernal"
+			x: 13.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["6D96C05872E80946"]
+			hide: true
+			id: "464C71709E3057A8"
+			tasks: [
+				{
+					count: 2L
+					id: "10E61E59E0C31EF3"
+					item: { Count: 2, id: "apotheosis:blazing_hellshelf" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2A1E208AB6B7BB81"
+					item: { Count: 2, id: "apotheosis:glowing_hellshelf" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -14.25d
+		}
+		{
+			hide: true
+			id: "01EDB0BAEE65A636"
+			tasks: [{
+				id: "2EEB9EBDB34B3C14"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -15.25d
+		}
+		{
+			dependencies: ["569273BF3036A94A"]
+			hide: true
+			id: "2D15301F07A6D98A"
+			tasks: [{
+				id: "1F3C2147647F8F62"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			title: "Resquício Abissal"
+			x: 12.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["2D15301F07A6D98A"]
+			hide: true
+			id: "5ED53087AB5B2741"
+			tasks: [{
+				count: 2L
+				id: "2E156F61F7C99804"
+				item: { Count: 2, id: "apotheosis:infused_seashelf" }
+				type: "item"
+			}]
+			title: "Infusão Abissal"
+			x: 13.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["5ED53087AB5B2741"]
+			hide: true
+			id: "683C3A2CE6CAD849"
+			shape: "rsquare"
+			tasks: [{
+				id: "278FDD7F6283C591"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -11.25d
+		}
+		{
+			hide: true
+			id: "79BECDB55B83D0AA"
+			tasks: [{
+				id: "4F8884A5B005DD97"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "276C50F853C138A0"
+			tasks: [{
+				id: "6968A9E4AAF418CB"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "7839BA9B296C49F3"
+			tasks: [{
+				id: "4DF78A5211FE5DBD"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "38B7ADD2A38671AA"
+			tasks: [{
+				id: "2067D5C4E5BFFDED"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "391118E71BB38695"
+			tasks: [{
+				id: "740675D7D7522A52"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["5ED53087AB5B2741"]
+			hide: true
+			id: "5EF9119390A5A24F"
+			tasks: [{
+				id: "48BBE56CFC44AE48"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -12.25d
+		}
+		{
+			hide: true
+			id: "6A31317AACFCF533"
+			tasks: [{
+				id: "00612F6715D82C70"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "4486C44AA120F3A9"
+			shape: "rsquare"
+			tasks: [{
+				id: "351B50C65350224B"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "2C2A4D1BD117DC88"
+			tasks: [{
+				id: "50C52B524D762D76"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:soul_extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "2B8F7D173FD26AB5"
+			tasks: [{
+				id: "03D70F11F0058D30"
+				item: "forbidden_arcanus:soul"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "5A67D29F93D53680"
+			tasks: [
+				{
+					id: "028F30C92A660026"
+					item: "hostilenetworks:blank_data_model"
+					type: "item"
+				}
+				{
+					id: "3882E3644DC6A6B1"
+					item: "hostilenetworks:deep_learner"
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "2A85DAF81138A495"
+			tasks: [{
+				id: "1C934945F2A5D26D"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -10.25d
+		}
+		{
+			hide: true
+			id: "7F63055160274C14"
+			tasks: [{
+				id: "589413B9866D51F9"
+				item: "apotheosis:infused_breath"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -11.25d
+		}
+		{
+			hide: true
+			id: "3B1D5EFEF7EF2D8D"
+			tasks: [{
+				id: "4C8FA55755175378"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "6C8877E76909C607"
+			tasks: [{
+				id: "75A5E47FED06DE82"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["7EC90B688310D9EF"]
+			hide: true
+			id: "359934C4CA3E87D6"
+			tasks: [{
+				id: "7A007BC96338329F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Psique Máximo"
+			x: 9.5d
+			y: -14.25d
+		}
+		{
+			hide: true
+			id: "1D9825470F7E7F49"
+			tasks: [{
+				id: "7D3884D20B94E0E5"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:warden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -14.25d
+		}
+		{
+			hide: true
+			id: "38509843FE9A5520"
+			tasks: [{
+				id: "6586C8AE78D6A99A"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -15.25d
+		}
+		{
+			hide: true
+			id: "52205C42607669A5"
+			tasks: [{
+				id: "1572314BB2FE5977"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -14.25d
+		}
+		{
+			hide: true
+			id: "6DD0392DA35BA365"
+			tasks: [{
+				id: "48AB2D409D749F55"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "27F623082C769102"
+			tasks: [{
+				id: "7A4D8FE34F80B8D9"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "5CE139F88734E79E"
+			shape: "hexagon"
+			tasks: [{
+				id: "35A6487093C3990D"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -13.25d
+		}
+		{
+			hide: true
+			id: "0FED2C601EE98A1B"
+			tasks: [{
+				id: "66D082C0B5B3A736"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["359934C4CA3E87D6"]
+			hide: true
+			id: "1762CB6551446317"
+			tasks: [{
+				id: "335C60BD4D417A2A"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			title: "Pergaminho da segurança"
+			x: 9.5d
+			y: -15.25d
+		}
+		{
+			dependencies: ["1B727AC34B872518"]
+			hide: true
+			id: "3CBDE71F5E62C69B"
+			shape: "rsquare"
+			tasks: [{
+				id: "21E53EA23C5D5508"
+				item: {
+					Count: 1
+					id: "evilcraft:vengeance_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "evilcraft:vengeance"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Ferramenta Arcana"
+			x: 4.5d
+			y: -13.25d
+		}
+	]
 	title: "Arcanista"
 }

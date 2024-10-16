@@ -316,6 +316,7 @@
 			tasks: [
 				{
 					consume_items: true
+					count: 2L
 					id: "4160C4C7AE776581"
 					item: {
 						Count: 1
@@ -326,26 +327,6 @@
 								PotionData: {
 									Potion: "minecraft:night_vision"
 									includedPotions: ["minecraft:night_vision"]
-								}
-								count: 8
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "2F35CEE2731B3F76"
-					item: {
-						Count: 1
-						id: "ars_nouveau:potion_flask"
-						tag: {
-							Damage: 0
-							an_potion_flask: {
-								PotionData: {
-									Potion: "apotheosis:knowledge"
-									includedPotions: ["apotheosis:knowledge"]
 								}
 								count: 8
 							}

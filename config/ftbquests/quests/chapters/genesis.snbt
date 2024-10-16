@@ -670,6 +670,13 @@
 					item: "minecraft:book"
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					id: "0557B43B5CE1C5A5"
+					ignore_reward_blocking: true
+					stage: "arcanista"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				consume_items: true
@@ -735,11 +742,6 @@
 			id: "725B5BDC4D7D5026"
 			rewards: [
 				{
-					id: "75FDC469EBD65FA9"
-					item: "ars_nouveau:potion_melder"
-					type: "item"
-				}
-				{
 					id: "0666ED9202A38578"
 					item: {
 						Count: 1
@@ -769,6 +771,12 @@
 					ignore_reward_blocking: true
 					stage: "alquimista"
 					type: "gamestage"
+				}
+				{
+					count: 4
+					id: "0823B3711CC94605"
+					item: "minecraft:blaze_rod"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1281,7 +1289,6 @@
 			y: -1.5d
 		}
 		{
-
 			icon: {
 				Count: 1
 				id: "jeg:holy_shotgun"
@@ -1326,7 +1333,6 @@
 			}]
 			x: 6.0d
 			y: 1.5d
-
 		}
 	]
 	title: "Genesis"

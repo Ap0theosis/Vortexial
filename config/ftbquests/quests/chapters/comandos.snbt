@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "comandos"
+	group: "1A8198508B2B5A4F"
+	id: "3DABE1CE3DF75C86"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "3BB7C5249263BCC4"
+			rewards: [{
+				auto: "invisible"
+				id: "311D8A372351E19F"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "alquimista"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7F2797F47DA510F6"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Alquimista"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "147B62BF5FA3D56E"
+			rewards: [{
+				auto: "invisible"
+				id: "78B8D0749681B4B1"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "arcanista"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7CC1C39B62BEE68C"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Arcanista"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "489D39EC1E091DEC"
+			tasks: [{
+				id: "0ACC88DB1F129452"
+				stage: "arcanista"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "54A7B8D6088E5838"
+			tasks: [{
+				id: "6C9E7AA12B70F195"
+				stage: "alquimista"
+				type: "gamestage"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+	title: "Comandos"
+}
