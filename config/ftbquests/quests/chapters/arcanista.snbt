@@ -1,18 +1,86 @@
 {
+	autofocus_id: "4F62E433F0CBFBFA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "arcanista"
 	group: "29665EDF34C45838"
 	icon: "kubejs:ponto_arcanista"
 	id: "34904D6A24505294"
-	images: [{
-		height: 20.0d
-		image: "kubejs:block/fundo4"
-		rotation: 0.0d
-		width: 35.54838709677419d
-		x: -1.0d
-		y: -3.0d
-	}]
+	images: [
+		{
+			color: 12566463
+			height: 20.0d
+			image: "kubejs:block/fundo4"
+			rotation: 0.0d
+			width: 35.54838709677419d
+			x: -2.25d
+			y: -2.75d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.75d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/r_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.75d
+			y: -4.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.25d
+			y: -4.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/n_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.25d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -4.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/s_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.75d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/t_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.25d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -34,8 +102,8 @@
 				value: 5L
 			}]
 			title: "Absorver conhecimento"
-			x: -1.75d
-			y: -14.25d
+			x: -1.5d
+			y: -3.25d
 		}
 		{
 			dependencies: ["4F62E433F0CBFBFA"]
@@ -53,7 +121,7 @@
 			}]
 			title: "Primeira sinapse"
 			x: -0.75d
-			y: -13.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["01173EAC353C9B85"]
@@ -71,8 +139,8 @@
 				type: "item"
 			}]
 			title: "Psiquê"
-			x: 0.5d
-			y: -13.25d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["780B9A63999E17F7"]
@@ -84,8 +152,8 @@
 				type: "item"
 			}]
 			title: "Liga de Sinapse"
-			x: 1.5d
-			y: -12.25d
+			x: -2.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["780B9A63999E17F7"]
@@ -97,8 +165,8 @@
 				type: "item"
 			}]
 			title: "Cristal de Sinapse"
-			x: 1.5d
-			y: -14.25d
+			x: -2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -107,14 +175,19 @@
 			]
 			hide: true
 			id: "1F2F7E7B87B2947A"
+			rewards: [{
+				id: "212C3C017187A375"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			tasks: [{
 				id: "4E5DB65FFCFA072A"
 				item: "experienceobelisk:astute_assembly"
 				type: "item"
 			}]
 			title: "Núcleo Neural"
-			x: 2.5d
-			y: -13.25d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["791B3C32D7B1B878"]
@@ -158,8 +231,8 @@
 				}
 			]
 			title: "Arcanista Novato"
-			x: 4.5d
-			y: -12.25d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["791B3C32D7B1B878"]
@@ -175,12 +248,12 @@
 				type: "item"
 			}]
 			title: "Elevar psique"
-			x: 4.5d
-			y: -14.25d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1F2F7E7B87B2947A"]
-			description: ["Use o item da missão anterior em uma pedra de rebolo para concluir"]
+			description: ["Use o item da missão anterior em uma pedra de rebolo (grindstone) para concluir"]
 			hide: true
 			icon: "experienceobelisk:precision_dispeller"
 			id: "791B3C32D7B1B878"
@@ -192,8 +265,8 @@
 				type: "observation"
 			}]
 			title: "Reassimilar Realidade"
-			x: 3.5d
-			y: -13.25d
+			x: -3.75d
+			y: -0.75d
 		}
 		{
 			can_repeat: true
@@ -224,8 +297,8 @@
 				type: "item"
 			}]
 			title: "Leitura avançada"
-			x: 3.5d
-			y: -15.25d
+			x: -3.0d
+			y: -3.25d
 		}
 		{
 			dependencies: ["791B3C32D7B1B878"]
@@ -237,8 +310,8 @@
 				type: "item"
 			}]
 			title: "Desvio arcano"
-			x: 3.5d
-			y: -14.25d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["753682AC395542B4"]
@@ -262,8 +335,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Sussurros"
-			x: -1.75d
-			y: -13.25d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -282,8 +355,8 @@
 				type: "item"
 			}]
 			title: "Sinapse Avançada"
-			x: 5.5d
-			y: -13.25d
+			x: -5.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["1B727AC34B872518"]
@@ -295,8 +368,8 @@
 				type: "item"
 			}]
 			title: "Resquício Primordial"
-			x: 6.5d
-			y: -14.25d
+			x: -5.25d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -312,8 +385,8 @@
 				type: "item"
 			}]
 			title: "Ser de outro mundo"
-			x: 7.5d
-			y: -13.25d
+			x: -6.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27384F0AD5665D37"]
@@ -329,8 +402,8 @@
 				type: "observation"
 			}]
 			title: "Escrita do outro mundo"
-			x: 8.5d
-			y: -13.25d
+			x: -5.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["0DFBF8BD12DAB9C4"]
@@ -351,8 +424,8 @@
 				}
 			]
 			title: "Conhecimento arcano"
-			x: 9.5d
-			y: -13.25d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1B727AC34B872518"]
@@ -383,8 +456,8 @@
 				}
 			]
 			title: "Extração de Vida sintética"
-			x: 6.5d
-			y: -12.25d
+			x: -6.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7EC90B688310D9EF"]
@@ -400,13 +473,15 @@
 				type: "observation"
 			}]
 			title: "Incubação"
-			x: 10.5d
-			y: -13.25d
+			x: -3.75d
+			y: 0.75d
 		}
 		{
+			can_repeat: true
 			dependencies: ["7EC90B688310D9EF"]
 			hide: true
 			id: "5EBC671DA4A2C6CB"
+			optional: true
 			rewards: [{
 				count: 6
 				id: "694CB84FA1AE8783"
@@ -429,8 +504,8 @@
 				}
 			]
 			title: "Cinzas da verdade"
-			x: 9.5d
-			y: -12.25d
+			x: -4.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["3FDA373E0C886FC0"]
@@ -462,8 +537,8 @@
 				type: "item"
 			}]
 			title: "Arcanista Mediano"
-			x: 11.5d
-			y: -13.25d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["569273BF3036A94A"]
@@ -475,8 +550,8 @@
 				type: "item"
 			}]
 			title: "Resquício Infernal"
-			x: 12.5d
-			y: -14.25d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1DB5ED299547F9EA"]
@@ -488,8 +563,8 @@
 				type: "item"
 			}]
 			title: "Infusão Infernal"
-			x: 13.5d
-			y: -14.25d
+			x: -0.75d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6D96C05872E80946"]
@@ -509,19 +584,23 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: -14.25d
+			title: "Evoluir Encantamentos"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["464C71709E3057A8"]
 			hide: true
 			id: "01EDB0BAEE65A636"
+			shape: "rsquare"
 			tasks: [{
 				id: "2EEB9EBDB34B3C14"
 				item: "apotheosis:library"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -15.25d
+			title: "Primeira Biblioteca"
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["569273BF3036A94A"]
@@ -533,8 +612,8 @@
 				type: "item"
 			}]
 			title: "Resquício Abissal"
-			x: 12.5d
-			y: -12.25d
+			x: -2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["2D15301F07A6D98A"]
@@ -547,8 +626,8 @@
 				type: "item"
 			}]
 			title: "Infusão Abissal"
-			x: 13.5d
-			y: -12.25d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5ED53087AB5B2741"]
@@ -560,10 +639,11 @@
 				item: "apotheosis:filtering_shelf"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -11.25d
+			x: -3.0d
+			y: 4.75d
 		}
 		{
+			dependencies: ["6A31317AACFCF533"]
 			hide: true
 			id: "79BECDB55B83D0AA"
 			tasks: [{
@@ -571,10 +651,12 @@
 				item: "apotheosis:dormant_deepshelf"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -13.25d
+			title: "Conexão com o Abismo"
+			x: -0.75d
+			y: 2.25d
 		}
 		{
+			dependencies: ["79BECDB55B83D0AA"]
 			hide: true
 			id: "276C50F853C138A0"
 			tasks: [{
@@ -582,10 +664,12 @@
 				item: "apotheosis:deepshelf"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -13.25d
+			title: "Despertar Abismo"
+			x: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["276C50F853C138A0"]
 			hide: true
 			id: "7839BA9B296C49F3"
 			tasks: [{
@@ -593,10 +677,12 @@
 				item: "apotheosis:echoing_deepshelf"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -13.25d
+			title: "A Beira do poço"
+			x: 0.75d
+			y: 0.75d
 		}
 		{
+			dependencies: ["7839BA9B296C49F3"]
 			hide: true
 			id: "38B7ADD2A38671AA"
 			tasks: [{
@@ -604,19 +690,23 @@
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -13.25d
+			title: "O Fundo do poço"
+			x: 0.75d
+			y: -0.75d
 		}
 		{
+			dependencies: ["276C50F853C138A0"]
 			hide: true
 			id: "391118E71BB38695"
+			shape: "rsquare"
 			tasks: [{
 				id: "740675D7D7522A52"
 				item: "apotheosis:treasure_shelf"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -14.25d
+			title: "Extrair tesouros arcanos"
+			x: 0.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["5ED53087AB5B2741"]
@@ -627,10 +717,15 @@
 				item: "apotheosis:rectifier"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -12.25d
+			title: "Retificação Inicial"
+			x: -2.25d
+			y: 3.75d
 		}
 		{
+			dependencies: [
+				"5EF9119390A5A24F"
+				"464C71709E3057A8"
+			]
 			hide: true
 			id: "6A31317AACFCF533"
 			tasks: [{
@@ -638,10 +733,12 @@
 				item: "apotheosis:rectifier_t2"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -13.25d
+			title: "Retificação Aprimorada"
+			x: -1.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["6A31317AACFCF533"]
 			hide: true
 			id: "4486C44AA120F3A9"
 			shape: "rsquare"
@@ -650,10 +747,12 @@
 				item: "apotheosis:rectifier_t3"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -13.25d
+			title: "Retificação Suprema"
+			x: -1.5d
+			y: 4.75d
 		}
 		{
+			dependencies: ["38B7ADD2A38671AA"]
 			hide: true
 			id: "2C2A4D1BD117DC88"
 			tasks: [{
@@ -667,10 +766,13 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -13.25d
+			title: "Caça-fantasmas"
+			x: 1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2C2A4D1BD117DC88"]
+			description: ["Extraia uma alma de uma areia das almas!"]
 			hide: true
 			id: "2B8F7D173FD26AB5"
 			tasks: [{
@@ -678,10 +780,16 @@
 				item: "forbidden_arcanus:soul"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -13.25d
+			title: "Alma"
+			x: 1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["2B8F7D173FD26AB5"]
+			description: [
+				"Estas serão suas ferramentas para extrair a genética das criaturas deste mundo."
+				"Clique com o botão direito segurando o framework na criatura desejada, e coloque esta genética no Deep Learner. Você precisará extrair o DNA mínimo necessário para começar a simulação. Como? Matando."
+			]
 			hide: true
 			id: "5A67D29F93D53680"
 			tasks: [
@@ -696,10 +804,12 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
-			y: -13.25d
+			title: "Distorcendo a Realidade"
+			x: 1.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["5A67D29F93D53680"]
 			hide: true
 			id: "2A85DAF81138A495"
 			tasks: [{
@@ -707,10 +817,15 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -10.25d
+			title: "Simulação concluida"
+			x: 2.25d
+			y: -3.25d
 		}
 		{
+			dependencies: [
+				"3B1D5EFEF7EF2D8D"
+				"2A85DAF81138A495"
+			]
 			hide: true
 			id: "7F63055160274C14"
 			tasks: [{
@@ -718,10 +833,12 @@
 				item: "apotheosis:infused_breath"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -11.25d
+			title: "Arcanista Experiente"
+			x: 1.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["5A67D29F93D53680"]
 			hide: true
 			id: "3B1D5EFEF7EF2D8D"
 			tasks: [{
@@ -737,10 +854,12 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
-			y: -13.25d
+			title: "Genética Primordial"
+			x: 0.75d
+			y: -3.25d
 		}
 		{
+			dependencies: ["6DD0392DA35BA365"]
 			hide: true
 			id: "6C8877E76909C607"
 			tasks: [{
@@ -748,8 +867,9 @@
 				item: "hostilenetworks:prediction_matrix"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -12.25d
+			title: "Matrix"
+			x: 1.5d
+			y: -6.25d
 		}
 		{
 			dependencies: ["7EC90B688310D9EF"]
@@ -765,10 +885,11 @@
 				type: "item"
 			}]
 			title: "Psique Máximo"
-			x: 9.5d
-			y: -14.25d
+			x: -3.75d
+			y: 2.25d
 		}
 		{
+			dependencies: ["6C8877E76909C607"]
 			hide: true
 			id: "1D9825470F7E7F49"
 			tasks: [{
@@ -784,32 +905,40 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
-			y: -14.25d
+			title: "Genética do Abismo"
+			x: 0.0d
+			y: -6.25d
 		}
 		{
+			dependencies: ["1D9825470F7E7F49"]
 			hide: true
 			id: "38509843FE9A5520"
+			shape: "rsquare"
 			tasks: [{
 				id: "6586C8AE78D6A99A"
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -15.25d
+			title: "Psique Transcendente"
+			x: 0.0d
+			y: -4.25d
 		}
 		{
+			dependencies: ["2B8F7D173FD26AB5"]
 			hide: true
 			id: "52205C42607669A5"
+			shape: "rsquare"
 			tasks: [{
 				id: "1572314BB2FE5977"
 				item: "enigmaticlegacy:heaven_scroll"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -14.25d
+			title: "Asas psíquicas"
+			x: 1.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["7F63055160274C14"]
 			hide: true
 			id: "6DD0392DA35BA365"
 			tasks: [{
@@ -817,10 +946,12 @@
 				item: "apotheosis:endshelf"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -13.25d
+			title: "Resquício Final"
+			x: 1.5d
+			y: -5.25d
 		}
 		{
+			dependencies: ["6C8877E76909C607"]
 			hide: true
 			id: "27F623082C769102"
 			tasks: [{
@@ -828,10 +959,15 @@
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -13.25d
+			title: "Conhecimento Dracônico"
+			x: 0.75d
+			y: -7.0d
 		}
 		{
+			dependencies: [
+				"27F623082C769102"
+				"0FED2C601EE98A1B"
+			]
 			hide: true
 			id: "5CE139F88734E79E"
 			shape: "hexagon"
@@ -840,10 +976,12 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 25.5d
-			y: -13.25d
+			title: "Mestre Arcanista!!!"
+			x: 1.5d
+			y: -7.75d
 		}
 		{
+			dependencies: ["6C8877E76909C607"]
 			hide: true
 			id: "0FED2C601EE98A1B"
 			tasks: [{
@@ -851,8 +989,9 @@
 				item: "apotheosis:pearl_endshelf"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -14.25d
+			title: "Infusão Dracônica"
+			x: 2.25d
+			y: -7.0d
 		}
 		{
 			dependencies: ["359934C4CA3E87D6"]
@@ -864,8 +1003,8 @@
 				type: "item"
 			}]
 			title: "Pergaminho da segurança"
-			x: 9.5d
-			y: -15.25d
+			x: -3.75d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1B727AC34B872518"]
@@ -894,8 +1033,8 @@
 				type: "item"
 			}]
 			title: "Ferramenta Arcana"
-			x: 4.5d
-			y: -13.25d
+			x: -5.25d
+			y: -2.5d
 		}
 	]
 	title: "Arcanista"

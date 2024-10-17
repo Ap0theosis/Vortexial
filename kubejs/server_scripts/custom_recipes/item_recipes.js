@@ -97,8 +97,27 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'enigmaticlegacy:escape_scroll'})
   event.remove({ output: 'apotheosis:augmenting_table'})
   event.remove({ output: 'evilcraft:vengeance_pickaxe'})
-
-
+  event.remove({ output: 'minecraft:dragon_head'})
+  event.remove({ mod: 'jeg' })
+  event.remove({ output: 'mekanism:flamethrower' })
+  event.remove({ output: 'born_in_chaos_v1:pumpkin_bullet' })
+  event.remove({ output: 'powah:steel_energized' })
+  event.replaceInput(
+    { input: 'powah:dielectric_casing' }, 
+    'powah:dielectric_casing',           
+    'kubejs:ponto_atirador'       
+  )
+  event.replaceInput(
+    { input: 'powah:dielectric_paste' }, 
+    'powah:dielectric_paste',           
+    'jeg:scrap'       
+  )
+  event.remove({ output: 'create:potato_cannon' })
+  event.remove({ output: 'powah:crystal_niotic' })
+  event.remove({ output: 'powah:crystal_spirited' })
+  event.remove({ output: 'powah:crystal_nitro' })
+  event.remove({ output: 'pneumaticcraft:micromissiles' })
+  event.remove({ output: 'cataclysm:wither_assault_shoulder_weapon' })
   //Crafting Table Shaped
   event.shaped('kubejs:talisma_possessao', [
     '   ',
@@ -659,8 +678,58 @@ ServerEvents.recipes(event => {
   F: 'minecraft:netherite_ingot',
   G: 'minecraft:crying_obsidian'
  })
-
-
+ event.shapeless(Item.of('minecraft:arrow', 64),[
+  'kubejs:ponto_atirador',
+  'minecraft:flint',
+  'minecraft:stick'
+ ]) 
+ event.shaped(Item.of('born_in_chaos_v1:pumpkin_pistol'), [
+  'AAA',
+  'BCD',
+  'E  '
+ ], {
+  A: 'forbidden_arcanus:boom_arrow',
+  B: 'minecraft:crossbow',
+  C: 'kubejs:ponto_atirador',
+  D: 'minecraft:copper_block',
+  E: 'minecraft:stick'
+ })
+ event.shapeless(Item.of('born_in_chaos_v1:pumpkin_bullet', 32),[
+  'kubejs:ponto_atirador',
+  'minecraft:pumpkin'
+ ]) 
+ event.shapeless(Item.of('jeg:scrap', 9),[
+  'jeg:scrap_block'
+ ]) 
+ event.shaped(Item.of('jeg:boohive'), [
+  'CCC',
+  'ABA',
+  'AAA'
+ ], {
+  A: 'jeg:soul_treat',
+  B: 'minecraft:beehive',
+  C: 'kubejs:ponto_bruxo'
+ })
+ event.shaped(Item.of('cataclysm:wither_assault_shoulder_weapon'), [
+  'AD ',
+  'BCB',
+  ' DA'
+ ], {
+  A: 'cataclysm:witherite_ingot',
+  B: 'minecraft:gunpowder',
+  C: 'pneumaticcraft:micromissiles',
+  D: 'jeg:gunnite_ingot'
+ })
+ event.shaped(Item.of('pneumaticcraft:micromissiles'), [
+  ' B ',
+  'ACA',
+  'ADA'
+ ], {
+  A: 'pneumaticcraft:plastic',
+  B: 'minecraft:tnt',
+  C: 'pneumaticcraft:printed_circuit_board',
+  D: 'jeg:grenade'
+ })
   // Cognition Recipes
   event.custom({
     type: 'experienceobelisk:molecular_metamorphosis', // Define the custom recipe type
@@ -851,7 +920,7 @@ ServerEvents.recipes(event => {
  })
  event.custom({
   type: 'experienceobelisk:molecular_metamorphosis', 
-  ingredient1: { item: '#minecraft:fishes '},      
+  ingredient1: { item: 'minecraft:cod'},      
   count1: 10,                                         
   ingredient2: { item: 'apotheosis:infused_seashelf' },        
   count2: 2,                                         
@@ -924,7 +993,85 @@ ServerEvents.recipes(event => {
   cost: 500,                                       
   processTime: 20*120                                   
  }) 
+
+ // Powah
+ event.recipes.powah.energizing(["kubejs:ponto_atirador", "minecraft:gold_ingot"], "4x powah:steel_energized", 10000)
+ event.recipes.powah.energizing(["minecraft:water_bucket", "minecraft:iron_block"], "jeg:scrap_block", 24000)
+ event.recipes.powah.energizing(["minecraft:flint_and_steel", "minecraft:tnt"], "64x minecraft:gunpowder", 90000)
+ event.recipes.powah.energizing(["4x jeg:scrap_block", "born_in_chaos_v1:pumpkin_pistol", "powah:energized_steel_block"], "create:potato_cannon", 160000)
+ event.recipes.powah.energizing(["jeg:scrap_block", "create:potato_cannon"], "create:potato_cannon", 10000)
+ event.recipes.powah.energizing(["minecraft:carrot", "powah:blazing_crystal_block", "3x born_in_chaos_v1:pumpkin_bullet"], "64x minecraft:golden_carrot", 500000)
+ event.recipes.powah.energizing(["powah:reactor_niotic", "create:potato_cannon", "twilightforest:magic_map_focus"], "jeg:revolver", 1000000)
+ event.recipes.powah.energizing(["6x minecraft:cyan_dye"], "2x powah:crystal_niotic", 1000000)
+ event.recipes.powah.energizing(["powah:uraninite_block"], "2x powah:crystal_spirited", 500000)
+ event.recipes.powah.energizing(["cataclysm:ignitium_upgrade_smithing_template", "5x minecraft:golden_carrot"], "32x jeg:pistol_ammo", 1500000)
+ event.recipes.powah.energizing(["powah:crystal_spirited", "5x jeg:pistol_ammo"], "32x jeg:rifle_ammo", 1500000)
+ event.recipes.powah.energizing(["powah:crystal_niotic", "5x jeg:pistol_ammo"], "8x jeg:handmade_shell", 1500000)
+ event.recipes.powah.energizing(["kubejs:ponto_atirador", "jeg:revolver", "jeg:handmade_shell"], "jeg:waterpipe_shotgun", 2000000)
+ event.recipes.powah.energizing(["2x kubejs:ponto_atirador", "jeg:revolver", "jeg:handmade_shell"], "jeg:double_barrel_shotgun", 2000000)
+ event.recipes.powah.energizing(["kubejs:ponto_atirador", "jeg:revolver", "jeg:pistol_ammo"], "jeg:custom_smg", 2000000)
+ event.recipes.powah.energizing(["2x kubejs:ponto_atirador", "jeg:revolver", "jeg:rifle_ammo"], "jeg:semi_auto_rifle", 2000000)
+ event.recipes.powah.energizing(["2x kubejs:ponto_atirador", "jeg:scrap_block"], "jeg:light_stock", 100000)
+ event.recipes.powah.energizing(["2x kubejs:ponto_atirador", "2x jeg:scrap_block", "minecraft:bucket"], "jeg:extended_mag", 100000)
+ event.recipes.powah.energizing(["powah:ender_core", "powah:crystal_blazing", "powah:energy_cell_starter", "minecraft:granite", "powah:steel_energized", "jeg:scrap_block"], "6x jeg:gunmetal_ingot", 500000)
+ event.recipes.powah.energizing(["2x minecraft:green_dye", "jeg:gunmetal_ingot", "minecraft:tnt"], "jeg:grenade", 100000)
+ event.recipes.powah.energizing(["2x jeg:gunmetal_ingot", "jeg:waterpipe_shotgun", "jeg:shotgun_shell", "powah:reactor_spirited", "minecraft:orange_dye"], "jeg:pump_shotgun", 2500000)
+ event.recipes.powah.energizing(["jeg:gunmetal_ingot", "minecraft:red_dye", "jeg:handmade_shell"], "8x jeg:shotgun_shell", 1500000)
+ event.recipes.powah.energizing(["2x jeg:gunmetal_ingot", "jeg:semi_auto_rifle", "jeg:rifle_ammo", "powah:reactor_spirited", "minecraft:orange_dye"], "jeg:assault_rifle", 2500000)
+ event.recipes.powah.energizing(["2x kubejs:ponto_atirador", "jeg:gunmetal_ingot"], "jeg:light_grip", 100000)
+ event.recipes.powah.energizing(["2x kubejs:ponto_atirador", "jeg:gunmetal_ingot", "minecraft:tripwire_hook", "minecraft:black_dye"], "jeg:holographic_sight", 100000)
+ event.recipes.powah.energizing(["3x kubejs:ponto_atirador", "jeg:gunmetal_ingot", "2x minecraft:black_wool"], "jeg:silencer", 100000)
+ event.recipes.powah.energizing(["4x chemlib:oganesson", "jeg:ectoplasm", "mekanism:block_uranium"], "powah:uraninite_block", 500000)
+ event.recipes.powah.energizing(["jeg:brimstone_crystal", "2x jeg:ectoplasm", "2x jeg:gunmetal_ingot"], "2x jeg:gunnite_ingot", 3000000)
+ event.recipes.powah.energizing(["chemlib:hydrochloric_acid", "chemlib:acetic_acid", "chemlib:phosphoric_acid", "3x jeg:raw_brimstone"], "6x jeg:brimstone_crystal", 500000)
+ event.recipes.powah.energizing(["jeg:revolver", "jeg:ectoplasm", "jeg:gunnite_ingot"], "jeg:burst_rifle", 6000000)
+ event.recipes.powah.energizing(["jeg:assault_rifle", "jeg:ectoplasm", "jeg:gunnite_ingot"], "jeg:combat_rifle", 6000000)
+ event.recipes.powah.energizing(["jeg:semi_auto_rifle", "jeg:ectoplasm", "jeg:gunnite_ingot"], "jeg:bolt_action_rifle", 6000000)
+ event.recipes.powah.energizing(["jeg:pump_shotgun", "jeg:ectoplasm", "jeg:gunnite_ingot"], "jeg:repeating_shotgun", 6000000)
+ event.recipes.powah.energizing(["jeg:custom_smg", "jeg:ectoplasm", "jeg:gunnite_ingot"], "jeg:infantry_rifle", 6000000)
+ event.recipes.powah.energizing(["jeg:custom_smg", "jeg:ectoplasm", "2x jeg:gunnite_ingot"], "jeg:service_rifle", 6000000)
+ event.recipes.powah.energizing(["jeg:holographic_sight", "jeg:gunnite_ingot"], "jeg:telescopic_sight", 3000000)
+ event.recipes.powah.energizing(["jeg:light_stock", "jeg:gunnite_ingot"], "jeg:weighted_stock", 3000000)
+ event.recipes.powah.energizing(["jeg:light_grip", "jeg:gunnite_ingot"], "jeg:vertical_grip", 3000000)
+ event.recipes.powah.energizing(["jeg:extended_mag", "jeg:gunnite_ingot"], "jeg:drum_mag", 3000000)
+ event.recipes.powah.energizing(["reliquary:midas_touchstone","minecraft:netherite_ingot","mysticalagradditions:nether_star_crux", "jeg:gunnite_ingot"], "3x powah:crystal_nitro", 432000000)
  // Smelting
   event.smelting('3x minecraft:experience_bottle', 'kubejs:ponto_alquimista')
+ // Create
+ event.recipes.createMixing('jeg:blaze_round', [
+  'jeg:rifle_ammo',
+  'minecraft:blaze_rod'
+ ]).superheated()
+
+ event.recipes.createSequencedAssembly([ // start the recipe
+  'kubejs:hollenfire_possessed' // have this item be a guaranteed output
+ ], 'biomancy:unstable_compound', [ // 'create:brass_ingot' is the input.
+ // the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item that will be used during the recipe as the item that the input is using to transition to the output.
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'kubejs:talisma_possessao']), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'hostilenetworks:blank_data_model']), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'powah:nitro_crystal_block']),
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'apotheosis:infused_breath']),
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'mythicbotany:alfsteel_template']), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+ ]).transitionalItem('kubejs:materia_instavel').loops(1) // set the transitional item and the loops (amount of repetitions)
+
+ event.recipes.createSequencedAssembly(['jeg:hollenfire_mk2'], 
+  'kubejs:hollenfire_possessed', [ 
+ event.recipes.createDeploying('kubejs:hollenfire_possessed', ['kubejs:hollenfire_possessed', 'jeg:blaze_round']),
+ ]).transitionalItem('kubejs:hollenfire_possessed').loops(256)
+
+ event.recipes.createSequencedAssembly([ 
+  'kubejs:soulhunter_possessed' 
+ ], 'biomancy:exotic_compound', [
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'kubejs:talisma_possessao']),
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'hostilenetworks:blank_data_model']), 
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'powah:nitro_crystal_block']),
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'apotheosis:infused_breath']),
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'mythicbotany:alfsteel_template']),
+ ]).transitionalItem('kubejs:materia_instavel').loops(1)
+
+ event.recipes.createSequencedAssembly(['jeg:soulhunter_mk2'], 
+  'kubejs:soulhunter_possessed', [ 
+ event.recipes.createDeploying('kubejs:soulhunter_possessed', ['kubejs:soulhunter_possessed', 'jeg:blaze_round']),
+ ]).transitionalItem('kubejs:soulhunter_possessed').loops(256)
 })
 

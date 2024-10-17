@@ -17,6 +17,10 @@ StartupEvents.registry('item', event => {
     event.create('kubejs:talisma_controle').displayName('Talismã do Controle');
     event.create('kubejs:talisma_destruicao').displayName('Talismã da Destruição');
     event.create('kubejs:talisma_possessao').displayName('Talismã da Possessão');
+    // Items do Caos
+    event.create('kubejs:materia_instavel').displayName('Matéria Instável');
+    event.create('kubejs:hollenfire_possessed').displayName('Hollenfire Possuída');
+    event.create('kubejs:soulhunter_possessed').displayName('Soulhunter Possuída');
     // Pontos Classes
     event.create('kubejs:ponto_agricultor').displayName('Perícia do Agricultor');
     event.create('kubejs:ponto_alquimista').displayName('Perícia do Alquimista');

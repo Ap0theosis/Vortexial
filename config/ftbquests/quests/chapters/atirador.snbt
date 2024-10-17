@@ -3,18 +3,1197 @@
 	default_quest_shape: ""
 	filename: "atirador"
 	group: "29665EDF34C45838"
+	hide_quest_until_deps_visible: true
 	icon: "kubejs:ponto_atirador"
 	id: "443854774D776077"
 	images: [{
-		height: 20.0d
+		color: 9803157
+		height: 25.0d
 		image: "kubejs:block/fundo1"
 		rotation: 0.0d
-		width: 33.29305135951662d
-		x: 1.0d
-		y: 1.5d
+		width: 41.616314199395774d
+		x: 17.5d
+		y: -9.0d
 	}]
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4F8ADB29A174E9CF"]
+			id: "7AD8A6BD9336640A"
+			rewards: [{
+				id: "4AA12960544C745B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/bullseye"
+				criterion: ""
+				id: "2DA548E7201995CD"
+				type: "advancement"
+			}]
+			title: "Viu? Nem foi tão difícil."
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4F8ADB29A174E9CF"]
+			id: "3E9FE1D47CEF815D"
+			rewards: [{
+				id: "30A08A7BC329F930"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+				id: "7820558D5B03D4FD"
+				type: "advancement"
+			}]
+			title: "Só pode haver um"
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			id: "4F8ADB29A174E9CF"
+			rewards: [{
+				id: "088E3495EA20B39A"
+				item: "hexerei:reading_glasses"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/shoot_arrow"
+				criterion: ""
+				id: "5A1E0E134A45AD99"
+				type: "advancement"
+			}]
+			title: "Treinamento inicial"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"7AD8A6BD9336640A"
+				"3E9FE1D47CEF815D"
+			]
+			id: "604796035D124DBA"
+			tasks: [{
+				count: 64L
+				id: "154670F0833781B8"
+				item: { Count: 64, id: "forbidden_arcanus:boom_arrow" }
+				type: "item"
+			}]
+			title: "Flechas melhores"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7AD8A6BD9336640A"]
+			id: "5A93CF3806BB6BB2"
+			optional: true
+			rewards: [{
+				id: "08A1324AD1D77D3B"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "328DE456B90E329A"
+					item: { Count: 8, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "06A7BEF3E441F7A0"
+					item: { Count: 32, id: "minecraft:arrow" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "34039A299B80F3EC"
+					item: { Count: 8, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "2C00FAA22A7242B3"
+					item: { Count: 3, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["604796035D124DBA"]
+			id: "6329261444EA2F29"
+			tasks: [
+				{
+					id: "578CF41EA733E4F4"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:pumpkin_pistol"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "04C13530C59D0E6B"
+					item: { Count: 64, id: "born_in_chaos_v1:pumpkin_bullet" }
+					type: "item"
+				}
+			]
+			title: "Brincando com fogo"
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5D7852377404B0CE"]
+			id: "15F60385941F75A3"
+			tasks: [{
+				id: "428DCD5F463C2FAC"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Canhão de batatas"
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["40AFC1160055E5F7"]
+			id: "5D7852377404B0CE"
+			tasks: [{
+				id: "1F525FD322690E8A"
+				item: "powah:energized_steel_block"
+				type: "item"
+			}]
+			title: "Construção avançada"
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7ABCECA18CEAB0E7"]
+			id: "40AFC1160055E5F7"
+			tasks: [{
+				id: "0D22FA971BB29005"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "Aço do atirador"
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6329261444EA2F29"]
+			id: "0065EE95325FF4DA"
+			rewards: [
+				{
+					id: "21F45AD089A95CED"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4560F4197728BC64"
+					item: "kubejs:ponto_atirador"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "18EFFA031B625CCD"
+				item: { Count: 64, id: "jeg:scrap" }
+				type: "item"
+			}]
+			title: "Sucata"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0065EE95325FF4DA"]
+			id: "44F9333F0342E71B"
+			rewards: [{
+				count: 2
+				id: "22CF24B01A32AA1C"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17FAC3DB7EFC08B2"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
+			title: "Bateria"
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0065EE95325FF4DA"]
+			description: ["Energia a partir de Uraninite, água e redstone. Funciona também como uma bateria."]
+			id: "543D374B8A9475AA"
+			rewards: [{
+				count: 5
+				id: "2F6A1C37C7E144D1"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "559B3780A0AFF2F8"
+				item: { Count: 36, id: "powah:reactor_basic" }
+				type: "item"
+			}]
+			title: "Reator"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0065EE95325FF4DA"]
+			description: ["Energia a partir de água e uma fonte de calor."]
+			id: "0AA0765C607349F2"
+			rewards: [{
+				count: 2
+				id: "24C0714717CA3F73"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A066456B15DB338"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			title: "Thermo Gerador"
+			x: 7.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0065EE95325FF4DA"]
+			description: ["Energia a partir de lava."]
+			id: "6E3B62D0FF15540C"
+			rewards: [{
+				count: 2
+				id: "382653ABE953ACE8"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41950AB1E5FAD2E0"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			title: "Magmator"
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0065EE95325FF4DA"]
+			description: ["Energia a partir de carvão e coisas queimáveis."]
+			id: "083D464B2F3BBBF3"
+			rewards: [{
+				count: 2
+				id: "13C3C61D3105FC8C"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DCA635D8F2FF91F"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			title: "Furnator"
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0065EE95325FF4DA"]
+			description: ["Energia a partir do sol."]
+			id: "75045B22FD9F849D"
+			rewards: [{
+				count: 2
+				id: "4D177B6145FE444A"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			tasks: [{
+				id: "602C16DA12D2E1BA"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			title: "Painel Solar"
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"543D374B8A9475AA"
+				"083D464B2F3BBBF3"
+				"6E3B62D0FF15540C"
+				"0AA0765C607349F2"
+				"44F9333F0342E71B"
+				"75045B22FD9F849D"
+			]
+			id: "14AEC4E4EEEACACA"
+			tasks: [{
+				count: 64L
+				id: "37B91CB0E0A5297B"
+				item: { Count: 64, id: "powah:energy_cable_basic" }
+				type: "item"
+			}]
+			title: "Transferindo Energia"
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0B545356142CFC22"]
+			id: "7ABCECA18CEAB0E7"
+			tasks: [{
+				id: "647894100B2E43D7"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			title: "Orbe dos milagres mirabolantes"
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14AEC4E4EEEACACA"]
+			id: "0B545356142CFC22"
+			tasks: [{
+				count: 3L
+				id: "1C957F8A5FEDBF38"
+				item: { Count: 3, id: "powah:energizing_rod_basic" }
+				type: "item"
+			}]
+			title: "Energizador"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7ABCECA18CEAB0E7"]
+			id: "4DC0B7A4E61CCA7D"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "377E44961ACA55C8"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "30E02C9A3B518430"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Polvoromante"
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15F60385941F75A3"]
+			id: "53F2806DAFF21712"
+			rewards: [{
+				id: "38F8C5C86D7BB820"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "7698866190DD5385"
+				item: { Count: 20, id: "minecraft:baked_potato" }
+				type: "item"
+			}]
+			title: "Tá com fome?"
+			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["236D8A83198F3329"]
+			id: "69A58492C6FA79CE"
+			tasks: [{
+				count: 20L
+				id: "3846C78287C82A0B"
+				item: { Count: 20, id: "minecraft:golden_carrot" }
+				type: "item"
+			}]
+			title: "A melhor munição"
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["15F60385941F75A3"]
+			id: "236D8A83198F3329"
+			tasks: [{
+				count: 18L
+				id: "5E4321809EAE2C70"
+				item: { Count: 18, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			title: "Eletrizante e caloroso!"
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["69A58492C6FA79CE"]
+			id: "5AA8688C6E0C5743"
+			tasks: [{
+				id: "06BE8D388730E196"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			title: "Brilhante, e nada radioativo"
+			x: 16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5AA8688C6E0C5743"]
+			id: "01DE3261AD5F8802"
+			tasks: [{
+				id: "2A2C0FABE747E6EF"
+				item: {
+					Count: 1
+					id: "jeg:revolver"
+					tag: {
+						AmmoCount: 8
+						Attachments: { }
+						Damage: 0
+						GeckoLibID: 9L
+					}
+				}
+				type: "item"
+			}]
+			title: "Eu vivi para isso!"
+			x: 17.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["01DE3261AD5F8802"]
+			id: "5B5F816316843115"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "520B8D10E81705D7"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "457497F8A104317B"
+				item: "jeg:pistol_ammo"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01DE3261AD5F8802"]
+			id: "3D3FCBA17D1A9F79"
+			tasks: [
+				{
+					count: 64L
+					id: "3E998D6AC34E2000"
+					item: { Count: 64, id: "jeg:rifle_ammo" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6075C654AE1B487B"
+					item: { Count: 16, id: "jeg:handmade_shell" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2C84A52C9EED2D11"
+					item: { Count: 32, id: "jeg:pistol_ammo" }
+					type: "item"
+				}
+			]
+			title: "Primeiro Arsenal"
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3D3FCBA17D1A9F79"]
+			id: "0C9D404DE9C7F96B"
+			tasks: [{
+				id: "5D44999F598D6991"
+				item: {
+					Count: 1
+					id: "jeg:semi_auto_rifle"
+					tag: {
+						AmmoCount: 16
+						Damage: 0
+						DrawnTick: 16
+						GeckoLibID: 20L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["3D3FCBA17D1A9F79"]
+			id: "678386623CB71E24"
+			tasks: [{
+				id: "51D007D2F1A247D7"
+				item: {
+					Count: 1
+					id: "jeg:waterpipe_shotgun"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+						GeckoLibID: 18L
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["3D3FCBA17D1A9F79"]
+			id: "0E5472E24754C76C"
+			tasks: [{
+				id: "53530617B237F4AD"
+				item: {
+					Count: 1
+					id: "jeg:double_barrel_shotgun"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+						GeckoLibID: 19L
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["3D3FCBA17D1A9F79"]
+			id: "236C85A12A375086"
+			tasks: [{
+				id: "46B4D0B60D80DF1E"
+				item: {
+					Count: 1
+					id: "jeg:custom_smg"
+					tag: {
+						AmmoCount: 24
+						Damage: 0
+						GeckoLibID: 17L
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -7.25d
+		}
+		{
+			dependencies: [
+				"0E5472E24754C76C"
+				"678386623CB71E24"
+				"0C9D404DE9C7F96B"
+				"236C85A12A375086"
+			]
+			id: "2D7E582ADD2A6F9D"
+			tasks: [
+				{
+					id: "4E5EF22127B9490C"
+					item: {
+						Count: 1
+						id: "jeg:light_stock"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "207D823717182AEF"
+					item: "jeg:extended_mag"
+					type: "item"
+				}
+			]
+			title: "Personalidade"
+			x: 20.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2D7E582ADD2A6F9D"]
+			id: "55DDFF0ED34E45CA"
+			tasks: [{
+				count: 4L
+				id: "744B51E5F8E3206E"
+				item: { Count: 4, id: "jeg:gunmetal_ingot" }
+				type: "item"
+			}]
+			title: "Metalúrgico Diferenciado"
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3DA2195693E74D4B"]
+			id: "5397ECBCF1421373"
+			tasks: [{
+				id: "71FDCC485865DF0A"
+				item: {
+					Count: 1
+					id: "jeg:pump_shotgun"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+						GeckoLibID: 22L
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3DA2195693E74D4B"]
+			id: "17E229265772C8EB"
+			tasks: [{
+				id: "7A9B0009BFAAE5F2"
+				item: {
+					Count: 1
+					id: "jeg:assault_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+						GeckoLibID: 21L
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5397ECBCF1421373"]
+			id: "62C977E5FF034DDB"
+			tasks: [{
+				count: 16L
+				id: "55727386D35F1919"
+				item: { Count: 16, id: "jeg:shotgun_shell" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3DA2195693E74D4B"]
+			id: "0552227DE0FCB776"
+			tasks: [
+				{
+					id: "4E0C5EF4C410ECC2"
+					item: {
+						Count: 1
+						id: "jeg:holographic_sight"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BA68D3D66AC1BA5"
+					item: {
+						Count: 1
+						id: "jeg:silencer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FC1A26B53F900A1"
+					item: {
+						Count: 1
+						id: "jeg:light_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Personalidade Mk2"
+			x: 23.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["17E229265772C8EB"]
+			id: "60F94344B34FE770"
+			tasks: [{
+				id: "6E8C67DD0CB2156F"
+				item: "jeg:grenade"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0552227DE0FCB776"]
+			id: "6A257DA4A1EDA3DE"
+			tasks: [{
+				count: 8L
+				id: "39F6639835A8AE46"
+				item: { Count: 8, id: "jeg:soul_treat" }
+				type: "item"
+			}]
+			title: "Assombrando Armas"
+			x: 24.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6A257DA4A1EDA3DE"]
+			id: "07382E858FD27BD5"
+			rewards: [{
+				count: 3
+				id: "2FF9BC8E07EFA48E"
+				item: "minecraft:bee_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7076C4F8FDD722D8"
+				item: "jeg:boohive"
+				type: "item"
+			}]
+			title: "Presente do Além"
+			x: 25.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["60F94344B34FE770"]
+			id: "4E5A8A87EF62F179"
+			optional: true
+			tasks: [{
+				id: "60CE8F8515E91557"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:micromissiles"
+					tag: {
+						Damage: 0
+						damage: 0.4975742f
+						filter: ""
+						fireMode: "DUMB"
+						px: 56
+						py: 73
+						topSpeed: 0.17365505f
+						turnSpeed: 0.32877073f
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E5A8A87EF62F179"]
+			id: "0982A930C20B159B"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "34D0ED235E495280"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0982A930C20B159B"]
+			id: "2DCF5ACFCB192B4D"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "67D88A921EFAC3A6"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["01DE3261AD5F8802"]
+			id: "035C692988AD0B10"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "08E6528A5CDEA5A1"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Posso fazer isso de olhos fechados."
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["035C692988AD0B10"]
+			id: "5E4D5D9D16883384"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "6C75919C21862763"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Um canhão poderoso"
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["07382E858FD27BD5"]
+			description: ["Você está entrando em áreas perigosas da pólvoromancia. Tamanha força requer um sacrifício considerável. Reconsidere suas formas de geração de energia, atualize seus reatores ou seja lá o que você estiver usando. Você vai precisar, e muito!"]
+			icon: "mekanism:upgrade_energy"
+			id: "2C41987704DBD4CF"
+			tasks: [{
+				id: "4196F8046FA88C2A"
+				title: "Aviso"
+				type: "checkmark"
+			}]
+			x: 26.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2C41987704DBD4CF"]
+			id: "3802EA758E8BD9CC"
+			tasks: [{
+				id: "3334896CAB5DA355"
+				item: "jeg:ectoplasm"
+				type: "item"
+			}]
+			title: "Mel de outro mundo"
+			x: 27.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2C41987704DBD4CF"]
+			id: "3F6E19C22BFE3FA3"
+			tasks: [{
+				id: "0E36C6D5948F553E"
+				item: "jeg:brimstone_crystal"
+				type: "item"
+			}]
+			title: "Solvente poderoso"
+			x: 27.0d
+			y: -9.75d
+		}
+		{
+			dependencies: [
+				"3F6E19C22BFE3FA3"
+				"3802EA758E8BD9CC"
+			]
+			id: "4AF4BD3B6D7E4B17"
+			tasks: [{
+				count: 2L
+				id: "593DECF834955831"
+				item: { Count: 2, id: "jeg:gunnite_ingot" }
+				type: "item"
+			}]
+			title: "A Verdadeira Liga"
+			x: 28.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4AF4BD3B6D7E4B17"]
+			id: "714671C40EFADE52"
+			tasks: [{
+				id: "3897BE8AFD6F1AB3"
+				item: {
+					Count: 1
+					id: "jeg:burst_rifle"
+					tag: {
+						AmmoCount: 30
+						Bursting: 1b
+						Damage: 0
+						GeckoLibID: 23L
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["4AF4BD3B6D7E4B17"]
+			id: "73667E33F1E573E1"
+			tasks: [{
+				id: "73CAA8CF90CAA7CE"
+				item: {
+					Count: 1
+					id: "jeg:combat_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+						GeckoLibID: 25L
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["4AF4BD3B6D7E4B17"]
+			id: "3AA3D0506D62349F"
+			tasks: [{
+				id: "3735E8CA2AE7616C"
+				item: {
+					Count: 1
+					id: "jeg:bolt_action_rifle"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+						GeckoLibID: 26L
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["4AF4BD3B6D7E4B17"]
+			id: "04D2721D834F63B9"
+			tasks: [{
+				id: "5CDAC1E01CAB6068"
+				item: {
+					Count: 1
+					id: "jeg:repeating_shotgun"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+						GeckoLibID: 27L
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["4AF4BD3B6D7E4B17"]
+			id: "32CB281087F05184"
+			tasks: [{
+				id: "66EEB215121D6260"
+				item: {
+					Count: 1
+					id: "jeg:infantry_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+						GeckoLibID: 28L
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -11.75d
+		}
+		{
+			dependencies: ["4AF4BD3B6D7E4B17"]
+			id: "544C3F6DBFAE60E1"
+			tasks: [{
+				id: "22B5522F41240598"
+				item: {
+					Count: 1
+					id: "jeg:service_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+						GeckoLibID: 29L
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -6.25d
+		}
+		{
+			dependencies: [
+				"32CB281087F05184"
+				"04D2721D834F63B9"
+				"714671C40EFADE52"
+				"73667E33F1E573E1"
+				"3AA3D0506D62349F"
+				"544C3F6DBFAE60E1"
+			]
+			id: "20B6EC51412C0086"
+			tasks: [
+				{
+					id: "1641BEBC0EDD0E38"
+					item: {
+						Count: 1
+						id: "jeg:telescopic_sight"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F9D2E30C9384A1B"
+					item: {
+						Count: 1
+						id: "jeg:weighted_stock"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AA60006E2E0DC49"
+					item: {
+						Count: 1
+						id: "jeg:vertical_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E8803411A8EBBC5"
+					item: "jeg:drum_mag"
+					type: "item"
+				}
+			]
+			title: "O Arsenal Quase-perfeito"
+			x: 30.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["20B6EC51412C0086"]
+			id: "797FA222C9467B4B"
+			tasks: [{
+				count: 9L
+				id: "2E9D11E6CF1F8900"
+				item: { Count: 9, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			title: "O Caminho da Divindade"
+			x: 31.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["585DAD13010D82F8"]
+			id: "0FCD4CF73321FD1D"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5467B1956B3218B1"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 40
+							Damage: 0
+							GeckoLibID: 30L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "632CF9A6D2964509"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Bursting: 1b
+							Damage: 0
+							GeckoLibID: 31L
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mestre Atirador!!"
+			x: 33.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["797FA222C9467B4B"]
+			id: "585DAD13010D82F8"
+			tasks: [{
+				count: 512L
+				id: "5F3C52667D000D50"
+				item: { Count: 64, id: "jeg:blaze_round" }
+				type: "item"
+			}]
+			title: "Considere isso um aviso."
+			x: 32.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["55DDFF0ED34E45CA"]
+			id: "3DA2195693E74D4B"
+			tasks: [{
+				id: "316C684E7253FB4D"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			title: "Brilhante... Mas radioativo."
+			x: 22.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["797FA222C9467B4B"]
+			id: "1FAE54994604637B"
+			rewards: [{
+				count: 16
+				id: "606F1FC5EC940FCF"
+				item: "kubejs:ponto_atirador"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 6L
+				id: "62328D9EB0B3FBCC"
+				item: { Count: 9, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -10.0d
+		}
+	]
 	title: "Atirador"
 }

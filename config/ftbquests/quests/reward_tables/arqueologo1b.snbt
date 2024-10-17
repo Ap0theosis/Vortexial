@@ -1,0 +1,188 @@
+{
+	id: "1491CDFDA3C279A7"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:onion_ring" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:scarf_of_invisibility"
+				tag: {
+					abilities: {
+						invisible: {
+							points: 0
+							stats: {
+								radius: 4.66848d
+								threshold: 0.07214d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:lucky_scarf"
+				tag: {
+					abilities: {
+						luck: {
+							points: 0
+							stats: {
+								chance: 0.17957d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:anglers_hat"
+				tag: {
+					abilities: {
+						catch: {
+							points: 0
+							stats: {
+								chance: 0.17711d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					abilities: {
+						looting: {
+							points: 0
+							stats: {
+								chance: 0.10953d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:villager_hat"
+				tag: {
+					abilities: {
+						discount: {
+							points: 0
+							stats: {
+								multiplier: 15.76611d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:snorkel"
+				tag: {
+					abilities: {
+						diving: {
+							points: 0
+							stats: {
+								duration: 8.93651d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:novelty_drinking_hat"
+				tag: {
+					abilities: {
+						drinking: {
+							points: 0
+							stats: {
+								speed: 0.31259d
+							}
+						}
+						nutrition: {
+							points: 0
+							stats: {
+								hunger: 2.46489d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:plastic_drinking_hat"
+				tag: {
+					abilities: {
+						drinking: {
+							points: 0
+							stats: {
+								speed: 0.32329d
+							}
+						}
+						nutrition: {
+							points: 0
+							stats: {
+								hunger: 2.54848d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:cowboy_hat" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:eternal_steak" }
+		{ item: "artifacts:everlasting_beef" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:chorus_totem" }
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:pickaxe_heater" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:rooted_boots" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:snowshoes" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:aqua_dashers" }
+	]
+	title: "Arqueologo1B"
+}

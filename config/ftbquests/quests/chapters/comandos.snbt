@@ -67,6 +67,64 @@
 			x: -3.0d
 			y: -2.5d
 		}
+		{
+			can_repeat: true
+			id: "4820636AB96332D5"
+			rewards: [{
+				auto: "invisible"
+				id: "4D4122225CE85842"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "arqueologo"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6B24AEE873674210"
+				title: "Reset arqueologo"
+				type: "checkmark"
+			}]
+			title: "Reset Arqueologo"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "31CB1DCEFCD5264E"
+			tasks: [{
+				id: "46BE907507AA00A0"
+				stage: "arqueologo"
+				type: "gamestage"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "6E5DEF6C4B805936"
+			rewards: [{
+				auto: "invisible"
+				id: "4501FB545A5C83BB"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "atirador"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "46C5AE42769698A9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "63E3FDB3D016B476"
+			tasks: [{
+				id: "15F6BBF3A90D92BF"
+				stage: "atirador"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
 	]
 	title: "Comandos"
 }
