@@ -125,6 +125,90 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			id: "728765DFD4829E51"
+			tasks: [{
+				id: "61AE829FB9B97B93"
+				stage: "biomante"
+				type: "gamestage"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "3BBADB4410072F30"
+			rewards: [{
+				auto: "invisible"
+				id: "2BA1C4383A68E98C"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "biomante"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "615288F4BEA2D1D4"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "02DA43EE6E21BE68"
+			tasks: [{
+				id: "58DD56810CC99C3A"
+				stage: "biomante2"
+				type: "gamestage"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "2CCE27AD54619767"
+			rewards: [{
+				auto: "invisible"
+				id: "15CAFDB55C7A4B3E"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "biomante2"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6F7758863283C73A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "629B4FB7A2D43D9D"
+			tasks: [{
+				id: "5F6E44E72440A602"
+				stage: "bruxo"
+				type: "gamestage"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "2E043923B5111517"
+			rewards: [{
+				auto: "invisible"
+				id: "16DC8A673DE1A486"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "bruxo"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "33E9F68A24F71278"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
 	]
 	title: "Comandos"
 }

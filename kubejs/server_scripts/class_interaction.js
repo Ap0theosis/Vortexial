@@ -21,10 +21,40 @@ ItemEvents.entityInteracted('experienceobelisk:primordial_assembly', event =>{
       event.player.give('experienceobelisk:bibliophage')
       event.cancel()
     }
-  })
+})
+// Biomante
+ItemEvents.entityInteracted('biomancy:living_flash', event =>{
+  
+    if (event.target.type == 'born_in_chaos_v1:maggot'){
+      event.item.count-- 
+      event.target.kill()
+      event.player.give('biomancy:vial')
+      event.cancel()
+    }
+})
+BlockEvents.rightClicked('biomancy:primordial_cradle', event =>{
+    if (event.player.getHeldItem('main_hand').id === 'kubejs:ponto_biomante'){
+     if (event.player.stages.has('biomante2')) {
+        if (event.player.getHeldItem('main_hand').id === 'kubejs:ponto_biomante') {  
+            event.item.count-- 
+            event.player.give('kubejs:biomante_primordial'); 
+            event.player.tell('§dSua oferenda foi aceita...')
+            event.cancel()
+        }}
+    else event.player.tell('§cVocê não possui afinidade o suficiente!')}
+})
+// Bruxo
+BlockEvents.rightClicked('minecraft:cauldron', event => {
+    if (event.player.getHeldItem('main_hand').id === 'kubejs:ponto_bruxo') {
+        event.block.set('hexerei:mixing_cauldron');
+        event.item.count-- 
+        event.player.tell('§dVocê amaldiçoou este caldeirão com sucesso...')
+        event.cancel()
+    }
+});
 // Bloqueios de Classe
 BlockEvents.rightClicked('minecraft:brewing_stand', event => {   
-    if (!event.player.stages.has('alquimista')) {
+    if (!event.player.stages.has('alquimista') && !event.player.stages.has('bruxo')) {
        event.player.tell('§cEi! Você não faz ideia de como faz uma poção, deixe isso para Alquimistas e Bruxos!');
        event.cancel();
     }
@@ -32,6 +62,26 @@ BlockEvents.rightClicked('minecraft:brewing_stand', event => {
 BlockEvents.rightClicked('minecraft:enchanting_table', event => {
     if (!event.player.stages.has('arcanista')) {
        event.player.tell('§cVocê não possui o conhecimento necessário para liberar o potencial dos artefatos, vá falar com um Arcanista!');
+       event.cancel();
+    }
+});
+BlockEvents.rightClicked('occultism:golden_sacrificial_bowl', event => {
+    if (!event.player.stages.has('bruxo')) {
+       event.block.set('occultism:golden_sacrificial_bowl')
+       event.player.tell('§cNão toque nisso, espírito tolo!');
+       event.cancel();
+    }
+});
+BlockEvents.rightClicked('occultism:sacrificial_bowl', event => {
+    if (!event.player.stages.has('bruxo')) {
+       event.block.set('occultism:sacrificial_bowl')
+       event.player.tell('§cNão toque nisso, espírito tolo!');
+       event.cancel();
+    }
+});
+BlockEvents.rightClicked('hexerei:mixing_cauldron', event => {
+    if (!event.player.stages.has('bruxo')) {
+       event.player.tell('§cUm caldeirão arrepiante com uma aura sombria, é melhor não tocar nisso...');
        event.cancel();
     }
 });
@@ -85,11 +135,50 @@ BlockEvents.rightClicked('powah:energizing_orb', event => {
         event.cancel();
      }
 });
-
+BlockEvents.rightClicked('biomancy:decomposer', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEca!');
+        event.cancel();
+     }
+});
+BlockEvents.rightClicked('biomancy:bio_forge', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEca!');
+        event.cancel();
+     }
+});
+BlockEvents.rightClicked('biomancy:digester', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEca!');
+        event.cancel();
+     }
+});
+BlockEvents.rightClicked('biomancy:bio_lab', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEca!');
+        event.cancel();
+     }
+});
+BlockEvents.rightClicked('biomancy:fleshkin_chest', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEca!');
+        event.cancel();
+     }
+});
+ItemEvents.canPickUp('occultism:datura_seeds', event => {
+    if (!event.player.stages.has('bruxo')) {
+       event.cancel()
+    }
+});
+ItemEvents.canPickUp('occultism:datura', event => {
+    if (!event.player.stages.has('bruxo')) {
+       event.cancel()
+    }
+});
 // Broken
 BlockEvents.broken('minecraft:brewing_stand', event => {
-    if (!event.player.stages.has('alquimista')) {
-        event.player.tell('§cSomente Alquimistas podem extrair este equipamento.');
+    if (!event.player.stages.has('alquimista') && !event.player.stages.has('bruxo')) {
+        event.player.tell('§cSomente Alquimistas e Bruxos podem extrair este equipamento.');
         event.cancel();
     }
 })
@@ -111,8 +200,39 @@ BlockEvents.broken('powah:energizing_orb', event => {
         event.cancel();
     }
 });
-
-
-
-
-
+BlockEvents.broken('biomancy:decomposer', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEssa coisa não sai!');
+        event.cancel();
+     }
+});
+BlockEvents.broken('biomancy:bio_forge', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEssa coisa não sai!');
+        event.cancel();
+     }
+});
+BlockEvents.broken('biomancy:digester', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEssa coisa não sai!');
+        event.cancel();
+     }
+});
+BlockEvents.broken('biomancy:bio_lab', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEssa coisa não sai!');
+        event.cancel();
+     }
+});
+BlockEvents.broken('biomancy:fleshkin_chest', event => {
+    if (!event.player.stages.has('biomante')) {
+        event.player.tell('§cEssa coisa não sai!');
+        event.cancel();
+     }
+});
+BlockEvents.broken('hexerei:mixing_cauldron', event => {
+    if (!event.player.stages.has('bruxo')) {
+        event.player.tell('§cUm Bruxo assombrou este caldeirão!');
+        event.cancel();
+    }
+})

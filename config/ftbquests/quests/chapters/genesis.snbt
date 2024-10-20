@@ -571,6 +571,13 @@
 					item: "enigmaticlegacy:the_acknowledgment"
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					id: "408F31A533CE689E"
+					ignore_reward_blocking: true
+					stage: "bruxo"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				consume_items: true
@@ -911,6 +918,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "17A81FC5DA2AF24C"
+					ignore_reward_blocking: true
+					stage: "biomante"
+					type: "gamestage"
 				}
 			]
 			tasks: [{

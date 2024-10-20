@@ -2930,7 +2930,6 @@
 				count: 2L
 				id: "7EABE248320100EF"
 				item: "artifacts:running_shoes"
-				optional_task: true
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -3437,7 +3436,6 @@
 				consume_items: true
 				id: "2F8AD83DF82F0E5F"
 				item: "enigmaticlegacy:etherium_ore"
-				optional_task: true
 				type: "item"
 			}]
 			title: "Premiação"

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4F8ADB29A174E9CF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "atirador"
@@ -55,6 +56,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["5853F68BE1F871CD"]
 			id: "4F8ADB29A174E9CF"
 			rewards: [{
 				id: "088E3495EA20B39A"

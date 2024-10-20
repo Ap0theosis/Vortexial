@@ -21,6 +21,21 @@ StartupEvents.registry('item', event => {
     event.create('kubejs:materia_instavel').displayName('Matéria Instável');
     event.create('kubejs:hollenfire_possessed').displayName('Hollenfire Possuída');
     event.create('kubejs:soulhunter_possessed').displayName('Soulhunter Possuída');
+    event.create('kubejs:biomante_primordial').displayName('Perícia do Biomante Primordial');
+    // Perícias Possuídas
+    event.create('kubejs:agricultor_possessed').displayName('Perícia do Agricultor Possuído');
+    event.create('kubejs:alquimista_possessed').displayName('Perícia do Alquimista Possuído');
+    event.create('kubejs:arcanista_possessed').displayName('Perícia do Arcanista Possuído');
+    event.create('kubejs:arqueologo_possessed').displayName('Perícia do Arqueólogo Possuído');
+    event.create('kubejs:atirador_possessed').displayName('Perícia do Atirador Possuído');
+    event.create('kubejs:biomante_possessed').displayName('Perícia do Biomante Possuído');
+    event.create('kubejs:bruxo_possessed').displayName('Perícia do Bruxo Possuído');
+    event.create('kubejs:cozinheiro_possessed').displayName('Perícia do Cozinheiro Possuído');
+    event.create('kubejs:druida_possessed').displayName('Perícia do Druida Possuído');
+    event.create('kubejs:ferreiro_possessed').displayName('Perícia do Ferreiro Possuído');
+    event.create('kubejs:mago_possessed').displayName('Perícia do Mago Possuído');
+    event.create('kubejs:mecanico_possessed').displayName('Perícia do Mecânico Possuído');
+    event.create('kubejs:quimico_possessed').displayName('Perícia do Químico Possuído');
     // Pontos Classes
     event.create('kubejs:ponto_agricultor').displayName('Perícia do Agricultor');
     event.create('kubejs:ponto_alquimista').displayName('Perícia do Alquimista');

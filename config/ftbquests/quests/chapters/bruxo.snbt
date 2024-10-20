@@ -1,4 +1,5 @@
 {
+	autofocus_id: "68C4BDA12332CFF5"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bruxo"
@@ -15,6 +16,838 @@
 	}]
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "68C4BDA12332CFF5"
+			tasks: [{
+				id: "085B796DF34CAA71"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.75d
+		}
+		{
+			icon: "occultism:spirit_fire"
+			id: "328C410D3B32E32C"
+			tasks: [{
+				id: "6E57775F5C1D9257"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: -9.75d
+		}
+		{
+			id: "0AB2C1DAC359F631"
+			rewards: [{
+				id: "10B32C8CA29C2EB7"
+				item: "kubejs:ponto_bruxo"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22A35E041430866E"
+					item: "hexerei:mugwort_leaves"
+					type: "item"
+				}
+				{
+					id: "55AF0D946AB4BBFF"
+					item: "hexerei:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "04CD339E67AE3DCC"
+					item: "hexerei:yellow_dock_leaves"
+					type: "item"
+				}
+				{
+					id: "23A814FCCAE2CBBE"
+					item: "hexerei:belladonna_flowers"
+					type: "item"
+				}
+				{
+					id: "4EFC85822F5DEB55"
+					item: "hexerei:sage_seed"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -10.75d
+		}
+		{
+			id: "286C0C0AD6FA1489"
+			tasks: [{
+				id: "15A65F10910E1955"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.75d
+		}
+		{
+			id: "2150F392E8FC47D3"
+			tasks: [{
+				id: "4D7AE6AEF0FD9FE8"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.75d
+		}
+		{
+			id: "004973A82589C35F"
+			tasks: [{
+				id: "235AFE2981BECF6C"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.75d
+		}
+		{
+			id: "3D28077DAD553FC6"
+			tasks: [{
+				id: "0E1AECE27E5F4643"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.75d
+		}
+		{
+			id: "1CD25AC9511A8DD5"
+			tasks: [
+				{
+					id: "3B369AB7E7970357"
+					item: "hexerei:witch_hazel_sapling"
+					type: "item"
+				}
+				{
+					id: "7D17010B2B8664F2"
+					item: "hexerei:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "0590160CE0C7F812"
+					item: "hexerei:willow_sapling"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -11.75d
+		}
+		{
+			id: "05D5AD9172679B6F"
+			rewards: [{
+				id: "5AF51C664F2106E1"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B3E612A777C7D9F"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_sapling_natural"
+					tag: {
+						isInventoryItem: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.75d
+		}
+		{
+			id: "1D5AC864380FD383"
+			tasks: [{
+				id: "0DA9FCB73929CF11"
+				item: {
+					Count: 1
+					id: "hexerei:witch_hazel_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.75d
+		}
+		{
+			id: "13D8ECF1430D61C9"
+			tasks: [{
+				id: "6FCB4B17393C32FF"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.75d
+		}
+		{
+			id: "7617AB56F43DAEEB"
+			tasks: [{
+				id: "10614612ECC3AA55"
+				item: "hexerei:medium_satchel"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -12.75d
+		}
+		{
+			id: "517DBDED8E67FCE2"
+			tasks: [{
+				id: "06D4954A91C3C797"
+				item: "hexerei:large_satchel"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -12.75d
+		}
+		{
+			id: "4987267C3569E500"
+			tasks: [{
+				id: "58840089FFF5E7B4"
+				item: {
+					Count: 1
+					id: "hexerei:broom_whistle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.75d
+		}
+		{
+			id: "558BEFD2F96D9778"
+			tasks: [{
+				id: "7FD9E764FB0C8C9E"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.75d
+		}
+		{
+			id: "131CFEDAD8666D35"
+			tasks: [{
+				id: "5911F9CA7A442732"
+				item: "hexerei:broom_seat"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -14.75d
+		}
+		{
+			id: "5FAF23BB420C677B"
+			tasks: [{
+				id: "56F3DCE4648B7755"
+				item: {
+					Count: 1
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -15.75d
+		}
+		{
+			id: "7E512CA05AADD65D"
+			tasks: [{
+				id: "4EF7FB35D5342B44"
+				item: {
+					Count: 1
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -16.75d
+		}
+		{
+			id: "0C171B6C903B8602"
+			tasks: [{
+				id: "32E627CF067985F7"
+				item: "hexerei:witch_hazel_broom_stand"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.75d
+		}
+		{
+			id: "7CF3BA38BDF74F02"
+			tasks: [{
+				id: "1CA1F8C6565C2E13"
+				item: "hexerei:mahogany_broom_stand"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -17.75d
+		}
+		{
+			id: "57331049D46AA610"
+			tasks: [
+				{
+					id: "5BD26DF40BB10066"
+					item: {
+						Count: 1
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0868F58E495001"
+					item: {
+						Count: 1
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6128603106414DF8"
+					item: {
+						Count: 1
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -9.75d
+		}
+		{
+			id: "1026AFF78ECD717F"
+			tasks: [{
+				id: "7647C5892E1C6CC3"
+				item: "hexerei:crystal_ball"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -15.75d
+		}
+		{
+			id: "7B87A333A9125C3D"
+			tasks: [{
+				id: "0955DF75AE9FAA67"
+				item: "hexerei:moon_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -15.75d
+		}
+		{
+			id: "31F25BBB3B1BC6A6"
+			tasks: [{
+				id: "75E02D0843F8126B"
+				item: {
+					Count: 1
+					id: "hexerei:moon_dust_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -15.75d
+		}
+		{
+			id: "0B82DC66C5893E13"
+			tasks: [{
+				count: 3L
+				id: "23F3DD17EDDF2248"
+				item: { Count: 3, id: "occultism:otherstone" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.75d
+		}
+		{
+			id: "7A2526CCF496AEC0"
+			tasks: [{
+				count: 3L
+				id: "0189B6717E2D460D"
+				item: { Count: 3, id: "occultism:otherworld_log" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.75d
+		}
+		{
+			id: "1B18B0B8A3DA0026"
+			tasks: [
+				{
+					id: "5ED3DD4F7B2C916C"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6715A996FD18B635"
+					item: {
+						Count: 1
+						id: "occultism:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BF42E07D2C49F03"
+					item: "occultism:brush"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -10.75d
+		}
+		{
+			id: "0F6B25DB388E9B3A"
+			tasks: [
+				{
+					id: "4B5B65667AC8079F"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4AF18EE782C1EB94"
+					item: { Count: 4, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1CCCF34469035482"
+					item: { Count: 4, id: "occultism:candle_white" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -11.75d
+		}
+		{
+			id: "334976B9A4EF1CD4"
+			tasks: [
+				{
+					id: "1E090BAFB9E33045"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+				{
+					id: "1DAC7A893D856150"
+					item: "occultism:awakened_feather"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -9.75d
+		}
+		{
+			description: ["Veja as informações no livro para realizar o primeiro ritual e invocar um Foliot, um pequeno demônio capaz de duplicar minérios e moer alguns recursos necessários para as próximas tarefas"]
+			id: "35DFC42CCF992550"
+			tasks: [{
+				id: "3A3B65E3EF963BDB"
+				item: "occultism:book_of_binding_foliot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.75d
+		}
+		{
+			description: [
+				"Occultism é um mod bem completo com um próprio guia dentro do jogo, é importante que você, caro bruxo, se quiser desfrutar 100% das capacidades desse mod extremamente poderoso, recomendo que leia o próprio livro guia dele. A seguir, nas próximas tarefas dessa classe, só constarão os rituais &lnovos&r. Caso você não queira explorar o livro guia, aqui estão informações do conteúdo que Occultism oferece:"
+				""
+				" - Sextuplicação de minérios (6x)"
+				" - Sistema de inventário"
+				" - Familiares e diversos bônus"
+				" - Invocação de mobs (Guardian, Warden, Wither skeleton, etc.)"
+				" - Demônios ajudantes"
+				" - Mineradores"
+			]
+			id: "1659412BC2B34F05"
+			tasks: [{
+				id: "23889FB31E410466"
+				title: "Rituais"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -10.75d
+		}
+		{
+			id: "6295E373D859BF6C"
+			tasks: [{
+				id: "371BE384A1F2404E"
+				item: {
+					Count: 1
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.75d
+		}
+		{
+			id: "0C14D5B08CE4FB29"
+			tasks: [{
+				id: "3B129BAC42B556DE"
+				item: "occultism:crushed_end_stone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.75d
+		}
+		{
+			id: "596AEE606D86B948"
+			tasks: [{
+				id: "5F5977594279C4E1"
+				item: {
+					Count: 1
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.75d
+		}
+		{
+			id: "6051F663C2B545CD"
+			tasks: [{
+				count: 2L
+				id: "2D277E2F0963C1FE"
+				item: { Count: 2, id: "occultism:spirit_attuned_crystal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.75d
+		}
+		{
+			id: "154D78438E1394E2"
+			tasks: [{
+				id: "4A242A7B110BF8F7"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.75d
+		}
+		{
+			id: "57F397B5A9481DF1"
+			tasks: [{
+				id: "52A30CA75592ACF1"
+				item: "occultism:afrit_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.75d
+		}
+		{
+			id: "707F7B9982BA226B"
+			tasks: [{
+				id: "427299200AE3A9B9"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.75d
+		}
+		{
+			id: "25A4DB9E75A474B1"
+			tasks: [{
+				id: "5428A1077A454766"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.75d
+		}
+		{
+			id: "155D5CF4CC3EC697"
+			tasks: [{
+				id: "440415709F7739D4"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.75d
+		}
+		{
+			id: "7865A7915461739E"
+			tasks: [{
+				id: "6408D96C1650E46E"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.75d
+		}
+		{
+			id: "159FF0E3A3950F98"
+			tasks: [{
+				id: "56895DCF88859A29"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.75d
+		}
+		{
+			id: "5A2BBB7898DDBA10"
+			tasks: [{
+				id: "2C622AD2488BB30A"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.75d
+		}
+		{
+			id: "56064E8141CE4655"
+			tasks: [{
+				count: 4L
+				id: "69A9A66CC75F5336"
+				item: { Count: 4, id: "enigmaticlegacy:astral_dust" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -13.75d
+		}
+		{
+			id: "25C30DB5FF67C26A"
+			tasks: [
+				{
+					id: "3C6AD8CD0A253A51"
+					item: "enigmaticlegacy:abyssal_heart"
+					type: "item"
+				}
+				{
+					id: "3E5748C690DE0BF9"
+					item: "enigmaticlegacy:evil_essence"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -10.75d
+		}
+		{
+			id: "3F4CFC297A3AE35E"
+			tasks: [{
+				id: "16B9FC0E070DD0DB"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.75d
+		}
+		{
+			id: "111D60BDCEDF7EAF"
+			tasks: [{
+				id: "7EBD96F23680E547"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			id: "61E465890969E93E"
+			tasks: [{
+				count: 3L
+				id: "71CE21BB85FFFF9F"
+				item: { Count: 3, id: "enigmaticlegacy:twisted_potion" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -13.5d
+		}
+		{
+			id: "08F8C8270F4DDB29"
+			tasks: [{
+				id: "16C30B6FED7E4F46"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.75d
+		}
+		{
+			id: "06D6C1ECAE844BEA"
+			tasks: [{
+				id: "1762EA56DD24B6E2"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			id: "6833A0259ED1915E"
+			tasks: [{
+				id: "157720838599271D"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -13.5d
+		}
+		{
+			id: "394A761DD537DC83"
+			tasks: [{
+				id: "04E93F221B1371F8"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.75d
+		}
+		{
+			id: "58FBCADBE5FA79C8"
+			tasks: [{
+				id: "62638F6EA910DCDD"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.75d
+		}
+		{
+			id: "73A91EF578812EEB"
+			shape: "hexagon"
+			tasks: [{
+				id: "19FAB089DF5FDB9C"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mestre Bruxo!!!"
+			x: 7.0d
+			y: -10.75d
+		}
+		{
+			id: "7102587095931063"
+			tasks: [{
+				id: "4AD88488F9F95634"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -14.5d
+		}
+		{
+			id: "640CD87992FA8F01"
+			tasks: [{
+				id: "3B602D6A1B9DFF46"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -14.5d
+		}
+		{
+			id: "6FC37768922F8B7C"
+			tasks: [
+				{
+					id: "423927BC022FC415"
+					item: {
+						Count: 1
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+							spiritName: "Cruronded"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FEE174203BB6D17"
+					item: {
+						Count: 1
+						id: "occultism:divination_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -10.75d
+		}
+		{
+			id: "402A7378FBF11AF0"
+			tasks: [{
+				id: "5E637B1E8ADDC35F"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.75d
+		}
+	]
 	title: "Bruxo"
 }

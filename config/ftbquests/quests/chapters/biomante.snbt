@@ -1,20 +1,960 @@
 {
+	autofocus_id: "03E05609D2FCC1A6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "biomante"
 	group: "29665EDF34C45838"
+	hide_quest_until_deps_visible: true
 	icon: "kubejs:ponto_biomante"
 	id: "09CD84A2775BC466"
 	images: [{
+		color: 10724259
 		height: 20.0d
 		image: "kubejs:block/fundo5"
 		rotation: 0.0d
 		width: 35.5510616784631d
-		x: 0.0d
-		y: 0.0d
+		x: 9.25d
+		y: -12.75d
 	}]
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["11CF931EAE49EA5C"]
+			id: "03E05609D2FCC1A6"
+			tasks: [{
+				advancement: "biomancy:biomancy/root"
+				criterion: ""
+				id: "54C2C371B66E418D"
+				type: "advancement"
+			}]
+			title: "A Carne sussurra..."
+			x: 1.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["03E05609D2FCC1A6"]
+			id: "73FA3C01FE9D0DD1"
+			rewards: [{
+				id: "36448A55B50394CA"
+				item: "kubejs:ponto_biomante"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6706D65199B9C536"
+					item: "biomancy:primordial_core"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5313C1C423DC2E77"
+					item: { Count: 10, id: "minecraft:porkchop" }
+					type: "item"
+				}
+			]
+			title: "A Criatura Primordial"
+			x: 2.25d
+			y: -10.75d
+		}
+		{
+			dependencies: ["73FA3C01FE9D0DD1"]
+			description: ["&o\"Você escolheu este caminho, agora ouça-me acólito patético! use o gancho para arrancar as unhas de um felino. E não desperdice estas poções!\""]
+			id: "260231D9EC8A3462"
+			rewards: [{
+				count: 2
+				id: "54DE82A4225D07A3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78D919B441A06311"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			title: "O Hospedeiro"
+			x: 3.5d
+			y: -10.75d
+		}
+		{
+			dependencies: ["260231D9EC8A3462"]
+			description: ["&o\"Me alimente com cinco pedaços de carne... e depois com a poção de cura, eu preciso começar a ploriferação... Alimente meu filho com carne até ele ficar grande, e depois use o gancho novamente!\""]
+			id: "0B4AE9C2759A5335"
+			rewards: [{
+				count: 2
+				id: "3D8E509122F3A477"
+				item: "kubejs:ponto_biomante"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "54B8ED22DBF5E072"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			title: "Os Filhos da carne"
+			x: 4.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["0B4AE9C2759A5335"]
+			description: ["&o\"Hora de mastigar matéria e torná-la mais útil...\""]
+			id: "783C3E8403236C9C"
+			tasks: [{
+				id: "7EE648B835710008"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			title: "Decompositor"
+			x: 5.75d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0B4AE9C2759A5335"]
+			description: ["&o\"Este será meu filho mais competente, alimente-o bem com nutrientes e comece a gloriosa evolução\""]
+			id: "3F38E318345C64F6"
+			tasks: [{
+				id: "0A29B9D8420188E4"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			title: "Forja viva"
+			x: 5.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["71310491589B67EE"]
+			description: ["&o\"Aquelas poções eram temporárias, mas com isto daqui... Eu posso crescer sem parar!\""]
+			id: "58CF61FA57FA7927"
+			tasks: [{
+				id: "25DAC91A068227DA"
+				item: "biomancy:creator_mix"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -10.75d
+		}
+		{
+			dependencies: [
+				"783C3E8403236C9C"
+				"3F38E318345C64F6"
+			]
+			id: "71310491589B67EE"
+			tasks: [{
+				id: "572CFBBC6FD2B519"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			title: "Digestor"
+			x: 6.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["58CF61FA57FA7927"]
+			id: "294EA850D3FB23B5"
+			tasks: [{
+				id: "3C9A4787CB85F61F"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			x: 8.75d
+			y: -10.75d
+		}
+		{
+			dependencies: [
+				"783C3E8403236C9C"
+				"58CF61FA57FA7927"
+			]
+			id: "07A893E5357779B8"
+			tasks: [{
+				count: 16L
+				id: "63D5D9A575362F5D"
+				item: { Count: 16, id: "biomancy:bone_fragments" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -12.5d
+		}
+		{
+			dependencies: ["07A893E5357779B8"]
+			description: ["&o\"Com estas ferramentas que vieram diretamente das minhas entranhas, você pode extrair cinzas etéreas de qualquer vítima\""]
+			id: "3483B0A951860436"
+			tasks: [
+				{
+					id: "58DD6FA6EFF96DE6"
+					item: {
+						Count: 1
+						id: "sons_of_sins:osseous_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B93B68FD47CF1CB"
+					item: {
+						Count: 1
+						id: "sons_of_sins:osseous_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A8771C6E5229D9D"
+					item: {
+						Count: 1
+						id: "sons_of_sins:osseous_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09184EEC9EB41518"
+					item: {
+						Count: 1
+						id: "sons_of_sins:osseous_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09738A115B0BC7FA"
+					item: {
+						Count: 1
+						id: "sons_of_sins:osseous_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: -12.5d
+		}
+		{
+			dependencies: ["294EA850D3FB23B5"]
+			description: ["&o\"Hora de melhorar suas mãos frágeis\""]
+			id: "672DEB6AF6D23904"
+			tasks: [
+				{
+					id: "62A73C798C139196"
+					item: {
+						Count: 1
+						id: "biomancy:ravenous_claws"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "483B3477EB2044D0"
+					item: {
+						Count: 1
+						id: "biomancy:injector"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["672DEB6AF6D23904"]
+			description: ["&o\"Você pode extrair a essência das outras criaturas e usar isso para filtrar alguns órgãos\""]
+			id: "4F193550518D0BD5"
+			tasks: [{
+				id: "5A64C7AC2A02888D"
+				item: {
+					Count: 1
+					id: "biomancy:extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -9.75d
+		}
+		{
+			dependencies: ["3483B0A951860436"]
+			description: ["&o\"Você deve usar o outro gancho dessa vez, com alguns frascos vazios no inventário você pode extrair sangue\""]
+			id: "4880E31B1882FC77"
+			tasks: [
+				{
+					count: 4L
+					id: "5BBE936F682E55BF"
+					item: "sons_of_sins:ether_ashes"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "02BB863D4A6DAE36"
+					item: {
+						Count: 4
+						id: "sons_of_sins:bottle_of_blood"
+						tag: {
+							originEntityCapaity: 0.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: -12.5d
+		}
+		{
+			dependencies: ["672DEB6AF6D23904"]
+			description: ["&o\"Você é muito fraco, hora de me vestir na pele!\""]
+			id: "042D4CC3D1889FA7"
+			tasks: [
+				{
+					id: "549BB568DB42CBFF"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3ABA07FEAA8AA7AB"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3013A75F1CE20C66"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B72C2F899989D2D"
+					item: {
+						Count: 1
+						id: "biomancy:acolyte_armor_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6F81DEC6E3764B4B"
+					item: {
+						Count: 1
+						id: "biomancy:thorn_shield"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["0A270921CA3A110C"]
+			id: "385680C727D599B5"
+			tasks: [{
+				id: "7D5D9BA2FDB954AB"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			title: "O Filho inteligente"
+			x: 9.75d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4880E31B1882FC77"]
+			description: ["&o\"Faça um balde de sangue com os recursos da sua tarefa anterior, depois mergulhe as cinzas etéreas em sangue...\""]
+			id: "0A270921CA3A110C"
+			tasks: [{
+				id: "1E1E80DD756F645F"
+				item: "sons_of_sins:crystallized_ether"
+				type: "item"
+			}]
+			x: 8.75d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"385680C727D599B5"
+				"042D4CC3D1889FA7"
+			]
+			description: [
+				"&o\"Use carne viva em uma larva e veja o que eu posso fazer,,,\""
+				"{image:biomancy:item/loot/living_flesh width:50 height:50 align:center}"
+			]
+			id: "0009AFF7563AE71F"
+			tasks: [{
+				id: "2F39EA1F5C088373"
+				item: "biomancy:vial"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["0009AFF7563AE71F"]
+			id: "14C3BDA4253D13A5"
+			tasks: [{
+				id: "6B3A31C044F146C8"
+				item: "biomancy:organic_compound"
+				type: "item"
+			}]
+			x: 11.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["14C3BDA4253D13A5"]
+			id: "6C42EFD61317A979"
+			tasks: [
+				{
+					id: "768E0CB4A4030F84"
+					item: "biomancy:corrosive_additive"
+					type: "item"
+				}
+				{
+					id: "2BA36FBEBBAEF33B"
+					item: "biomancy:healing_additive"
+					type: "item"
+				}
+				{
+					id: "1D3EF94D01CF64B2"
+					item: "biomancy:genetic_compound"
+					type: "item"
+				}
+			]
+			x: 12.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["6C42EFD61317A979"]
+			id: "6D69C601F769726E"
+			tasks: [{
+				count: 5L
+				id: "3393782FE0993CE0"
+				item: { Count: 4, id: "biomancy:rejuvenation_serum" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["4F193550518D0BD5"]
+			id: "0AA07D66584284E2"
+			tasks: [{
+				id: "027EEF9592462C9F"
+				item: "biomancy:biometric_membrane"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -9.75d
+		}
+		{
+			dependencies: ["0AA07D66584284E2"]
+			id: "7FCD10947A6A841C"
+			tasks: [{
+				id: "577330B94D782ECE"
+				item: "biomancy:modular_larynx"
+				type: "item"
+			}]
+			x: 11.75d
+			y: -9.75d
+		}
+		{
+			dependencies: ["6D69C601F769726E"]
+			id: "73FEA4FEABAF6518"
+			tasks: [
+				{
+					id: "6BAD0A02DC16BEF9"
+					item: {
+						Count: 1
+						id: "sons_of_sins:flesh_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62510E0FCA1216B3"
+					item: {
+						Count: 1
+						id: "sons_of_sins:flesh_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26596F93CC4F427A"
+					item: {
+						Count: 1
+						id: "sons_of_sins:flesh_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BFAA3B4A24F9A8E"
+					item: {
+						Count: 1
+						id: "sons_of_sins:flesh_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D48DD696CC7155B"
+					item: {
+						Count: 1
+						id: "sons_of_sins:flesh_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["0A270921CA3A110C"]
+			id: "6DE45FE3190F96E7"
+			tasks: [{
+				id: "2354FE54BD485C0B"
+				item: "sons_of_sins:flesh_of_demise"
+				type: "item"
+			}]
+			x: 8.75d
+			y: -13.5d
+		}
+		{
+			dependencies: ["385680C727D599B5"]
+			id: "3B9F1193F18AF408"
+			tasks: [
+				{
+					id: "145E1BF2D10B50F6"
+					item: "sons_of_sins:soul_steel"
+					type: "item"
+				}
+				{
+					id: "4EB601A23E319F04"
+					item: "born_in_chaos_v1:dark_upgrade"
+					type: "item"
+				}
+			]
+			x: 10.75d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3B9F1193F18AF408"]
+			id: "35C194664C8418C5"
+			tasks: [
+				{
+					id: "1DFC9ACA938455CD"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "715B1DC6AB84BF14"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F7BD8D21B7AC72C"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CEA6AE2068EC09D"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.75d
+			y: -14.5d
+		}
+		{
+			dependencies: ["35C194664C8418C5"]
+			description: ["&o\"Você provavelmente vai morrer, acólito patético. Evite estes rituais, mas se mesmo assim quer arriscar... Coloque 7 villagers em um buraco com sangue, e depois sacrifique-os!\""]
+			id: "7C7229A2115F2E2F"
+			tasks: [{
+				id: "78BF5C72A1DB9811"
+				title: "Ritual"
+				type: "checkmark"
+			}]
+			x: 10.75d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7C7229A2115F2E2F"]
+			id: "1DEDB5795BD94550"
+			tasks: [{
+				id: "2B371D166DE9FEA7"
+				item: {
+					Count: 1
+					id: "sons_of_sins:wistivers_jaws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -18.75d
+		}
+		{
+			dependencies: ["7C7229A2115F2E2F"]
+			id: "7BB36B6B42923260"
+			tasks: [{
+				id: "0A19FA68C7E7AB29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "sons_of_sins:puppet_of_strife"
+				}
+				type: "item"
+			}]
+			x: 11.75d
+			y: -18.25d
+		}
+		{
+			dependencies: ["7C7229A2115F2E2F"]
+			id: "405E0E3140EA841F"
+			tasks: [{
+				id: "66E556243ED5A632"
+				item: "sons_of_sins:hand_of_riot"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -18.25d
+		}
+		{
+			dependencies: ["7C7229A2115F2E2F"]
+			id: "3AB687766ECBC14A"
+			tasks: [{
+				id: "6F150F006FA327E5"
+				item: "sons_of_sins:ether_engine"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -17.25d
+		}
+		{
+			dependencies: ["7C7229A2115F2E2F"]
+			id: "2FFA6A01E8D1B916"
+			tasks: [{
+				id: "3AB5CBA916B4442C"
+				item: "sons_of_sins:cursed_head"
+				type: "item"
+			}]
+			x: 9.25d
+			y: -17.25d
+		}
+		{
+			dependencies: ["7C7229A2115F2E2F"]
+			id: "7641DCD50BBFC21C"
+			tasks: [{
+				id: "7AFE0DF3E4441509"
+				item: "sons_of_sins:touch_of_greed"
+				type: "item"
+			}]
+			x: 11.75d
+			y: -16.25d
+		}
+		{
+			dependencies: ["7C7229A2115F2E2F"]
+			id: "03F1022C9B7747B1"
+			tasks: [{
+				id: "267C41587A0428E6"
+				item: {
+					Count: 1
+					id: "sons_of_sins:butcher_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -16.25d
+		}
+		{
+			dependencies: ["00F3DC487CF26E7E"]
+			description: ["&o\"Me entregue a alma de um titã, eu preciso sair deste casúlo...\""]
+			id: "28A04448C1CE87D0"
+			rewards: [{
+				auto: "invisible"
+				id: "759B2CC507BD57E0"
+				ignore_reward_blocking: true
+				stage: "biomante2"
+				type: "gamestage"
+			}]
+			tasks: [{
+				advancement: "biomancy:biomancy/nether_star_sacrifice"
+				criterion: ""
+				id: "17B509ADE6431EA8"
+				type: "advancement"
+			}]
+			title: "Torne-se o Acólito Primordial"
+			x: 16.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["28A04448C1CE87D0"]
+			description: [
+				"&o\"Você cresceu tanto... Me ofereça um dos meus filhos mais cobiçados... Ele precisa Transcender\""
+				"{image:kubejs:item/ponto_biomante width:50 height:50 align:center}"
+			]
+			id: "19793FB5BC34E078"
+			tasks: [{
+				id: "2203CACBA9BF11FF"
+				item: "kubejs:biomante_primordial"
+				type: "item"
+			}]
+			x: 17.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["73FEA4FEABAF6518"]
+			id: "00F3DC487CF26E7E"
+			tasks: [{
+				id: "0937FF1C83DF95A8"
+				item: "biomancy:absorption_boost"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["73FEA4FEABAF6518"]
+			description: ["&o\"Isso... beba tudo... não pare de beber... Você fica mais forte assim...\""]
+			id: "79DD35FCB3ACD649"
+			tasks: [{
+				id: "589BE1974213FA8D"
+				item: "biomancy:frenzy_serum"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["73FEA4FEABAF6518"]
+			description: ["&o\"Purifique a mácula da sua pele, meu acólito frágil...\""]
+			id: "647F363D13A48D5B"
+			tasks: [{
+				id: "61E93DDC3874F40A"
+				item: "biomancy:cleansing_serum"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["19793FB5BC34E078"]
+			id: "40E20F105B1F4361"
+			tasks: [{
+				id: "792DB51F0A329CD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "sons_of_sins:urn"
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["30012D4AA7DF804D"]
+			id: "23956312CE53E3CD"
+			tasks: [{
+				id: "4A692223E1264609"
+				item: {
+					Count: 1
+					id: "biomancy:caustic_gunblade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: -13.75d
+		}
+		{
+			dependencies: ["40E20F105B1F4361"]
+			id: "52F0D62B19F18220"
+			tasks: [
+				{
+					id: "757BE9ED6614A28D"
+					item: {
+						Count: 1
+						id: "sons_of_sins:ether_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72F1388970DEC34A"
+					item: {
+						Count: 1
+						id: "sons_of_sins:shape_shifting_tool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 17.75d
+			y: -13.75d
+		}
+		{
+			dependencies: ["4F44CE16D343FA7E"]
+			id: "0050363F6E591931"
+			tasks: [{
+				id: "3995CA2FAF337858"
+				item: "biomancy:bloomberry"
+				type: "item"
+			}]
+			x: 19.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["19793FB5BC34E078"]
+			description: ["&o\"Cuidado para não se queimar, é hora de digerir o mundo\""]
+			id: "30012D4AA7DF804D"
+			tasks: [{
+				id: "0A39D3B454ED3BB7"
+				item: "biomancy:primal_orifice"
+				type: "item"
+			}]
+			x: 18.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["19793FB5BC34E078"]
+			description: ["&o\"SIM! ME DEIXE AO AR LIVRE E VEJA O MUNDO RUIR\""]
+			id: "4F44CE16D343FA7E"
+			tasks: [{
+				id: "6D6968FB82D3CD3B"
+				item: "biomancy:primal_bloom"
+				type: "item"
+			}]
+			x: 18.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["30012D4AA7DF804D"]
+			id: "557BDC4111763F25"
+			tasks: [{
+				id: "75AC74E8B67378EB"
+				item: "biomancy:acid_bucket"
+				type: "item"
+			}]
+			x: 19.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["19793FB5BC34E078"]
+			id: "1587E151D2B1882A"
+			tasks: [{
+				id: "4EBEEB90ADD7AFC6"
+				item: "forbidden_arcanus:obsidian_with_iron"
+				type: "item"
+			}]
+			x: 19.75d
+			y: -11.75d
+		}
+		{
+			dependencies: [
+				"557BDC4111763F25"
+				"1587E151D2B1882A"
+				"0050363F6E591931"
+			]
+			description: [
+				"Parabéns! Você chegou na eficiência máxima da carne, ou pelo menos é até aqui que o Vortex permite você avançar..."
+				" Quando as questlines estiverem mais definidas, esta classe será a única capaz de usar o mod Evilcraft, que será essencial para a conclusão da campanha inicial. Por enquanto é isso e obrigado pelo seu esforço!"
+			]
+			id: "4838AD92DAEE300E"
+			rewards: [{
+				id: "73213A5AD0202E74"
+				item: "kubejs:talisma_foco"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Por enquanto..."
+			tasks: [{
+				id: "3D9C2444D8D5CD33"
+				title: "Mestre Biomante!!!"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: -11.75d
+		}
+	]
 	title: "Biomante"
 }

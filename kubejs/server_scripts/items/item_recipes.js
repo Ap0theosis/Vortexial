@@ -1,123 +1,4 @@
 ServerEvents.recipes(event => { 
-  // Remoção
-  event.remove({ output: 'industrialforegoing:hydroponic_bed' })
-  event.remove({ output: 'mysticalagriculture:infusion_pedestal' })
-  event.remove({ output: 'mysticalagriculture:infusion_altar' })
-  event.remove({ output: 'mysticalagriculture:infusion_pedestal' })
-  event.remove({ output: 'mysticalagriculture:prosperity_seed_base' })
-  event.remove({ output: 'mysticalagriculture:prosperity_gemstone' })
-  event.remove({ output: 'mysticalagriculture:prosperity_ingot' })
-  event.remove({ output: 'mysticalagriculture:infusion_crystal' })
-  event.remove({ output: 'mysticalagriculture:tertium_essence' })
-  event.remove({ output: 'mysticalagriculture:imperium_essence' })
-  event.remove({ output: 'mysticalagriculture:supremium_essence' })
-  event.remove({ output: 'mysticalagriculture:air_agglomeratio' })
-  event.remove({ output: 'mysticalagriculture:earth_agglomeratio' })
-  event.remove({ output: 'mysticalagriculture:water_agglomeratio' })
-  event.remove({ output: 'mysticalagriculture:fire_agglomeratio' })
-  event.remove({ output: 'mysticalagriculture:tinkering_table' })
-  event.remove({ output: 'mysticalagriculture:unattuned_augment' })
-  event.remove({ output: 'mysticalagriculture:inferium_helmet' })
-  event.remove({ output: 'mysticalagriculture:inferium_chestplate' })
-  event.remove({ output: 'mysticalagriculture:inferium_leggings' })
-  event.remove({ output: 'mysticalagriculture:inferium_boots' })
-  event.remove({ output: 'mysticalagriculture:machine_frame' })
-  event.remove({ output: 'mysticalagriculture:enchanter' })
-  event.remove({ output: 'mysticalagriculture:soulium_spawner' })
-  event.remove({ output: 'thermal:machine_insolator' })
-  event.remove({ output: 'bloodmagic:sacrificialdagger' })
-  event.remove({ output: 'bloodmagic:bloodaltar' })
-  event.remove({ output: 'reliquary:apothecary_mortar' })
-  event.remove({ output: 'enigmaticlegacy:golden_ring' })
-  event.remove({ output: 'reliquary:alkahestry_tome' })
-  event.remove({ output: 'reliquary:lantern_of_paranoia' })
-  event.remove({ output: 'minecraft:popped_chorus_fruit' })
-  event.remove({ output: 'apotheosis:potion_charm' })
-  event.remove({ output: 'reliquary:fertile_essence' })
-  event.remove({ output: 'reliquary:infernal_claw' })
-  event.remove({ output: 'reliquary:fertile_lily_pad' })
-  event.remove({ output: 'reliquary:fertile_potion' })
-  event.remove({ output: 'reliquary:void_tear' })
-  event.remove({ output: 'reliquary:infernal_tear' })
-  event.remove({ output: 'reliquary:alkahestry_altar' })
-  event.remove({ output: 'reliquary:glowing_water' })
-  event.remove({ output: 'reliquary:empty_potion_vial' })
-  event.remove({ output: 'reliquary:magicbane' })
-  event.remove({ output: 'bloodmagic:altar' })
-  event.remove({ output: 'reliquary:angelheart_vial' })
-  event.remove({ output: 'reliquary:witherless_rose' })
-  event.remove({ output: 'born_in_chaos_v1:potion_of_rampage'})
-  event.remove({ output: 'reliquary:midas_touchstone'})
-  event.remove({ output: 'mysticalagriculture:inferium_seeds'})
-  event.remove({ output: 'apotheosis:ender_lead'})
-  event.remove({ output: 'experienceobelisk:experience_jelly'})
-  event.remove({ output: 'enigmaticlegacy:the_acknowledgment'})
-  event.remove({ output: 'pneumaticcraft:memory_stick'})
-  event.remove({ output: 'reliquary:hero_medallion'})
-  event.remove({ output: 'reliquary:fortune_coin'})
-  event.remove({ output: 'mob_grinding_utils:entity_spawner'})
-  event.remove({ output: 'bloodmagic:experiencebook'})
-  event.remove({ output: 'mysticalagriculture:experience_capsule'})
-  event.remove({ output: 'thermal:xp_crystal'})
-  event.remove({ output: 'mob_grinding_utils:tank_sink'})
-  event.remove({ output: 'evilcraft:blook'})
-  event.remove({ output: 'evilcraft:invigorating_pendant'})
-  event.remove({ output: 'evilcraft:primed_pendant'})
-  event.remove({ output: 'minecraft:brewing_stand'})
-  event.remove({ output: 'minecraft:enchanting_table'})
-  event.remove({ output: '#minecraft:hoes'})
-  event.remove({ output: 'experienceobelisk:cognitive_flux'})
-  event.remove({ output: 'experienceobelisk:experience_obelisk'})
-  event.remove({ output: 'experienceobelisk:molecular_metamorpher'})
-  event.remove({ output: 'experienceobelisk:precision_dispeller'})
-  event.remove({ output: 'experienceobelisk:cognitive_axe'})
-  event.remove({ output: 'experienceobelisk:cognitive_shovel'})
-  event.remove({ output: 'experienceobelisk:bibliophage'})
-  event.remove({ id: 'apotheosis:hellshelf'})
-  event.remove({ id: 'apotheosis:seashelf'})
-  event.remove({ output: 'apotheosis:hellshelf'})
-  event.remove({ output: 'apotheosis:seashelf'})
-  event.remove({ output: 'experienceobelisk:enchanted_bookshelf'})
-  event.remove({ output: 'experienceobelisk:archivers_bookshelf'})
-  event.replaceInput(
-    { input: 'minecraft:bookshelf' }, // Arg 1: the filter
-    'minecraft:bookshelf',            // Arg 2: the item to replace
-    'experienceobelisk:bibliophage'         // Arg 3: the item to replace it with
-  )
-  event.remove({ output: 'apotheosis:library'})
-  event.remove({ output: 'apotheosis:filtering_shelf'})
-  event.remove({ output: 'apotheosis:dormant_deepshelf'})
-  event.remove({ output: 'hostilenetworks:blank_data_model'})
-  event.remove({ output: 'hostilenetworks:deep_learner'})
-  event.remove({ output: 'forbidden_arcanus:soul_extractor'})
-  event.remove({ output: 'hostilenetworks:prediction_matrix'})
-  event.remove({ output: 'enigmaticlegacy:xp_scroll'})
-  event.remove({ output: 'enigmaticlegacy:heaven_scroll'})
-  event.remove({ output: 'enigmaticlegacy:fabulous_scroll'})
-  event.remove({ output: 'enigmaticlegacy:escape_scroll'})
-  event.remove({ output: 'apotheosis:augmenting_table'})
-  event.remove({ output: 'evilcraft:vengeance_pickaxe'})
-  event.remove({ output: 'minecraft:dragon_head'})
-  event.remove({ mod: 'jeg' })
-  event.remove({ output: 'mekanism:flamethrower' })
-  event.remove({ output: 'born_in_chaos_v1:pumpkin_bullet' })
-  event.remove({ output: 'powah:steel_energized' })
-  event.replaceInput(
-    { input: 'powah:dielectric_casing' }, 
-    'powah:dielectric_casing',           
-    'kubejs:ponto_atirador'       
-  )
-  event.replaceInput(
-    { input: 'powah:dielectric_paste' }, 
-    'powah:dielectric_paste',           
-    'jeg:scrap'       
-  )
-  event.remove({ output: 'create:potato_cannon' })
-  event.remove({ output: 'powah:crystal_niotic' })
-  event.remove({ output: 'powah:crystal_spirited' })
-  event.remove({ output: 'powah:crystal_nitro' })
-  event.remove({ output: 'pneumaticcraft:micromissiles' })
-  event.remove({ output: 'cataclysm:wither_assault_shoulder_weapon' })
   //Crafting Table Shaped
   event.shaped('kubejs:talisma_possessao', [
     '   ',
@@ -731,6 +612,7 @@ ServerEvents.recipes(event => {
   D: 'jeg:grenade'
  })
   // Cognition Recipes
+
   event.custom({
     type: 'experienceobelisk:molecular_metamorphosis', // Define the custom recipe type
     ingredient1: { item: 'minecraft:lapis_lazuli' },        // First ingredient
@@ -1047,7 +929,7 @@ ServerEvents.recipes(event => {
   'kubejs:hollenfire_possessed' // have this item be a guaranteed output
  ], 'biomancy:unstable_compound', [ // 'create:brass_ingot' is the input.
  // the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item that will be used during the recipe as the item that the input is using to transition to the output.
-  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'kubejs:talisma_possessao']), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'kubejs:biomante_possessed']), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
   event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'hostilenetworks:blank_data_model']), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
   event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'powah:nitro_crystal_block']),
   event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'apotheosis:infused_breath']),
@@ -1062,7 +944,7 @@ ServerEvents.recipes(event => {
  event.recipes.createSequencedAssembly([ 
   'kubejs:soulhunter_possessed' 
  ], 'biomancy:exotic_compound', [
-  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'kubejs:talisma_possessao']),
+  event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'kubejs:biomante_possessed']),
   event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'hostilenetworks:blank_data_model']), 
   event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'powah:nitro_crystal_block']),
   event.recipes.createDeploying('kubejs:materia_instavel', ['kubejs:materia_instavel', 'apotheosis:infused_breath']),
@@ -1073,5 +955,670 @@ ServerEvents.recipes(event => {
   'kubejs:soulhunter_possessed', [ 
  event.recipes.createDeploying('kubejs:soulhunter_possessed', ['kubejs:soulhunter_possessed', 'jeg:blaze_round']),
  ]).transitionalItem('kubejs:soulhunter_possessed').loops(256)
-})
+ // Smithing
+ event.smithing(
+  'sons_of_sins:remnant_helmet',                     // arg 1: output
+  'born_in_chaos_v1:dark_upgrade', // arg 2: the smithing template
+  'minecraft:iron_helmet',                          // arg 3: the item to be upgraded
+  'sons_of_sins:soul_steel'                            // arg 4: the upgrade item
+ )
+ event.smithing(
+  'sons_of_sins:remnant_chestplate',           
+  'born_in_chaos_v1:dark_upgrade', 
+  'minecraft:iron_chestplate',                          
+  'sons_of_sins:soul_steel'                            
+ )
+ event.smithing(
+  'sons_of_sins:remnant_leggings',           
+  'born_in_chaos_v1:dark_upgrade', 
+  'minecraft:iron_leggings',                          
+  'sons_of_sins:soul_steel'                            
+ )
+ event.smithing(
+  'sons_of_sins:remnant_boots',           
+  'born_in_chaos_v1:dark_upgrade', 
+  'minecraft:iron_boots',                          
+  'sons_of_sins:soul_steel'                            
+ )
+ // Biomancy
+ event.custom({
+  "type": "biomancy:bio_forging",
+  "bio_forge_tab": "biomancy:misc",
+  "ingredients": [{
+      "count": 9,
+      "item": "biomancy:flesh_bits"
+    },{
+      "count": 3,
+      "item": "biomancy:mineral_fragment"
+    },{
+      "count": 3,
+      "item": "biomancy:elastic_fibers"
+    },{
+      "count": 3,
+      "item": "biomancy:tough_fibers"
+    },{
+      "count": 3,
+      "item": "biomancy:living_flesh"
+    }],
+  "nutrientsCost": 50,
+  "result": {
+    "item": "kubejs:ponto_biomante"
+  }}),
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [{
+        "count": 8,
+        "item": "biomancy:bone_fragments"
+      },{
+        "count": 1,
+        "item": "kubejs:ponto_biomante"
+      },{
+        "count": 4,
+        "item": "biomancy:elastic_fibers"
+      },{
+        "count": 1,
+        "item": "minecraft:stone_pickaxe"
+      }],
+    "nutrientsCost": 50,
+    "result": {
+      "item": "sons_of_sins:osseous_pickaxe"
+  }}),
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [{
+        "count": 8,
+        "item": "biomancy:bone_fragments"
+      },{
+        "count": 1,
+        "item": "kubejs:ponto_biomante"
+      },{
+        "count": 4,
+        "item": "biomancy:elastic_fibers"
+      },{
+        "count": 1,
+        "item": "minecraft:stone_axe"
+      }],
+    "nutrientsCost": 50,
+    "result": {
+      "item": "sons_of_sins:osseous_axe"
+  }}),
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [{
+        "count": 8,
+        "item": "biomancy:bone_fragments"
+      },{
+        "count": 1,
+        "item": "kubejs:ponto_biomante"
+      },{
+        "count": 4,
+        "item": "biomancy:elastic_fibers"
+      },{
+        "count": 1,
+        "item": "minecraft:stone_sword"
+      }],
+    "nutrientsCost": 50,
+    "result": {
+      "item": "sons_of_sins:osseous_sword"
+  }}),
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [{
+        "count": 8,
+        "item": "biomancy:bone_fragments"
+      },{
+        "count": 1,
+        "item": "kubejs:ponto_biomante"
+      },{
+        "count": 4,
+        "item": "biomancy:elastic_fibers"
+      },{
+        "count": 1,
+        "item": "minecraft:stone_shovel"
+      }],
+    "nutrientsCost": 50,
+    "result": {
+      "item": "sons_of_sins:osseous_shovel"
+  }}),
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [{
+        "count": 8,
+        "item": "biomancy:bone_fragments"
+      },{
+        "count": 1,
+        "item": "kubejs:ponto_biomante"
+      },{
+        "count": 4,
+        "item": "biomancy:elastic_fibers"
+      },{
+        "count": 1,
+        "item": "minecraft:stone_hoe"
+      }],
+    "nutrientsCost": 50,
+    "result": {
+      "item": "sons_of_sins:osseous_hoe"
+  }})
+  event.custom({
+    "type": "biomancy:digesting",
+    "ingredient": {
+      "item": "kubejs:ponto_biomante"
+    },
+    "result": {
+      "item": "biomancy:nutrient_bar"
+    },
+    "nutrientsCost": 5,
+    "processingTime": 200,
+  }),
+  event.custom({
+    "type": "biomancy:digesting",
+    "ingredient": {
+      "item": "hexerei:animal_fat"
+    },
+    "result": {
+      "count": 2,
+      "item": "biomancy:nutrient_paste"
+    },
+    "nutrientsCost": 1,
+    "processingTime": 20,
+  }),
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:machines",
+    "ingredients": [{
+        "count": 8,
+        "item": "sons_of_sins:crystallized_ether"
+      },{
+        "count": 4,
+        "item": "kubejs:ponto_biomante"
+      },{
+        "count": 4,
+        "item": "biomancy:toxin_extract"
+      },{
+        "count": 16,
+        "item": "biomancy:exotic_dust"
+      },{
+        "count": 1,
+        "item": "sons_of_sins:heart"
+      }],
+    "nutrientsCost": 100,
+    "result": {
+      "item": "biomancy:bio_lab"
+  }})
+  event.custom({
+    "type": "biomancy:bio_brewing",
+    "ingredients": [
+      {
+        "item": "born_in_chaos_v1:corpse_maggot"
+      }
+    ],
+    "nutrientsCost": 1,
+    "processingTime": 60,
+    "reactant": {
+      "item": "biomancy:vial"
+    },
+    "result": {
+      "item": "biomancy:organic_compound"
+    }
+  })
+  event.custom({
+    "type": "biomancy:bio_brewing",
+    "ingredients": [
+      {
+        "item": "sons_of_sins:osseous_pickaxe"
+      },{
+        "item": "sons_of_sins:heart"
+      },{
+        "item": "sons_of_sins:crystallized_ether"
+      },
+    ],
+    "nutrientsCost": 150,
+    "processingTime": 20*60,
+    "reactant": {
+      "item": "biomancy:rejuvenation_serum"
+    },
+    "result": {
+      "item": "sons_of_sins:flesh_pickaxe"
+    }
+  })
+  event.custom({
+    "type": "biomancy:bio_brewing",
+    "ingredients": [
+      {
+        "item": "sons_of_sins:osseous_axe"
+      },{
+        "item": "sons_of_sins:heart"
+      },{
+        "item": "sons_of_sins:crystallized_ether"
+      },
+    ],
+    "nutrientsCost": 150,
+    "processingTime": 20*60,
+    "reactant": {
+      "item": "biomancy:rejuvenation_serum"
+    },
+    "result": {
+      "item": "sons_of_sins:flesh_axe"
+    }
+  })
+  event.custom({
+    "type": "biomancy:bio_brewing",
+    "ingredients": [
+      {
+        "item": "sons_of_sins:osseous_sword"
+      },{
+        "item": "sons_of_sins:heart"
+      },{
+        "item": "sons_of_sins:crystallized_ether"
+      },
+    ],
+    "nutrientsCost": 150,
+    "processingTime": 20*60,
+    "reactant": {
+      "item": "biomancy:rejuvenation_serum"
+    },
+    "result": {
+      "item": "sons_of_sins:flesh_sword"
+    }
+  })
+  event.custom({
+    "type": "biomancy:bio_brewing",
+    "ingredients": [
+      {
+        "item": "sons_of_sins:osseous_shovel"
+      },{
+        "item": "sons_of_sins:heart"
+      },{
+        "item": "sons_of_sins:crystallized_ether"
+      },
+    ],
+    "nutrientsCost": 150,
+    "processingTime": 20*60,
+    "reactant": {
+      "item": "biomancy:rejuvenation_serum"
+    },
+    "result": {
+      "item": "sons_of_sins:flesh_shovel"
+    }
+  })
+  event.custom({
+    "type": "biomancy:bio_brewing",
+    "ingredients": [
+      {
+        "item": "sons_of_sins:osseous_hoe"
+      },{
+        "item": "sons_of_sins:heart"
+      },{
+        "item": "sons_of_sins:crystallized_ether"
+      },
+    ],
+    "nutrientsCost": 150,
+    "processingTime": 20*60,
+    "reactant": {
+      "item": "biomancy:rejuvenation_serum"
+    },
+    "result": {
+      "item": "sons_of_sins:flesh_hoe"
+    }
+  })
+  event.custom({
+    "type": "biomancy:bio_brewing",
+    "ingredients": [
+      {
+        "item": "mysticalagriculture:soulium_ingot"
+      },
+    ],
+    "nutrientsCost": 1,
+    "processingTime": 40,
+    "reactant": {
+      "item": "biomancy:cleansing_serum"
+    },
+    "result": {
+      "item": "sons_of_sins:soul_steel"
+    }
+  })
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [{
+        "count": 2,
+        "item": "kubejs:biomante_primordial"
+      },{
+        "count": 1,
+        "item": "sons_of_sins:golem_cuirass"
+      },{
+        "count": 1,
+        "item": "sons_of_sins:flesh_sword"
+      },{
+        "count": 1,
+        "item": "sons_of_sins:flesh_axe"
+      }],
+    "nutrientsCost": 200,
+    "result": {
+      "item": "sons_of_sins:ether_sword"
+  }})
+  event.custom({
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:tools",
+    "ingredients": [{
+        "count": 3,
+        "item": "kubejs:biomante_primordial"
+      },{
+        "count": 1,
+        "item": "sons_of_sins:golem_cuirass"
+      },{
+        "count": 1,
+        "item": "sons_of_sins:flesh_shovel"
+      },{
+        "count": 1,
+        "item": "sons_of_sins:flesh_pickaxe"
+      },{
+        "count":1,
+        "item": "sons_of_sins:flesh_hoe"
+      }],
+    "nutrientsCost": 200,
+    "result": {
+      "item": "sons_of_sins:shape_shifting_tool"
+  }})
+  event.custom({
+    "type": "biomancy:bio_forging", "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [{
+        "count": 3,
+        "item": "kubejs:biomante_primordial"
+      },{
+        "count": 9,
+        "item": "born_in_chaos_v1:corpse_maggot"
+      },{
+        "count": 1,
+        "item": "biomancy:flesh"
+      }],
+    "nutrientsCost": 200, "result": {"item": "biomancy:primal_orifice"}
+  })
+  event.custom({
+    "type": "biomancy:bio_forging", "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [{
+        "count": 3,
+        "item": "kubejs:biomante_primordial"
+      },{
+        "count": 9,
+        "item": "minecraft:shroomlight"
+      },{
+        "count": 1,
+        "item": "ars_nouveau:source_berry_pie"
+      }],
+    "nutrientsCost": 200, "result": {"item": "biomancy:primal_bloom"}
+  })
+  event.custom({
+    "type": "biomancy:bio_forging", "bio_forge_tab": "biomancy:blocks",
+    "ingredients": [{
+        "count": 3,
+        "item": "kubejs:biomante_primordial"
+      },{
+        "count": 9,
+        "item": "biomancy:tendon_chain"
+      },{
+        "count": 1,
+        "item": "biomancy:flesh"
+      }],
+    "nutrientsCost": 20, "result": {"item": "biomancy:malignant_flesh_veins"}
+ })
+ event.custom({
+  "type": "biomancy:decomposing",
+  "ingredient": {
+    "count": 1,
+    "item": "evilcraft:dark_gem"
+  },
+  "nutrientsCost": 1,
+  "processingTime": 90,
+  "results": [
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 2
+      },
+      "item": "biomancy:gem_fragments"
+    },
+    {
+      "countRange": {
+        "type": "uniform",
+        "max": 1,
+        "min": 0
+      },
+      "item": "biomancy:withering_ooze"
+    },
+  ]
+ })
+ event.custom({
+  "type": "biomancy:decomposing",
+  "ingredient": {
+    "count": 1,
+    "item": "evilcraft:dark_gem"
+  },
+  "nutrientsCost": 1,
+  "processingTime": 90,
+  "results": [
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 1
+      },
+      "item": "biomancy:exotic_dust"
+    },
+  ]
+ })
+ event.custom({
+  "type": "biomancy:decomposing",
+  "ingredient": {
+    "count": 1,
+    "item": "kubejs:biomante_primordial"
+  },
+  "nutrientsCost": 10,
+  "processingTime": 20*10,
+  "results": [
+    {
+      "countRange": {
+        "type": "constant",
+        "value": 1
+      },
+      "item": "forbidden_arcanus:obsidian_with_iron"
+    },
+  ]
+ })
+ // Occultism
+ event.recipes.occultism.spirit_fire('hexerei:willow_sapling', 'occultism:otherworld_sapling_natural')
+ event.recipes.occultism.spirit_fire('hexerei:witch_hazel_sapling', 'hexerei:willow_sapling')
+ event.recipes.occultism.spirit_fire('hexerei:mahogany_sapling', 'hexerei:witch_hazel_sapling')
+ event.recipes.occultism.ritual(
+   '2x enigmaticlegacy:ender_rod',
+   [
+    "minecraft:blaze_rod",
+    "minecraft:blaze_rod",
+    "minecraft:ender_pearl",
+    "enigmaticlegacy:astral_dust",
+    "enigmaticlegacy:astral_dust",
+   ],
+   'kubejs:ponto_bruxo',
+   'occultism:summon_foliot'
+ ).dummy('occultism:ritual_dummy/custom_ritual')
+ event.recipes.occultism.ritual(
+  'enigmaticlegacy:extradimensional_eye',
+  [
+   "minecraft:blaze_powder",
+   "minecraft:blaze_powder",
+   "minecraft:ender_eye",
+   "minecraft:gold_ingot",
+   "minecraft:gold_ingot",
+  ],
+  'kubejs:ponto_bruxo',
+  'occultism:summon_foliot'
+).dummy('occultism:ritual_dummy/custom_ritual')
+event.recipes.occultism.ritual(
+  'ars_nouveau:abjuration_essence',
+  [
+   "minecraft:sugar",
+   "minecraft:spider_eye"
+  ],
+  'kubejs:ponto_bruxo',
+  'occultism:summon_foliot'
+ ).dummy('occultism:ritual_dummy/custom_ritual')
+ event.custom({
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:otherworld_essence"
+  },
+  "pentacle_id": "occultism:summon_djinni",
+  "entity_to_sacrifice": {
+    "tag": "forge:chicken",
+    "display_name": "ritual.occultism.sacrifice.chicken"
+  },
+  "ritual_dummy": {
+    "item": "occultism:ritual_dummy/custom_ritual"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": {
+    "item": "kubejs:ponto_bruxo"
+  }})
+  event.custom({
+    "type": "occultism:ritual",
+    "activation_item": {
+      "item": "minecraft:emerald_block"
+    },
+    "pentacle_id": "occultism:possess_afrit",
+    "entity_to_sacrifice": {
+      "tag": "forge:villagers",
+      "display_name": "Villager"
+    },
+    "ritual_dummy": {
+      "item": "occultism:ritual_dummy/custom_ritual"
+    },
+    "ingredients": [
+     {"item": "kubejs:ponto_bruxo"},
+     {"item": "enigmaticlegacy:extradimensional_eye"},
+     {"item": "enigmaticlegacy:earth_heart"},
+     {"item": "enigmaticaddons:ichor_droplet"},
+     {"item": "enigmaticlegacy:astral_dust"}
+    ],
+    "result": {
+    "item": "minecraft:totem_of_undying"
+  }
+  })
+  event.custom({
+    "type": "occultism:ritual",
+    "activation_item": {
+      "item": "occultism:otherworld_essence"
+    },
+    "pentacle_id": "occultism:summon_afrit",
+    "ritual_dummy": {
+      "item": "occultism:ritual_dummy/custom_ritual"
+    },
+    "ingredients": [
+      {"item": "kubejs:ponto_bruxo"},
+      {"item": "hexerei:mahogany_sapling"},
+      {"item": "hexerei:mandrake_root"},
+      {"item": "hexerei:dried_sage"},
+      {"item": "hexerei:belladonna_flowers"},
+      {"item": "hexerei:bottle_of_blood"}
+      
+    ],
+    "result": {
+      "item": "enigmaticlegacy:earth_heart"
+    }})
+  event.recipes.occultism.ritual(
+    '3x enigmaticaddons:ichor_droplet',
+    [
+      "minecraft:ghast_tear",
+      "minecraft:ghast_tear",
+      "minecraft:gold_block",
+      "minecraft:gold_ore",
+      "hexerei:gold_rings",
+    ],
+    'kubejs:ponto_bruxo',
+    'occultism:summon_djinni'
+  ).dummy('occultism:ritual_dummy/custom_ritual')
+  event.recipes.occultism.ritual(
+    'enigmaticaddons:pure_heart',
+    [
+     "enigmaticaddons:ichor_droplet",
+     "enigmaticaddons:ichor_droplet",
+     "minecraft:glowstone_dust",
+     "minecraft:glowstone_dust",
+     "minecraft:ender_eye",
+     "enigmaticlegacy:ender_rod"
+    ],
+    'enigmaticlegacy:earth_heart',
+    'occultism:summon_marid'
+  ).dummy('occultism:ritual_dummy/custom_ritual')
+  event.recipes.occultism.ritual(
+    'enigmaticlegacy:twisted_heart',
+    [
+     "minecraft:nether_star",
+     "minecraft:wither_skeleton_skull",
+     "minecraft:carved_pumpkin",
+     "hexerei:moon_dust",
+     "biomancy:bloomberry"
+    ],
+    'enigmaticlegacy:earth_heart',
+    'occultism:summon_marid'
+  ).dummy('occultism:ritual_dummy/custom_ritual')
+  event.recipes.occultism.ritual(
+    'enigmaticlegacy:cosmic_heart',
+    [
+     "minecraft:nether_star",
+     "minecraft:wither_skeleton_skull",
+     "minecraft:carved_pumpkin",
+     "hexerei:moon_dust",
+     "biomancy:bloomberry"
+    ],
+    'kubejs:bruxo_possessed',
+    'occultism:summon_marid'
+  ).dummy('occultism:ritual_dummy/custom_ritual')
+  event.recipes.occultism.ritual(
+    'enigmaticlegacy:the_twist',
+    [
+     "minecraft:netherite_ingot",
+     "kubejs:talisma_ares",
+     "enigmaticlegacy:twisted_heart",
+     "enigmaticlegacy:twisted_heart",
+     "hexerei:moon_dust_brush",
+     "enigmaticlegacy:enchanters_pearl"
+    ],
+    'enigmaticlegacy:the_acknowledgment',
+    'occultism:bind_marid'
+  ).dummy('occultism:ritual_dummy/custom_ritual')
+  event.custom({
+    "type": "occultism:ritual",
+    "activation_item": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "pentacle_id": "occultism:possess_afrit",
+    "entity_to_sacrifice": {
+      "tag": "forge:villagers",
+      "display_name": "Villager"
+    },
+    "ritual_dummy": {
+      "item": "occultism:ritual_dummy/custom_ritual"
+    },
+    "ingredients": [
+     {"item": "enigmaticlegacy:evil_essence"},
+     {"item": "enigmaticlegacy:evil_essence"},
+     {"item": "enigmaticlegacy:evil_essence"},
+     {"item": "enigmaticlegacy:evil_essence"},
+     {"item": "enigmaticlegacy:twisted_heart"},
+     {"item": "occultism:iesnium_block"},
 
+    ],
+    "result": {
+    "item": "enigmaticlegacy:evil_ingot"
+  }
+  })
+  event.recipes.occultism.crushing('enigmaticlegacy:astral_dust', 'minecraft:amethyst_shard')
+})
