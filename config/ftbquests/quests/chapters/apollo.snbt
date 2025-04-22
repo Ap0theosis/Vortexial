@@ -1,0 +1,158 @@
+{
+	autofocus_id: "108F39177EC21799"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apollo"
+	group: "07086E1A2C4D20AF"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_apollo"
+	id: "513FABDC6C80BBAD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "108F39177EC21799"
+			optional: true
+			rewards: [{
+				id: "3DEC3564E6F5D7CC"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.4f
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4CE0A78CC36DAA6C"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Apolo"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D02870FE9A597CC"]
+			description: [" Faça um buraco 2x2 no chão, rodeie o de flores, preenche com água e jogue um diamante!"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "20517F7B2BDC579F"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "361E985253A1F457"
+				type: "dimension"
+			}]
+			title: "Terra do Sol Nascente"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20517F7B2BDC579F"]
+			id: "66BDB696A5ADEF41"
+			rewards: [{
+				id: "7ED62EACC6303D7A"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				id: "254A81B13B4A867A"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["66BDB696A5ADEF41"]
+			id: "4CD8F6F74A60C7EE"
+			rewards: [{
+				id: "6103A02CE547A582"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3306532858559E00"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CD8F6F74A60C7EE"]
+			id: "401A958CEBEA4EA8"
+			tasks: [{
+				id: "21C4079F48D0ECEF"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["401A958CEBEA4EA8"]
+			id: "7E9289F2CB182049"
+			rewards: [{
+				id: "08B9FBAF9212A1A4"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FAACA4DE246C425"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["4CD8F6F74A60C7EE"]
+			id: "152D35FE29A08CDE"
+			tasks: [{
+				id: "1EF8AD85B123E8C9"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["152D35FE29A08CDE"]
+			id: "7AF0754EC79D1215"
+			rewards: [{
+				id: "1DEE3209E86ABFA9"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35782FF99F9BA8A8"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["4CD8F6F74A60C7EE"]
+			id: "682E5E465CD71C54"
+			rewards: [{
+				id: "48786919FD1D8C69"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F3DBF62DCB4558"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.75d
+		}
+	]
+	title: "Apolo"
+}

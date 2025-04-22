@@ -1,0 +1,34 @@
+{
+	id: "604C2A065EA44A81"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:tertium_crossbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:tertium_bow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1
+					}]
+				}
+			}
+		}
+	]
+	title: "Atirador0"
+}

@@ -1,0 +1,176 @@
+{
+	autofocus_id: "6B33B0E0EA46BB4E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "poseidon"
+	group: "07086E1A2C4D20AF"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_poseidon"
+	id: "675AB224804F85C9"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "6B33B0E0EA46BB4E"
+			optional: true
+			rewards: [{
+				id: "321982B007B00743"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.7f
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "5C4A1ABEA9B2D916"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Poseidon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64017CF89498B65B"]
+			id: "190F33BB9DA0DE3F"
+			rewards: [{
+				id: "71D120B451D58A28"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B9B09A979A06EDA"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["190F33BB9DA0DE3F"]
+			id: "23C697F7992743F4"
+			tasks: [{
+				id: "474C2FD60273EF70"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["23C697F7992743F4"]
+			id: "3496E33B908DE80C"
+			rewards: [{
+				id: "523D42BF6AFE39FB"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7720ADC2A8A85521"
+				item: "born_in_chaos_v1:rotten_fish"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["190F33BB9DA0DE3F"]
+			id: "3C5AFB3D10DED158"
+			rewards: [{
+				id: "77EF757AF6E61ACB"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75396080652E77F8"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3C5AFB3D10DED158"]
+			id: "3B3E2AC008C7E1E4"
+			tasks: [{
+				id: "747EF552EB118473"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3B3E2AC008C7E1E4"]
+			id: "468EA21B34335CE7"
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "518D5F247358B8D0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["468EA21B34335CE7"]
+			id: "3EE28A169DE42455"
+			rewards: [{
+				id: "6A75D4ADE41E4C9F"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "46A5CE00D4B08E38"
+				type: "kill"
+				value: 8L
+			}]
+			x: 2.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["190F33BB9DA0DE3F"]
+			id: "20A4DD6E07462B2D"
+			tasks: [{
+				id: "4348B150919F3893"
+				structure: "minecraft:buried_treasure"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["20A4DD6E07462B2D"]
+			id: "0E72725FA13A4D61"
+			rewards: [{
+				id: "4B06037EE3F171B3"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "71A5121D18560C7F"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.25d
+		}
+	]
+	title: "Poseidon"
+}

@@ -1,0 +1,941 @@
+{
+	autofocus_id: "0E95D6B5563DC280"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qumico"
+	group: "29665EDF34C45838"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:ponto_quimico"
+	id: "5393C695445BB8D2"
+	images: [
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.25d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/h_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.25d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/e_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.25d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/m_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.25d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.25d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.25d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/l_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.75d
+			y: 1.25d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"006763C3FE7C455C"
+				"5C7F64A0C50CEFB2"
+				"783190F48B5130F8"
+				"326E17F9281E9C5C"
+				"0ECD05DB26AD6729"
+				"527131530D309DE2"
+				"0B5BCCEEBC3445B8"
+				"309F537B671864CD"
+				"5CA338DADA1564FC"
+			]
+			description: ["Seu primeiro passo pra entender o verdadeiro Vórtice, os deuses estão de olho em você."]
+			hide_dependency_lines: false
+			id: "6AB0123F077745DC"
+			shape: "hexagon"
+			tasks: [{
+				id: "6C6ED6C60B07C742"
+				item: "kubejs:elemento_x"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4A0A92BF3C03A693"]
+			description: [
+				"Você poderá transformar itens e blocos nos seus elementos primários, pra quê eletrólise?!"
+				""
+				" As tarefas abaixo são as que contem alguns elementos para dissolver e transformar em outros materiais mais úteis. Na maioria das vezes você sempre poderá fazer o processo inverso."
+			]
+			id: "4D7946F3EAE2E8CA"
+			rewards: [{
+				id: "1DD4431B6EA95F32"
+				item: "alchemistry:liquifier"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA59BBF9C8B2B83"
+				item: "alchemistry:dissolver"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0199454F1760E442"]
+			id: "68CA623AF33A79B2"
+			tasks: [{
+				id: "3F26992961C23BAC"
+				item: "chemlib:yttrium_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["4D7946F3EAE2E8CA"]
+			id: "1161AEB89A632B65"
+			tasks: [{
+				id: "1305693FC0CFCC9A"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["4D7946F3EAE2E8CA"]
+			description: [" Se você é um visionário, vai automatizar isso aqui."]
+			id: "218D7BA13567BDC6"
+			tasks: [{
+				id: "4EA391D26017C237"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["31E153408F11F3EE"]
+			description: ["Boa sorte, a interface e embelezamento das quests ainda estão em progresso, mas boa parte da progressão está pronta."]
+			id: "4A0A92BF3C03A693"
+			tasks: [{
+				id: "6214A8B3ED4007FB"
+				title: "Quimico"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["4A0A92BF3C03A693"]
+			description: ["Essa é a \"Crafting Table\" do químico, boa parte dos blocos desta classe serão feitos por aqui, incluindo seu ponto de perícia e os painéis solares iniciais"]
+			id: "061F1FCE5CCD02A8"
+			rewards: [{
+				id: "0FB7B8F1CF9BC568"
+				item: "alchemistry:atomizer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4971A2D555604CAC"
+				item: "alchemistry:combiner"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["061F1FCE5CCD02A8"]
+			id: "3B2D3A59FB11FE88"
+			tasks: [{
+				count: 3L
+				id: "296FD637E3F64451"
+				item: { Count: 3, id: "mekanismgenerators:solar_panel" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3B2D3A59FB11FE88"]
+			id: "116017EEC1D68FB8"
+			tasks: [{
+				id: "65DC611364155272"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4D7946F3EAE2E8CA"]
+			id: "789FF46613327C13"
+			tasks: [{
+				id: "59D31B49FE5E071E"
+				item: "minecraft:nether_brick"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["4D7946F3EAE2E8CA"]
+			id: "09E9E177F449AD3F"
+			tasks: [{
+				id: "3B67FE5056ADC367"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["789FF46613327C13"]
+			id: "12D5DFBE3B8A32E3"
+			tasks: [
+				{
+					id: "3035D4E9BE944EDE"
+					item: "chemlib:zinc_oxide"
+					type: "item"
+				}
+				{
+					id: "6CEDA9DE88B0E3E4"
+					item: "chemlib:sulfur"
+					type: "item"
+				}
+				{
+					id: "4FDF315C9EC64F8F"
+					item: "chemlib:silicon"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["09E9E177F449AD3F"]
+			id: "0E95D6B5563DC280"
+			tasks: [
+				{
+					id: "2C52BE3D93717E50"
+					item: "chemlib:selenium"
+					type: "item"
+				}
+				{
+					id: "11FEC2689B46E8A5"
+					item: "chemlib:chitin"
+					type: "item"
+				}
+				{
+					id: "360DE07AF4260A49"
+					item: "chemlib:germanium"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["218D7BA13567BDC6"]
+			id: "5805014A3627F1EB"
+			tasks: [
+				{
+					id: "0A3C259E50D4C132"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					id: "42D88AC0E7881CCE"
+					item: "chemlib:gold"
+					type: "item"
+				}
+				{
+					id: "653FB77FF48502FB"
+					item: "chemlib:tungsten"
+					type: "item"
+				}
+				{
+					id: "712F9BC560D6DE0D"
+					item: "chemlib:nickel"
+					type: "item"
+				}
+				{
+					id: "65E3FB8D2CB5E56A"
+					item: "chemlib:aluminum"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4D7946F3EAE2E8CA"]
+			id: "4D188E38D46EE17B"
+			tasks: [{
+				id: "0AF9AB05C4F78AE9"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4D188E38D46EE17B"]
+			id: "027229D1985B789C"
+			tasks: [{
+				id: "38E4AA00DC87E516"
+				item: "chemlib:platinum"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4D7946F3EAE2E8CA"]
+			id: "088AFC7DD34C3AF5"
+			tasks: [{
+				id: "3973EBE17778C87B"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["088AFC7DD34C3AF5"]
+			id: "3DDC7FD732884982"
+			tasks: [{
+				id: "12FFC388E369E1B6"
+				item: "chemlib:osmium"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3DDC7FD732884982"]
+			id: "059FA6E59CAF75D0"
+			tasks: [{
+				id: "633449167CF958C8"
+				item: "chemlib:osmium_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["027229D1985B789C"]
+			id: "06403278F8B0848D"
+			tasks: [{
+				id: "6422ECBB0C72D738"
+				item: "chemlib:platinum_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"06403278F8B0848D"
+				"059FA6E59CAF75D0"
+			]
+			id: "14999AF3C0E1F64B"
+			tasks: [{
+				id: "64B088F5D55F3EBA"
+				item: "alchemistry:fission_chamber_controller"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1161AEB89A632B65"]
+			id: "0199454F1760E442"
+			tasks: [
+				{
+					id: "3DD66C13D350B897"
+					item: "chemlib:yttrium"
+					type: "item"
+				}
+				{
+					id: "67F74434153979EB"
+					item: "chemlib:terbium"
+					type: "item"
+				}
+				{
+					id: "70EA28FCF2A65111"
+					item: "chemlib:scandium"
+					type: "item"
+				}
+				{
+					id: "403D107E4EE743E2"
+					item: "chemlib:europium"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["68CA623AF33A79B2"]
+			id: "748873CEFB3C72FD"
+			tasks: [{
+				count: 3L
+				id: "32FC483E5E18167C"
+				item: { Count: 3, id: "alchemistry:fission_core" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"748873CEFB3C72FD"
+				"14999AF3C0E1F64B"
+			]
+			description: ["As próximas tarefas são uma linha de raciocínio pra chegar em materiais mais avançados. Novamente, boa sorte!"]
+			id: "7635C63E06458A06"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "257A6DBD44AB7734"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+				{
+					id: "6CA7FCCE9B36F33E"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+				{
+					id: "1CA234E3F047A12A"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "108CA0CD4E13B921"
+					item: { Count: 36, id: "alchemistry:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "1B127F4D6987B744"
+					item: { Count: 62, id: "alchemistry:reactor_casing" }
+					type: "item"
+				}
+			]
+			title: "Seu primeiro reator!"
+			x: -4.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["4A0A92BF3C03A693"]
+			description: ["Faz o processo inverso ao Liquifier, transforma Líquidos em Elementos"]
+			id: "4DB3B5B7BA0B3DEE"
+			tasks: [{
+				id: "5E1CF7ED09EDBB93"
+				item: "alchemistry:atomizer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["4DB3B5B7BA0B3DEE"]
+			description: ["Eureka!"]
+			id: "2A8940C2F1BBAA3A"
+			rewards: [
+				{
+					id: "7B72364D3AD95C79"
+					item: "kubejs:ponto_quimico"
+					type: "item"
+				}
+				{
+					id: "4A4FAB7BD08D04D3"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4213AD0B1126A048"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["670BAC651DB8FB38"]
+			id: "2857F92258995E3D"
+			tasks: [{
+				id: "22AEDFA547C17029"
+				item: "chemlib:praseodymium"
+				type: "item"
+			}]
+			title: "Praseoslaoq"
+			x: -1.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			id: "3209CA45814BA9B4"
+			tasks: [{
+				id: "3F5802619890AB8B"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["3209CA45814BA9B4"]
+			description: ["Hora de deixar Oppenheimer com inveja. Fissione Oganesson!"]
+			id: "670BAC651DB8FB38"
+			tasks: [{
+				id: "5336F632122F8D72"
+				item: "chemlib:oganesson"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			id: "09195CED43DC4B7E"
+			tasks: [{
+				id: "14708AB8593F56BB"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["09195CED43DC4B7E"]
+			id: "5A72F31BC5986DDD"
+			tasks: [{
+				id: "1BAD1483D5FDE16A"
+				item: "chemlib:cerium"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["04BB68A053A3F680"]
+			id: "006763C3FE7C455C"
+			tasks: [{
+				id: "6D1A94ED5BEC304E"
+				item: "chemlib:livermorium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"5A72F31BC5986DDD"
+				"448FDC9067309877"
+				"2857F92258995E3D"
+			]
+			description: ["O Poder de uma estrela, na palma de sua mão... ou na sua garagem mesmo."]
+			id: "04BB68A053A3F680"
+			tasks: [
+				{
+					id: "3A88E2E0FDE7EC76"
+					item: "alchemistry:fusion_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5F69DAC64BAFAA10"
+					item: "alchemistry:fusion_core"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			id: "62C9B4C03AE197D2"
+			tasks: [{
+				id: "39B32BE17E658485"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["62C9B4C03AE197D2"]
+			id: "19746F49870156B0"
+			tasks: [{
+				id: "151D71E93D998335"
+				item: "chemlib:tungsten"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["19746F49870156B0"]
+			id: "448FDC9067309877"
+			tasks: [{
+				id: "0D438CD9E8F849BB"
+				item: "chemlib:tungsten_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["04BB68A053A3F680"]
+			id: "783190F48B5130F8"
+			tasks: [{
+				id: "2DE98F03595927BC"
+				item: "chemlib:moscovium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["04BB68A053A3F680"]
+			id: "5C7F64A0C50CEFB2"
+			tasks: [{
+				id: "24FEAA39A027B6DD"
+				item: "chemlib:tennessine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["600EE14A35E63787"]
+			id: "326E17F9281E9C5C"
+			tasks: [{
+				id: "3D0A9A1FE4DF1C26"
+				item: "chemlib:lutetium_metal_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2DE180C379711687"]
+			id: "600EE14A35E63787"
+			tasks: [{
+				id: "565B7E0DA27C4269"
+				item: "chemlib:lutetium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1FF787D300750ED7"]
+			id: "2DE180C379711687"
+			tasks: [{
+				id: "1CF0211F2FC65504"
+				item: "chemlib:lutetium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["23EF1EF7688F996F"]
+			id: "1FF787D300750ED7"
+			tasks: [{
+				id: "6556B66E69145EAF"
+				item: "chemlib:lutetium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			id: "23EF1EF7688F996F"
+			tasks: [{
+				id: "231CA9FB68D8F7F3"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0E452124CE122CB4"]
+			id: "0ECD05DB26AD6729"
+			tasks: [{
+				id: "79DABC58AF3E088C"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "Metal de Gaia"
+			x: 0.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["63D0442A5F01A93A"]
+			id: "0E452124CE122CB4"
+			tasks: [{
+				id: "30153BCFF6D1F056"
+				item: "chemlib:protactinium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["108C0DFEB57AAF41"]
+			id: "63D0442A5F01A93A"
+			tasks: [{
+				id: "5FEBA0E340AACFE5"
+				item: "chemlib:protactinium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["3E5401FE0C9AF716"]
+			id: "108C0DFEB57AAF41"
+			tasks: [{
+				id: "60C2F0A0951E22C0"
+				item: "chemlib:protactinium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			id: "3E5401FE0C9AF716"
+			tasks: [{
+				id: "78EE614942DFDCA2"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4A0A92BF3C03A693"]
+			description: ["Transforme substâncias em líquido, útil para mais tarde."]
+			id: "4833C8002C34996B"
+			rewards: [
+				{
+					id: "1C8BF90C3969F650"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3268F702504D98A1"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01DAA870B7A9074F"
+				item: "alchemistry:liquifier"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"061F1FCE5CCD02A8"
+				"2A8940C2F1BBAA3A"
+				"33E4EA9B86C60199"
+			]
+			id: "0CCE82AD3E0AF9A7"
+			tasks: [{
+				id: "7C9674C313DAD446"
+				item: "kubejs:ponto_quimico"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["1CB3B45EBBBD45A7"]
+			id: "33E4EA9B86C60199"
+			rewards: [{
+				id: "25D6A3ACFC4B7127"
+				item: "alchemistry:combiner"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64D03828DCAB5BDD"
+					item: "chemlib:iron_oxide"
+					type: "item"
+				}
+				{
+					id: "162B7F7A768D3152"
+					item: "chemlib:graphite"
+					type: "item"
+				}
+				{
+					id: "2DE70C9EB8313BF2"
+					item: "chemlib:protein"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4D7946F3EAE2E8CA"]
+			description: ["Avance nessas tarefas para aprimorar seus equipamentos"]
+			id: "1CB3B45EBBBD45A7"
+			tasks: [
+				{
+					id: "2C213D0DD02A49EA"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "08892E4ABFEAEB30"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "66C6FD06B69FFF25"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0CCE82AD3E0AF9A7"]
+			description: ["Você pode colocar a perícia em um stonecutter pra fazer seus equipamentos!"]
+			id: "483090CE4610F66A"
+			tasks: [{
+				id: "4C09ED6947984DD4"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			hide_dependency_lines: true
+			id: "0B5BCCEEBC3445B8"
+			tasks: [{
+				id: "55426CF4B2246D1B"
+				item: "chemlib:hydrogen_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			hide_dependency_lines: true
+			id: "527131530D309DE2"
+			tasks: [{
+				id: "146C01B1BEE6E944"
+				item: "chemlib:ethanol_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			hide_dependency_lines: true
+			id: "5CA338DADA1564FC"
+			tasks: [{
+				id: "7F49CE5A3894B64D"
+				item: "chemlib:mercury_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.25d
+		}
+		{
+			dependencies: ["7635C63E06458A06"]
+			hide_dependency_lines: true
+			id: "309F537B671864CD"
+			tasks: [{
+				id: "1BF2FD1FFF80C15A"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4A0A92BF3C03A693"]
+			id: "3ECCD7977312D126"
+			optional: true
+			rewards: [{
+				auto: "disabled"
+				command: "/team join Quimico @s"
+				elevate_perms: true
+				id: "0759F3350C2CD459"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "35B0A35F1C0DD20A"
+				title: "Titulo "
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.25d
+		}
+	]
+	title: "Químico"
+}

@@ -1,0 +1,230 @@
+{
+	autofocus_id: "45C621CAC27F271E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hermes"
+	group: "07086E1A2C4D20AF"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_hermes"
+	id: "74C42C498820843C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "45C621CAC27F271E"
+			optional: true
+			rewards: [{
+				id: "00FAB2E7E51E6008"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.2f
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "54BD968D1D09E330"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Hermes"
+			x: 0.5d
+			y: -0.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46158A48C09247A2"]
+			id: "76B3E698D964F705"
+			optional: true
+			rewards: [{
+				id: "2A0C23F70A4562BE"
+				item: "bloodmagic:teleposerfocus"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "7773F794B627375F"
+				item: "kubejs:talisma_hermes"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["1F48231DF6AA6221"]
+			id: "72090F9A7C62CE79"
+			rewards: [{
+				id: "31977083C30BAD4B"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "5B3811EF878DB366"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["1F48231DF6AA6221"]
+			id: "656D605DDC618822"
+			rewards: [{
+				id: "498C408E2B16DA40"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "6CF4949F0A1D20CA"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"72090F9A7C62CE79"
+				"656D605DDC618822"
+			]
+			id: "46158A48C09247A2"
+			rewards: [{
+				count: 2
+				id: "224470DC3FC2967F"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "264F0AC94DD6D5F7"
+				item: "kubejs:talisma_hermes"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.25d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"656D605DDC618822"
+				"72090F9A7C62CE79"
+			]
+			id: "719B74BB98AC9478"
+			optional: true
+			rewards: [{
+				id: "78EC89FE4E548FAA"
+				item: "kubejs:talisma_hermes"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "567034A9848F610C"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "6597A89F5ECA84E4"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "6BE899F35F9E0470"
+					type: "dimension"
+				}
+				{
+					id: "7D868BA26B6CE225"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+			]
+			x: 0.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46158A48C09247A2"]
+			id: "017CED025B6DD3EA"
+			optional: true
+			rewards: [{
+				id: "4F3E2525C72C5C11"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "4B138AFF1CF80442"
+				item: "kubejs:talisma_hermes"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["46158A48C09247A2"]
+			id: "766E2837E9FB3D1D"
+			rewards: [{
+				id: "09D2CE0BDDC30C21"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "202BFD3C4AFBDEC4"
+				item: "kubejs:talisma_hermes"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46158A48C09247A2"]
+			id: "585124C219931906"
+			optional: true
+			rewards: [{
+				id: "1E95B81F09CB82EB"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "182A9A55A43D6799"
+				item: "kubejs:talisma_hermes"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+	]
+	title: "Hermes"
+}

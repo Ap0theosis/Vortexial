@@ -1,0 +1,533 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "comandos"
+	group: "1A8198508B2B5A4F"
+	id: "3DABE1CE3DF75C86"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "3BB7C5249263BCC4"
+			rewards: [{
+				auto: "invisible"
+				id: "311D8A372351E19F"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "alquimista"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7F2797F47DA510F6"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Alquimista"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "147B62BF5FA3D56E"
+			rewards: [{
+				auto: "invisible"
+				id: "78B8D0749681B4B1"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "arcanista"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7CC1C39B62BEE68C"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Arcanista"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "489D39EC1E091DEC"
+			tasks: [{
+				id: "0ACC88DB1F129452"
+				stage: "arcanista"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "54A7B8D6088E5838"
+			tasks: [{
+				id: "6C9E7AA12B70F195"
+				stage: "alquimista"
+				type: "gamestage"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "4820636AB96332D5"
+			rewards: [{
+				auto: "invisible"
+				id: "4D4122225CE85842"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "arqueologo"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6B24AEE873674210"
+				title: "Reset arqueologo"
+				type: "checkmark"
+			}]
+			title: "Reset Arqueologo"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "31CB1DCEFCD5264E"
+			tasks: [{
+				id: "46BE907507AA00A0"
+				stage: "arqueologo"
+				type: "gamestage"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "6E5DEF6C4B805936"
+			rewards: [{
+				auto: "invisible"
+				id: "4501FB545A5C83BB"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "atirador"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "46C5AE42769698A9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "63E3FDB3D016B476"
+			tasks: [{
+				id: "15F6BBF3A90D92BF"
+				stage: "atirador"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "728765DFD4829E51"
+			tasks: [{
+				id: "61AE829FB9B97B93"
+				stage: "biomante"
+				type: "gamestage"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "3BBADB4410072F30"
+			rewards: [{
+				auto: "invisible"
+				id: "2BA1C4383A68E98C"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "biomante"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "615288F4BEA2D1D4"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "02DA43EE6E21BE68"
+			tasks: [{
+				id: "58DD56810CC99C3A"
+				stage: "biomante2"
+				type: "gamestage"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "2CCE27AD54619767"
+			rewards: [{
+				auto: "invisible"
+				id: "15CAFDB55C7A4B3E"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "biomante2"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6F7758863283C73A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "629B4FB7A2D43D9D"
+			tasks: [{
+				id: "5F6E44E72440A602"
+				stage: "bruxo"
+				type: "gamestage"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "2E043923B5111517"
+			rewards: [{
+				auto: "invisible"
+				id: "16DC8A673DE1A486"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "bruxo"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "33E9F68A24F71278"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "1569AA7C611F944C"
+			tasks: [{
+				id: "0093093A4C1BE92B"
+				stage: "chef"
+				type: "gamestage"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "04D9EDBA1D87B954"
+			rewards: [{
+				auto: "invisible"
+				id: "6A1691F8B5F8042E"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "chef"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7C840D93AD3E1054"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "57C761DB07EAC204"
+			tasks: [{
+				id: "6D5EC13CA3D47136"
+				stage: "farmer"
+				type: "gamestage"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "1F74E6E0D1AC41D2"
+			rewards: [{
+				auto: "invisible"
+				id: "4BC03FE9316C170B"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "farmer"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "10CFEEEAF90D0CD9"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Alquimista"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "1927DFFD6329C414"
+			tasks: [{
+				id: "7C68AF18112E674B"
+				stage: "druid"
+				type: "gamestage"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "6D74B6CC158F66A6"
+			rewards: [{
+				auto: "invisible"
+				id: "54A2D1CA820D5694"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "druid"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "4175453ABB3508E1"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "34D915CEEFA701DC"
+			tasks: [{
+				id: "3C5E00F7C20F0FF9"
+				stage: "smith"
+				type: "gamestage"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "2B092ED8C6706CBD"
+			rewards: [{
+				auto: "invisible"
+				id: "510FF80FF94CF2A0"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "smith"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6E284BFBB72B5DD8"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "097C9EA7EC81C437"
+			tasks: [{
+				id: "2A38DCADD91BFBB1"
+				stage: "chem"
+				type: "gamestage"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "67CF174C936B2D39"
+			rewards: [{
+				auto: "invisible"
+				id: "22EB8A6117D60F55"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "chem"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2B552F7689A799F0"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "554C6F9BE5034D36"
+			tasks: [{
+				id: "5E604FB8D0F5AE03"
+				stage: "mage"
+				type: "gamestage"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "4DDC59DE8BCDFDE8"
+			rewards: [{
+				auto: "invisible"
+				id: "107D3A0A7A856806"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "mage"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "41F205791381E0A6"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "4179D8A9AE7F770B"
+			tasks: [{
+				id: "0D130D89553AAC5A"
+				stage: "tech1"
+				type: "gamestage"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "32022F5E4AB8683A"
+			rewards: [{
+				auto: "invisible"
+				id: "58C596B98F85FB76"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "tech1"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "56DB41866E30EA44"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "37546C13AF0F4BFA"
+			tasks: [{
+				id: "18A2DF0288F8BC65"
+				stage: "boss"
+				type: "gamestage"
+			}]
+			x: -4.0d
+			y: -5.75d
+		}
+		{
+			can_repeat: true
+			id: "4CA74E3496179FEF"
+			rewards: [{
+				auto: "invisible"
+				id: "3844CD2581B925F3"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "boss"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "76C8B2B04F6A44C1"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Alquimista"
+			x: -4.0d
+			y: -4.75d
+		}
+		{
+			id: "408E6D7DF1A83051"
+			tasks: [{
+				id: "1EDD14A0A60550FC"
+				stage: "apollo"
+				type: "gamestage"
+			}]
+			x: -3.0d
+			y: -5.75d
+		}
+		{
+			can_repeat: true
+			id: "3F9081E83A833597"
+			rewards: [{
+				auto: "invisible"
+				id: "63B0D12B65A1893A"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "apollo"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "30D299792A8A0A55"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Alquimista"
+			x: -3.0d
+			y: -4.75d
+		}
+		{
+			id: "297FB8DCB1961D22"
+			tasks: [{
+				id: "149EC9BCB99A1DC8"
+				stage: "shelfs"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "414DA6730827C435"
+			rewards: [{
+				auto: "invisible"
+				id: "4763FF7D78C74B9E"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "shelfs"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "27386A7636C5D097"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Arcanista"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "2F4191DF1B9AA30C"
+			tasks: [{
+				id: "3F34646AF6A7C513"
+				stage: "hermes"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: -5.75d
+		}
+		{
+			can_repeat: true
+			id: "5FC8B6AF6A55EA39"
+			rewards: [{
+				auto: "invisible"
+				id: "3AF150B782A33744"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "hermes"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2B695970D605C706"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Reset Alquimista"
+			x: -2.0d
+			y: -4.75d
+		}
+	]
+	title: "Comandos"
+}

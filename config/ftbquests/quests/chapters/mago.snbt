@@ -1,0 +1,1423 @@
+{
+	autofocus_id: "0BEBA95212B7C030"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mago"
+	group: "29665EDF34C45838"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:ponto_mago"
+	id: "077DF5C402F128BD"
+	images: [
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/w_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.75d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/z_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.75d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/r_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.75d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/d_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.75d
+			y: -1.5d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["204F799C469D85F0"]
+			id: "1E855DC22C445D27"
+			tasks: [{
+				id: "4A850A65BB9BECA9"
+				item: "ars_nouveau:green_archwood_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E855DC22C445D27"]
+			id: "37A142A827F6D2D0"
+			tasks: [{
+				id: "1783FD63F8691B08"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A142A827F6D2D0"]
+			id: "1BF3B1884E1D9B0F"
+			rewards: [{
+				id: "2AB1D11BB12AA4ED"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "778CE435DD0156FD"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["501516C380CC8F67"]
+			description: [" Deixe seu livro guia na mão principal, esta gema rosa na mão secundária e clique na sua mesa de escrita!"]
+			id: "67491CB84D1753F9"
+			rewards: [{
+				count: 3
+				id: "2D4CC6B94EF4A354"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "033CE0C3B6C6546C"
+				item: {
+					Count: 1
+					id: "ars_nouveau:novice_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BF3B1884E1D9B0F"]
+			id: "501516C380CC8F67"
+			tasks: [{
+				id: "194ED788E05C719D"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67491CB84D1753F9"]
+			id: "1882FEB8A235CB75"
+			tasks: [{
+				count: 3L
+				id: "61CF2FCE1F0AD585"
+				item: { Count: 3, id: "ars_nouveau:arcane_pedestal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67491CB84D1753F9"]
+			description: [" Estes são os glifos (na minha opinião) mais úteis que seu livro consegue ter de início, cada glifo a mais que você adquirir, aumentará sua mana e regeneração, sempre pesquise-os!"]
+			id: "0CED74457EA9C08A"
+			tasks: [
+				{
+					id: "58170FF109AF918C"
+					item: "ars_nouveau:glyph_underfoot"
+					type: "item"
+				}
+				{
+					id: "6D79693D97C74F3E"
+					item: "ars_nouveau:glyph_harvest"
+					type: "item"
+				}
+				{
+					id: "745BC6E1397AF5B5"
+					item: "ars_nouveau:glyph_cut"
+					type: "item"
+				}
+				{
+					id: "59FE9B69A9B85FB2"
+					item: "ars_nouveau:glyph_snare"
+					type: "item"
+				}
+				{
+					id: "1C7E8D49D161F0A4"
+					item: "ars_nouveau:glyph_light"
+					type: "item"
+				}
+				{
+					id: "3B33BB5EB75C895B"
+					item: "ars_nouveau:glyph_dispel"
+					type: "item"
+				}
+				{
+					id: "7DB1D69C622000B1"
+					item: "ars_nouveau:glyph_ignite"
+					type: "item"
+				}
+				{
+					id: "67EB2324886A2ED0"
+					item: "ars_nouveau:glyph_craft"
+					type: "item"
+				}
+				{
+					id: "471A53E233F74D54"
+					item: "ars_nouveau:glyph_fell"
+					type: "item"
+				}
+				{
+					id: "4611D318A76502E4"
+					item: "ars_nouveau:glyph_interact"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1882FEB8A235CB75"]
+			id: "4CDB44A5A630323E"
+			tasks: [{
+				id: "715926ED1A30B509"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hora de caçar ametistas"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76DE08CC856B3EF2"]
+			description: ["Use esse ritual perto de um geodo para atrair seu primeiro ajudante! Ametista infinita!"]
+			id: "44E8C0BC7F75D338"
+			rewards: [{
+				id: "14A7EAA75AE9CEC2"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			tasks: [{
+				id: "169F85CADD7C7289"
+				item: "kubejs:ponto_mago"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46989BCE1A6352A5"
+				"372BA7833732FB9A"
+				"26D63ACA199E71CE"
+			]
+			dependency_requirement: "one_completed"
+			id: "0BEBA95212B7C030"
+			tasks: [
+				{
+					id: "7F0F14785540C40F"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "51938B8709A50FF1"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "54D15746895CA4F7"
+					item: { Count: 5, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CDB44A5A630323E"]
+			id: "70A06EF4CB448624"
+			rewards: [{
+				id: "54C6BB8E385E0E7E"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D86567356830644"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["695E94C0F27B2B39"]
+			id: "372BA7833732FB9A"
+			tasks: [{
+				id: "2DC7E420C063BE2B"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["695E94C0F27B2B39"]
+			id: "26D63ACA199E71CE"
+			tasks: [{
+				id: "01D0B6D0EFEC850A"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["695E94C0F27B2B39"]
+			id: "46989BCE1A6352A5"
+			tasks: [{
+				id: "53A054E51BF9110A"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BEBA95212B7C030"]
+			id: "76DE08CC856B3EF2"
+			tasks: [{
+				id: "4793787596ABBAF2"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70A06EF4CB448624"]
+			id: "695E94C0F27B2B39"
+			tasks: [{
+				count: 16L
+				id: "246AC8C450FD1912"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44E8C0BC7F75D338"]
+			icon: "ars_nouveau:glyph_amplify"
+			id: "10F9584EDAB4BF84"
+			rewards: [{
+				id: "27EA5DB0664C32FE"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4745D02461AC45DC"
+				item: "kubejs:ponto_mago"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76DE08CC856B3EF2"]
+			id: "6C21FF39C4F6994A"
+			tasks: [{
+				id: "2F43E2DA433BABEE"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6C21FF39C4F6994A"]
+			id: "0795A568E266B499"
+			tasks: [
+				{
+					id: "746C9B8BA1ABB3B3"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69049EAF4DEC3F68"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "267858C4ECC72D37"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08157998FCDED5AC"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Equilíbrio "
+			x: 11.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["6C21FF39C4F6994A"]
+			id: "6CD50C58F5160CEB"
+			tasks: [
+				{
+					id: "692581A683F63D03"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE15A8C54345BDD"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4959DE417BCA0999"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3110AF3139CBF518"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "+ Upgrades - Resistência"
+			x: 10.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["6C21FF39C4F6994A"]
+			id: "4B56D499A9AEF490"
+			tasks: [
+				{
+					id: "2DE445F951D9B3E5"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "748AE887D9029696"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "067A7BC10D867EF0"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5096CA07A04BEE04"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "- Upgrades + Resistência"
+			x: 12.0d
+			y: -3.25d
+		}
+		{
+			dependencies: [
+				"0795A568E266B499"
+				"6CD50C58F5160CEB"
+				"4B56D499A9AEF490"
+			]
+			dependency_requirement: "one_completed"
+			id: "6FA1BCB0E850D75C"
+			tasks: [{
+				id: "5971C805093AED43"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["6FA1BCB0E850D75C"]
+			id: "38F7A34AED69658E"
+			tasks: [
+				{
+					id: "638A4A63167D630E"
+					item: "ars_nouveau:thread_magic_capacity"
+					type: "item"
+				}
+				{
+					id: "7566D414D167C762"
+					item: "ars_nouveau:thread_repairing"
+					type: "item"
+				}
+				{
+					id: "35121B9BFCDBA957"
+					item: "ars_nouveau:thread_feather"
+					type: "item"
+				}
+				{
+					id: "54001333054EF26E"
+					item: "ars_nouveau:thread_immolation"
+					type: "item"
+				}
+				{
+					id: "2F4095D75A028175"
+					item: "ars_nouveau:thread_starbuncle"
+					type: "item"
+				}
+				{
+					id: "1FE037975D3781DC"
+					item: "ars_nouveau:thread_warding"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["0BEBA95212B7C030"]
+			id: "630FDD4BC745A89C"
+			tasks: [
+				{
+					id: "1A150A5EC2BBF9FC"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D6F889889958C5C"
+					item: {
+						Count: 1
+						id: "ars_nouveau:spell_bow"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D00209C4568373D"
+					item: {
+						Count: 1
+						id: "ars_nouveau:spell_crossbow"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "210052155C10F1D8"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE2E52915BFD5FF"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_mirror"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["0BEBA95212B7C030"]
+			id: "2B3D80075D64CE2D"
+			tasks: [
+				{
+					id: "78C0F3CE4214F63B"
+					item: "ars_nouveau:amulet_of_mana_boost"
+					type: "item"
+				}
+				{
+					id: "5A5F4F5FA014E239"
+					item: "ars_nouveau:amulet_of_mana_regen"
+					type: "item"
+				}
+				{
+					id: "794A3E37206A6EB0"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+				{
+					id: "6D660EB04736A3DA"
+					item: "ars_nouveau:jump_ring"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"0795A568E266B499"
+				"6CD50C58F5160CEB"
+				"4B56D499A9AEF490"
+			]
+			dependency_requirement: "one_completed"
+			id: "728D1792AF9177A3"
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "5155574F4C5F81F1"
+				item: { Count: 2, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			title: "Tier 2"
+			x: 20.0d
+			y: -3.25d
+		}
+		{
+			dependencies: [
+				"3DF69DC15AA28387"
+				"728D1792AF9177A3"
+			]
+			id: "279732942E1CC505"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7CFEA762C7AEC73C"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3E29DF63B16BD44B"
+					item: { Count: 2, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			title: "Tier 3"
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44E8C0BC7F75D338"]
+			description: [" Faça este ritual próximo a um geodo! Você vai ganhar uma ótima companhia, este golem é capaz de transformar blocos de ametista em fragmentos de ametista e extraí-los automaticamente!"]
+			id: "7AD50E0343D9084A"
+			tasks: [{
+				id: "1A619341AB1321BA"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D91F94086968CB9"]
+			id: "5E875C0618B66A3C"
+			rewards: [{
+				id: "0D4949B0BF1E3814"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "ars_nouveau:mana_regen_potion_strong"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FDF1EFF25AE97DF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:amethyst_golem"
+				type: "observation"
+			}]
+			title: "Golem de Ametista!"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E875C0618B66A3C"]
+			description: [" Você pode aprender a usar essas torres que se forem inscritas com um glifo de \"item pickup\" podem recolher automaticamente as ametistas quebradas pelos golens, ou você pode usar um Starbuncle para fazer isso, se você for um druida."]
+			id: "2D783DEF7236106D"
+			tasks: [{
+				id: "4F44E2EACA7B2F7F"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D783DEF7236106D"]
+			id: "0E184DD053A23ED0"
+			tasks: [{
+				count: 9L
+				id: "187F8F4A01DE3B44"
+				item: { Count: 9, id: "minecraft:amethyst_block" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E184DD053A23ED0"]
+			id: "32F8040F21778E78"
+			tasks: [{
+				id: "498B74EB6A727032"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D91F94086968CB9"]
+			id: "5DDD68B3E60C1288"
+			tasks: [{
+				id: "424BAE4D173AB4AB"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D91F94086968CB9"]
+			id: "1DA6941CA8CE39F2"
+			tasks: [{
+				id: "0C66164A18F847F4"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			title: "Mobtrap Pacífica"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DA6941CA8CE39F2"]
+			id: "4C0FB8AD066D6F27"
+			tasks: [
+				{
+					id: "1037D89CB909FC12"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+				{
+					id: "645194FB53778B70"
+					item: "ars_nouveau:ritual_containment"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32F8040F21778E78"]
+			id: "755961AE94700597"
+			tasks: [
+				{
+					id: "29196DA570CF837D"
+					item: "ars_elemental:lesser_fire_focus"
+					type: "item"
+				}
+				{
+					id: "12FEAA1996AB6373"
+					item: "ars_elemental:lesser_water_focus"
+					type: "item"
+				}
+				{
+					id: "319D77125B6244E9"
+					item: "ars_elemental:lesser_air_focus"
+					type: "item"
+				}
+				{
+					id: "0B2715FC1C29B510"
+					item: "ars_elemental:lesser_earth_focus"
+					type: "item"
+				}
+			]
+			title: "Foco Arcano"
+			x: 18.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["755961AE94700597"]
+			id: "69A59B260FFF5706"
+			tasks: [
+				{
+					id: "75877367329AF765"
+					item: "ars_elemental:fire_focus"
+					type: "item"
+				}
+				{
+					id: "18F00AAA91780EA2"
+					item: "ars_elemental:water_focus"
+					type: "item"
+				}
+				{
+					id: "529DF5EE21D7E705"
+					item: "ars_elemental:air_focus"
+					type: "item"
+				}
+				{
+					id: "54492FCAA5FD34CF"
+					item: "ars_elemental:earth_focus"
+					type: "item"
+				}
+				{
+					id: "4C04CFE07D289073"
+					item: "ars_nouveau:summon_focus"
+					type: "item"
+				}
+				{
+					id: "4B9133B555B33190"
+					item: "ars_elemental:necrotic_focus"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["32F8040F21778E78"]
+			id: "5E39C8ACF4DC5F48"
+			tasks: [
+				{
+					id: "17A7E0B0A85C36CD"
+					item: "ars_nouveau:glyph_aoe"
+					type: "item"
+				}
+				{
+					id: "4E664FCCB723B2CE"
+					item: "ars_nouveau:glyph_extract"
+					type: "item"
+				}
+				{
+					id: "7686199C6F45D118"
+					item: "ars_nouveau:glyph_extend_time"
+					type: "item"
+				}
+				{
+					id: "41C46A3345249A68"
+					item: "ars_nouveau:glyph_fortune"
+					type: "item"
+				}
+				{
+					id: "6123044C43C47CC1"
+					item: "ars_nouveau:glyph_pierce"
+					type: "item"
+				}
+				{
+					id: "4D17A9030B4764CE"
+					item: "ars_elemental:glyph_spike"
+					type: "item"
+				}
+				{
+					id: "4453F0E55FD20528"
+					item: "ars_nouveau:glyph_conjure_water"
+					type: "item"
+				}
+				{
+					id: "1427A4748ABBB4B5"
+					item: "ars_nouveau:glyph_infuse"
+					type: "item"
+				}
+				{
+					id: "1669CAF9425AD88D"
+					item: "ars_nouveau:glyph_sense_magic"
+					type: "item"
+				}
+				{
+					id: "450D81EE8505AE4D"
+					item: "ars_nouveau:glyph_firework"
+					type: "item"
+				}
+				{
+					id: "789C3913C91C502A"
+					item: "ars_nouveau:glyph_invisibility"
+					type: "item"
+				}
+				{
+					id: "0DE75657BF40C2E3"
+					item: "ars_nouveau:glyph_heal"
+					type: "item"
+				}
+				{
+					id: "310806476EBCCBD7"
+					item: "ars_nouveau:glyph_name"
+					type: "item"
+				}
+				{
+					id: "20D884252E4AAFE0"
+					item: "ars_nouveau:glyph_smelt"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32F8040F21778E78"]
+			id: "1233D785F865C152"
+			tasks: [{
+				id: "70BCB197C22A9227"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1233D785F865C152"]
+			id: "3DF69DC15AA28387"
+			tasks: [{
+				id: "09502EBEF5ACE1BA"
+				item: "mysticalagriculture:amethyst_essence"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AD50E0343D9084A"]
+			id: "5D91F94086968CB9"
+			tasks: [{
+				id: "1DEFAEC685D3A7E7"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF69DC15AA28387"]
+			id: "434C6AAA550B6B2C"
+			tasks: [
+				{
+					id: "113CFC17A3B25374"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "2684F2EC4F67EAB7"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "214E59BD47ABD57B"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["434C6AAA550B6B2C"]
+			id: "761EA2EDE3443EB2"
+			tasks: [{
+				id: "4F00C5BE3B0D5B0A"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["761EA2EDE3443EB2"]
+			id: "1CB5F2DFB99C9569"
+			tasks: [{
+				id: "4CBA7614B35242AF"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EB372DA4789A0F6"]
+			id: "2A5690706E5E4F47"
+			tasks: [{
+				id: "0F82827D8F241B7A"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08D2730EAB0775D3"]
+			id: "1EB372DA4789A0F6"
+			tasks: [{
+				id: "7AE8CC516609B7BC"
+				item: "forbidden_arcanus:processed_obsidian_block"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CB5F2DFB99C9569"]
+			id: "08D2730EAB0775D3"
+			tasks: [{
+				id: "219FA8B4238E0FBD"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BEBA95212B7C030"]
+			id: "1F36CB0B72118E5D"
+			tasks: [
+				{
+					id: "19770CD42DF6E592"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3CFE6564743898C8"
+					item: "ars_nouveau:scryers_crystal"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"1D312FE626C1E1F3"
+				"147E531276E48BD4"
+				"6505DDB5EA260A6B"
+				"7BFEC1B63445AE8F"
+				"2A5690706E5E4F47"
+			]
+			dependency_requirement: "one_completed"
+			id: "4BC92C613C2BA22F"
+			rewards: [
+				{
+					id: "5E281003960032CA"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Modifier: "forbidden_arcanus:eternal"
+							Potion: "ars_nouveau:mana_regen_potion_strong"
+							Repair: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B7377AEE6AC76FD"
+					item: "kubejs:talisma_foco"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31D94F5B71C0B421"
+					item: "ars_elemental:glyph_homing_projectile"
+					type: "item"
+				}
+				{
+					id: "0DC6E58B7575BCA9"
+					item: "ars_nouveau:glyph_wither"
+					type: "item"
+				}
+				{
+					id: "210B73854B43D8AD"
+					item: "ars_elemental:glyph_life_link"
+					type: "item"
+				}
+				{
+					id: "6418F509DD160EAE"
+					item: "ars_nouveau:glyph_blink"
+					type: "item"
+				}
+				{
+					id: "52BA1DC3A1275238"
+					item: "ars_nouveau:glyph_fangs"
+					type: "item"
+				}
+				{
+					id: "4C0FF934BC78ED9B"
+					item: "ars_nouveau:glyph_glide"
+					type: "item"
+				}
+				{
+					id: "34E84100FC9A9D05"
+					item: "ars_nouveau:glyph_lightning"
+					type: "item"
+				}
+			]
+			title: "Mestre dos Magos!!!"
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["279732942E1CC505"]
+			hide_dependency_lines: true
+			id: "7BFEC1B63445AE8F"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "298C8A6A2DB458A5"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B16BD5A6C33FECB"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DD99F84419D173E"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F46EFE3B8A9D378"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["279732942E1CC505"]
+			hide_dependency_lines: true
+			id: "6505DDB5EA260A6B"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7C8C8867E42CFE16"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35EFB65670F91433"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B719530E10FF545"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D2D5BF8531A18C6"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["279732942E1CC505"]
+			hide_dependency_lines: true
+			id: "1D312FE626C1E1F3"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "132899DAE6817DA9"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "433489D38C60098A"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F5237DEA7916D22"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F4609FDBE297450"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["279732942E1CC505"]
+			hide_dependency_lines: true
+			id: "147E531276E48BD4"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6A59C1B03EC49B12"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23A3571EE674FA51"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1321A8E8D599592F"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34DA9378089E233D"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E855DC22C445D27"]
+			id: "635C77C66F08DE6F"
+			optional: true
+			rewards: [{
+				auto: "disabled"
+				command: "/team join Mago @s"
+				elevate_perms: true
+				id: "16DEA07E18F92589"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "16F53A4FE44C725D"
+				title: "Titulo "
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Mago"
+}

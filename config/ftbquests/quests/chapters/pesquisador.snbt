@@ -1,0 +1,830 @@
+{
+	autofocus_id: "438548DD1574C831"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pesquisador"
+	group: "29665EDF34C45838"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:ponto_mecanico"
+	id: "029A39E1E59BF19A"
+	images: [
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/m_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/e_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.75d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/h_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.75d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.75d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/n_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.75d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.75d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -3.5d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13199A38D99FEF93"]
+			id: "69684EF697F61C65"
+			rewards: [
+				{
+					count: 8
+					id: "5C8AB4EDDD013168"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "5564A516179FD69D"
+					item: "kubejs:ponto_mecanico"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B5ADFAE1345A2E3"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69684EF697F61C65"]
+			description: ["O Primeiro você pode fazer segurando a Perícia na mão secundária, engrenagem pequena na mão primária e clicar em um andesite casing"]
+			id: "56917D2A573B7A2D"
+			tasks: [{
+				id: "679A389BFC12FA6E"
+				item: "kubejs:tech_t1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56917D2A573B7A2D"]
+			id: "654BAE503CD7E44B"
+			tasks: [{
+				id: "3B39A6F0C526795A"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["56917D2A573B7A2D"]
+			id: "4D35B17495C544D2"
+			tasks: [
+				{
+					id: "0D66130761437B6A"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "17D058F5FF346B37"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "584453CF480764AB"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "308F44CFFBE125D5"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D35B17495C544D2"]
+			id: "607E3D7CAF4566BF"
+			tasks: [{
+				count: 64L
+				id: "532FE7E0899A1C62"
+				item: { Count: 128, id: "kubejs:tech_t1" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56917D2A573B7A2D"]
+			id: "4F504557205512CD"
+			optional: true
+			rewards: [{
+				id: "2508B1324DA8C2E9"
+				item: {
+					Count: 1
+					id: "createaddition:diamond_grit_sandpaper"
+					tag: {
+						Damage: 0
+						Modifier: "forbidden_arcanus:eternal"
+						Repair: 1b
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "660B5ED337253339"
+				item: { Count: 256, id: "kubejs:tech_t1" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "4353514E17CF1DA1"
+			tasks: [{
+				id: "17594ED8E4151E4B"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "72915A51402E75BF"
+			tasks: [{
+				id: "77535796C3031C19"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "13709028C9D342C9"
+			tasks: [{
+				id: "53DC728FDC2F85CE"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "7F6740CF41548490"
+			tasks: [{
+				id: "6AB17952C1486C76"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "0CFCD999761CC19D"
+			tasks: [{
+				id: "6B4784DD029CAD76"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "6B86D7A1007D29A0"
+			tasks: [{
+				id: "1E9658875AF604D4"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "67BCA59DE0008273"
+			tasks: [{
+				id: "5285DA76DD6F68F4"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "70DA435DBD021F98"
+			tasks: [{
+				id: "6526ED7BF10747E0"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "66F52868FE112A44"
+			tasks: [{
+				id: "25AE1096D14B31E2"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "1EE9A112F3803DF5"
+			tasks: [{
+				id: "610AFC5AD580753D"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["654BAE503CD7E44B"]
+			id: "68F950D6790444CA"
+			tasks: [{
+				id: "55EFE9C9615C0059"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["56917D2A573B7A2D"]
+			id: "3F69D216A6CC0F6A"
+			tasks: [
+				{
+					id: "731D720E5DB3A58F"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					id: "6D0717A0874E3867"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "5195F81BADA4ED5A"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["607E3D7CAF4566BF"]
+			id: "372951362B46C87C"
+			tasks: [{
+				id: "246765B55E4FD6D2"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["69684EF697F61C65"]
+			icon: "kubejs:ponto_mecanico"
+			id: "3C945EDD9DAA6FAE"
+			optional: true
+			rewards: [{
+				id: "3F8B7CDDA68241F4"
+				item: "kubejs:ponto_mecanico"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "3C36D1385EA0915A"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "Ferramenta de Emergência"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DC7AB08DC0F5526"]
+			id: "4A88418041EF32D9"
+			tasks: [{
+				count: 8L
+				id: "30C1F5434EBE2A69"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["372951362B46C87C"]
+			id: "438548DD1574C831"
+			tasks: [{
+				id: "575A3CBEDD6E6850"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["310D06E93D3479A3"]
+			id: "0F7ED2D3BBF33152"
+			tasks: [{
+				id: "0833A6428A0B8377"
+				item: "createaddition:diamond_grit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60960381B2DD63D4"]
+			id: "310D06E93D3479A3"
+			tasks: [{
+				id: "4C97251B3FCCF135"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["798DFA36AD1CE098"]
+			id: "2F7D1A5BBFB113A6"
+			tasks: [{
+				count: 2L
+				id: "608ABF183B4FF551"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D53236109A27DFE"]
+			id: "3DC7AB08DC0F5526"
+			tasks: [{
+				count: 2L
+				id: "36FCB597D162AAAA"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FE9756E38B9D608"]
+			id: "7D53236109A27DFE"
+			tasks: [
+				{
+					id: "0434E79811E1A6AC"
+					item: "biomesoplenty:small_rose_quartz_bud"
+					type: "item"
+				}
+				{
+					id: "226977DDCB313B5E"
+					item: "biomesoplenty:medium_rose_quartz_bud"
+					type: "item"
+				}
+				{
+					id: "25D0E2EEA93EFDB5"
+					item: "biomesoplenty:large_rose_quartz_bud"
+					type: "item"
+				}
+				{
+					id: "3C883A950A129F37"
+					item: "biomesoplenty:rose_quartz_cluster"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F0455AAAF7FD7A4"]
+			id: "798DFA36AD1CE098"
+			tasks: [
+				{
+					id: "02B9FF263DE824B6"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "31AF3832D1320ADC"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "323C70F8137D5766"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					id: "48C8DBC2B2DEEF0B"
+					item: "create:redstone_link"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F0455AAAF7FD7A4"]
+			id: "151E93BE4CA9E186"
+			tasks: [
+				{
+					id: "395396D2518C3834"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "59436D322F99C8F8"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F7D1A5BBFB113A6"]
+			id: "058CA9F6C0822394"
+			tasks: [{
+				count: 64L
+				id: "724BA7C491932600"
+				item: { Count: 64, id: "minecraft:tuff" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["058CA9F6C0822394"]
+			id: "16D6DDB8F4DF6831"
+			tasks: [
+				{
+					id: "1B4FA9C8F1A2A26F"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "1DA084011A7193C3"
+					item: "create:copper_nugget"
+					type: "item"
+				}
+				{
+					id: "5B862E50A2B2C78E"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+				{
+					id: "6542A5BB147C4C5C"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "20EF1DAC1E60AA58"
+					item: "createaddition:electrum_nugget"
+					type: "item"
+				}
+				{
+					id: "7F2A36967D9D191E"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0F7ED2D3BBF33152"
+				"438548DD1574C831"
+				"4A88418041EF32D9"
+			]
+			id: "7F0455AAAF7FD7A4"
+			tasks: [{
+				id: "10CA2D45D87DD0C7"
+				item: "kubejs:tech_t2"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F7D1A5BBFB113A6"]
+			id: "253BE14C0D9FC7D4"
+			tasks: [{
+				id: "475F680FDC493B8A"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F7D1A5BBFB113A6"]
+			id: "6ABF258D96C1D6F6"
+			tasks: [{
+				id: "194FA1E1746CA888"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F7D1A5BBFB113A6"]
+			id: "7528B24DAAD57B50"
+			tasks: [
+				{
+					id: "3B458F5BF74B0047"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "08FBC70A277EF062"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"253BE14C0D9FC7D4"
+				"6ABF258D96C1D6F6"
+				"7528B24DAAD57B50"
+			]
+			id: "16F3D0787F6C52D2"
+			tasks: [{
+				id: "53A2A3BA89081F0D"
+				item: "kubejs:tech_t2.5"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16F3D0787F6C52D2"]
+			id: "37408A3FB14B47EC"
+			tasks: [{
+				id: "6E59D36A5047D597"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37408A3FB14B47EC"]
+			id: "3BDB758AD642B163"
+			tasks: [{
+				id: "560076CD99A02197"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BDB758AD642B163"]
+			id: "791E03EDC8924B9B"
+			tasks: [{
+				id: "7E6677F60266AB5D"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["791E03EDC8924B9B"]
+			id: "30C6F50BA2FED354"
+			tasks: [{
+				id: "38CCCD2802E0456A"
+				item: "kubejs:tech_t3"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D84DDAAEBBB7BE7"]
+			hide_dependency_lines: false
+			id: "2029DA26A64A0747"
+			tasks: [{
+				id: "6862DB46054A8F32"
+				item: "kubejs:tech_t3b"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["193D8C2DD1C41D78"]
+			id: "6D84DDAAEBBB7BE7"
+			tasks: [{
+				id: "2BB47364C3D171C5"
+				item: "thermal:bitumen"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A8AF70031B70FE9"]
+			id: "193D8C2DD1C41D78"
+			tasks: [{
+				id: "1C6262BC36D76CED"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16F3D0787F6C52D2"]
+			id: "7A8AF70031B70FE9"
+			tasks: [{
+				id: "2ED7C460C922FB44"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"30C6F50BA2FED354"
+				"2029DA26A64A0747"
+			]
+			description: [
+				" Meus parabéns!!! Seu prêmio é saber que como este modpack é uma beta, os seguintes recursos foram removidos pra impedir uma progressão extremamente elevada além do desejado:"
+				""
+				" - Uranium cake"
+				" - Empty PCB"
+				" - Digital Miner"
+				""
+				" Assim que você concluir essa missão, me dá um toque pra eu atualizar rapidamente sua progressão, caro engenheiro!"
+			]
+			id: "75DB84FC9D18F374"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "105CC81B835DA4ED"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					id: "532E3BC5CA77119F"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "Continua..."
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["607E3D7CAF4566BF"]
+			id: "1FE9756E38B9D608"
+			rewards: [{
+				count: 4
+				id: "37094D2B85F18E54"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EF6EEF81AB621BA"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["607E3D7CAF4566BF"]
+			id: "35A772A963EB280C"
+			tasks: [
+				{
+					id: "3B581FB40838AD63"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "482C8641C7EEAB35"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35A772A963EB280C"]
+			id: "60960381B2DD63D4"
+			tasks: [{
+				id: "7F7CE3474EEDBBEA"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["69684EF697F61C65"]
+			id: "4380C4A109BF80ED"
+			optional: true
+			rewards: [{
+				auto: "disabled"
+				command: "/team join Mecanico @s"
+				elevate_perms: true
+				id: "24493B42E55891EE"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "54E55429765EB48F"
+				title: "Titulo "
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Mecânico"
+}

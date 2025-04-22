@@ -1,0 +1,1086 @@
+{
+	autofocus_id: "013A3828334D8BAF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "druida"
+	group: "29665EDF34C45838"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:ponto_druida"
+	id: "4CB0AEBC87C3B209"
+	images: [
+		{
+			color: 11908533
+			height: 25.0d
+			image: "kubejs:block/fundo7"
+			rotation: 0.0d
+			width: 44.44444444444444d
+			x: 7.75d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/d_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/r_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/u_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -5.75d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/d_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.75d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F1BE745567724A0"]
+			description: ["  Para extrair 100% desta classe, recomendo explorar o livro Lexica Botania, existem várias flores que tem funções únicas de utilidade e produção de mana, nas tarefas estão as que eu acho mais úteis"]
+			id: "62566333BE5419C7"
+			tasks: [
+				{
+					count: 8L
+					id: "2F6A26340D54E7A3"
+					item: { Count: 8, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6B1789AAD47D76F4"
+					item: { Count: 8, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["62566333BE5419C7"]
+			id: "046DCF7EEEC0872B"
+			tasks: [{
+				id: "27BDF6156F2E2325"
+				item: "botania:white_petal"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["046DCF7EEEC0872B"]
+			id: "3781D24F0C28468D"
+			tasks: [{
+				id: "74D2B9E70D26A385"
+				item: "botania:apothecary_livingrock"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["3781D24F0C28468D"]
+			id: "5DDBFF751B4122EB"
+			tasks: [{
+				id: "0F6ECEE66FE299F7"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5DDBFF751B4122EB"]
+			id: "16CD8B76E5E989A1"
+			tasks: [{
+				id: "66109599720F9FBA"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["16CD8B76E5E989A1"]
+			id: "013A3828334D8BAF"
+			tasks: [{
+				id: "38AC2CB3ACDD439D"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["013A3828334D8BAF"]
+			id: "24FEA43E7AFC370D"
+			tasks: [{
+				id: "657AFE41B98F7E9E"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["24FEA43E7AFC370D"]
+			id: "5E5D773DB0DCFFD1"
+			tasks: [{
+				id: "78A21E79ED99F893"
+				item: "mythicbotany:aquapanthus"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["24FEA43E7AFC370D"]
+			id: "65FF028035B698C6"
+			tasks: [{
+				id: "45BDA592F448E6B7"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["65FF028035B698C6"]
+			id: "48EB2956B593951F"
+			tasks: [{
+				id: "48A00899BF7A516D"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["48EB2956B593951F"]
+			id: "1C2C4E88F33579DD"
+			tasks: [
+				{
+					id: "6500430C74525021"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EBC1D8D06853A1C"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE45FAAAA7C3645"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D7C0A7F28DE13FA"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69DB03A8C05C3249"
+					item: "botania:mana_ring"
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["65FF028035B698C6"]
+			id: "58FA20FBA5AC553A"
+			tasks: [{
+				id: "1CD6FFC9B5191F41"
+				item: "botania:bellows"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["48EB2956B593951F"]
+			id: "7CD9C4D704F79022"
+			tasks: [
+				{
+					id: "72CD7B010EC679D3"
+					item: "botania:dodge_ring"
+					type: "item"
+				}
+				{
+					id: "74132141A61D9361"
+					item: "botania:cloud_pendant"
+					type: "item"
+				}
+				{
+					id: "45848A1D7AF17FF4"
+					item: "botania:aura_ring"
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["48EB2956B593951F"]
+			id: "26B7858EDAEAE16E"
+			tasks: [
+				{
+					id: "79DE2E3D48BBCF9D"
+					item: {
+						Count: 1
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A54DCE4B992B90"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55D1E389BF871759"
+					item: {
+						Count: 1
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4030695BF301DA9F"
+					item: {
+						Count: 1
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48EB2956B593951F"]
+			id: "1F35C6AF27AEE558"
+			tasks: [{
+				id: "09D21ED2EAB680A4"
+				item: {
+					Count: 1
+					id: "botania:crafting_halo"
+					tag: {
+						equipped: 0b
+						rotationBase: 550.9502f
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["65FF028035B698C6"]
+			id: "6FD624AA23D45115"
+			tasks: [
+				{
+					id: "304AA2EFB0E934D5"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+				{
+					id: "21C5C16EB8D887B6"
+					item: "botania:lens_power"
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["6FD624AA23D45115"]
+			id: "5AF228734FC65321"
+			tasks: [
+				{
+					id: "6A52754604401A56"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7BE5E0147312DD24"
+					item: { Count: 4, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7EF8DA607D88A3C4"
+					item: { Count: 5, id: "botania:livingrock" }
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AF228734FC65321"]
+			description: ["Você pode usar a perícia para receitas menos complexas e mais baratas de metais do Botania e rituais para familiares do Ars Nouveau"]
+			id: "548FDDB190E7F1FA"
+			tasks: [{
+				id: "41971B7B05EC57AB"
+				item: "kubejs:ponto_druida"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			id: "379B8692A2112735"
+			tasks: [{
+				id: "5694417B4CB49374"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0256290A82D42B6F"]
+			description: ["Junte isto em uma crafting table com qualquer flor mística em cima e terra embaixo, depois junte com qualquer flor mágica para criar uma pequena ilha flutuante"]
+			id: "229E299DE10EB8F1"
+			tasks: [{
+				id: "4615E307FC8A34EC"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5DDBFF751B4122EB"]
+			id: "23E36B6DFB6B8BB3"
+			tasks: [{
+				id: "628B064F523B06B8"
+				item: "botania:manaweave_cloth"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["23E36B6DFB6B8BB3"]
+			id: "6CA3D59ECE28A4A8"
+			tasks: [
+				{
+					id: "353513D3A93016A3"
+					item: {
+						Count: 1
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5630167F2F822EEA"
+					item: {
+						Count: 1
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "570EDE20CA9F7C1D"
+					item: {
+						Count: 1
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10B41409B93A7187"
+					item: {
+						Count: 1
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["379B8692A2112735"]
+			id: "531943FC225F0F53"
+			tasks: [
+				{
+					id: "1BDCA81BEB0A4DD3"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FF239F5D2D683DB"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05CAF9A46B473985"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55C617DDAA20026D"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["379B8692A2112735"]
+			id: "1FE936DB67B411FC"
+			tasks: [
+				{
+					id: "508BBB4C26CAF73A"
+					item: "botania:aura_ring_greater"
+					type: "item"
+				}
+				{
+					id: "44BA29CE05C5C122"
+					item: "botania:mana_ring_greater"
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["379B8692A2112735"]
+			id: "6F47E811C0BD0DFA"
+			tasks: [{
+				id: "7E2467FA478D3F7F"
+				item: {
+					Count: 1
+					id: "botania:mana_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			id: "10F1EBA3057BFE8A"
+			tasks: [
+				{
+					count: 3L
+					id: "27CC78C95B67C990"
+					item: { Count: 3, id: "botania:glimmering_livingwood" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3495ADF5CF914D3C"
+					item: { Count: 8, id: "botania:livingwood" }
+					type: "item"
+				}
+				{
+					id: "3ED7B860116E222A"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["10F1EBA3057BFE8A"]
+			id: "399F88558A3C36FD"
+			tasks: [{
+				count: 2L
+				id: "3686763855DF4D0B"
+				item: { Count: 2, id: "botania:natura_pylon" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["399F88558A3C36FD"]
+			id: "238F6013C4D73188"
+			tasks: [{
+				id: "00E874B5191846EE"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 8.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["238F6013C4D73188"]
+			id: "150747C5D5FEAEE7"
+			tasks: [{
+				id: "2E12259956CE16D9"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["238F6013C4D73188"]
+			id: "588AF1260411A355"
+			tasks: [
+				{
+					id: "4F58F3107ADCA74A"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					id: "4306E7F6D73AAF0E"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: -12.0d
+		}
+		{
+			dependencies: ["238F6013C4D73188"]
+			id: "1775815D59C72B17"
+			tasks: [
+				{
+					id: "5047E89447F08362"
+					item: "botania:rafflowsia"
+					type: "item"
+				}
+				{
+					id: "7A92DBBDCB236C71"
+					item: "mythicbotany:wither_aconite"
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["399F88558A3C36FD"]
+			id: "0F967ABEAB0262C9"
+			tasks: [
+				{
+					count: 4L
+					id: "77FE742129FA77DA"
+					item: { Count: 4, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					id: "3C54D22FE2EDC6A3"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0F967ABEAB0262C9"]
+			id: "5693A8B4DE327DC9"
+			tasks: [
+				{
+					id: "1A12A90DC39FB99C"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					id: "53EA4B2FFBD1820C"
+					item: "botania:ender_air_bottle"
+					type: "item"
+				}
+			]
+			x: 10.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5693A8B4DE327DC9"]
+			id: "05AD4A1DD643A43E"
+			tasks: [{
+				id: "15BDF60CCEBD0AE3"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 11.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["05AD4A1DD643A43E"]
+			id: "0D0E21F6F30720AE"
+			tasks: [{
+				id: "58C379AE8E4FA066"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0D0E21F6F30720AE"]
+			id: "760D8360C0784BA8"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "4EB5AF41C3D1CFCD"
+				type: "dimension"
+			}]
+			x: 15.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["760D8360C0784BA8"]
+			id: "07879CB547BA07AA"
+			tasks: [{
+				id: "1C0587DF8801BDDD"
+				item: "mythicbotany:alfsteel_template"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["07879CB547BA07AA"]
+			id: "3E219757D3C70763"
+			tasks: [
+				{
+					id: "695F5988F1478FE5"
+					item: "mythicbotany:aura_ring_greatest"
+					type: "item"
+				}
+				{
+					id: "00231019C60B930E"
+					item: "mythicbotany:mana_ring_greatest"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3E219757D3C70763"]
+			id: "7907B2E0AB3B7A30"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "762B43AA103544DF"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "106C4C9966E061D5"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5043C997D2E0DEC5"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501CCC0C327137E6"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2368E2327F8C00D7"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mestre Druida!!!"
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5693A8B4DE327DC9"]
+			id: "32753AF63443D9DE"
+			tasks: [{
+				id: "710BE5A6DC0166D3"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["32753AF63443D9DE"]
+			id: "706F6C6A3DB7CD73"
+			shape: "rsquare"
+			tasks: [{
+				id: "3ABB14BCBE251B8E"
+				item: "botania:flugel_eye"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["32753AF63443D9DE"]
+			id: "6A0139D93E9926C7"
+			shape: "rsquare"
+			tasks: [{
+				id: "19853FDA6D20B142"
+				item: {
+					Count: 1
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							-791877485
+							1359694297
+							-1693808767
+							509945953
+						]
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.75d
+			y: -7.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "2C284A06E0A32313"
+			shape: "rsquare"
+			tasks: [{
+				id: "7C69C4E68C73C08A"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "22F1BC58363F3649"
+			shape: "rsquare"
+			tasks: [{
+				id: "0DC4A7252ABB69B8"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "500D6975137D4CDE"
+			shape: "rsquare"
+			tasks: [{
+				id: "34DE0A0B6604160F"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "1437A72BCDC95830"
+			shape: "rsquare"
+			tasks: [{
+				id: "7F6A7BB22246EC72"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "5532D366C9C6A3AB"
+			shape: "rsquare"
+			tasks: [{
+				id: "0ED85E90E0DD236B"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "2BAEC892056346FF"
+			shape: "rsquare"
+			tasks: [{
+				id: "5E38F370BD8C853D"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "797EB9D93998384C"
+			shape: "rsquare"
+			tasks: [{
+				id: "3D58E5F5A226F784"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "7179FDF137D3869C"
+			shape: "rsquare"
+			tasks: [{
+				id: "5E6411E3EC3BE81C"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -10.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "53328C7FE34C1E30"
+			shape: "rsquare"
+			tasks: [{
+				id: "3EB4EE9208E211BA"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "3ADC51AB222D187A"
+			shape: "rsquare"
+			tasks: [{
+				id: "77CB39633537D7BB"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "0D8BC329D76F1005"
+			shape: "rsquare"
+			tasks: [{
+				id: "78150A78D55CD5AC"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["548FDDB190E7F1FA"]
+			hide_dependency_lines: true
+			id: "44085377A921FE31"
+			shape: "rsquare"
+			tasks: [{
+				id: "7BAF1D3D2797BA82"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5DDBFF751B4122EB"]
+			id: "0256290A82D42B6F"
+			tasks: [{
+				id: "522CAC9467E48E91"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 8.75d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["62566333BE5419C7"]
+			id: "5BFC4300C32BF38A"
+			optional: true
+			rewards: [{
+				auto: "disabled"
+				command: "/team join Druida @s"
+				elevate_perms: true
+				id: "22289853E4712759"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "11CE990028982408"
+				title: "Titulo "
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 2.25d
+		}
+	]
+	title: "Druida"
+}

@@ -1,0 +1,979 @@
+{
+	autofocus_id: "1BCECDAB5797E709"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ferreiro"
+	group: "29665EDF34C45838"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:ponto_ferreiro"
+	id: "5728ADC1C114DB47"
+	images: [
+		{
+			color: 11908533
+			height: 20.0d
+			image: "kubejs:block/fundo3"
+			rotation: 0.0d
+			width: 35.55232558139535d
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/b_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/l_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/c_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/s_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/k_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/m_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/i_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/t_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.25d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/h_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.25d
+			y: -7.5d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40323620471212BF"]
+			id: "588EE1798B374D8B"
+			tasks: [{
+				id: "497AA1128C854A94"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["588EE1798B374D8B"]
+			id: "4142487F201D540F"
+			tasks: [{
+				id: "61259F73F40946C7"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4142487F201D540F"]
+			id: "1730F60B24C3EB32"
+			tasks: [{
+				count: 4L
+				id: "6C8870A40994FF24"
+				item: { Count: 4, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1730F60B24C3EB32"]
+			description: [" Deixe duas barras de ferro na mão secundária, exatamente o martelo da missão anterior na mão principal e clique em uma bigorna intacta"]
+			id: "0516366305D0A11A"
+			tasks: [{
+				count: 2L
+				id: "502697FEC1DD605D"
+				item: { Count: 2, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0516366305D0A11A"]
+			description: [" Repita a mesma coisa utilizando as chapas de ferro. Pronto, trabalho manual de um ferreiro direto da bigorna!"]
+			id: "1F7AF9229AE2C05A"
+			tasks: [{
+				id: "377643A12308F74D"
+				item: "kubejs:ponto_ferreiro"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1F7AF9229AE2C05A"]
+			description: ["Você pode colocar a Perícia em um stonecutter pra criar diversas armas e itens úteis para ferreiro!"]
+			id: "2BD43CB7AB259F51"
+			tasks: [{
+				id: "71DBC6962F241DFC"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "57B45AACD06A14EE"
+			tasks: [{
+				id: "47FAA0E862144DE5"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "550D3E86E5D8BAC5"
+			tasks: [{
+				id: "44875F4742A9D819"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "3CECA6ED0FF7C4B6"
+			tasks: [{
+				id: "378EAE55E55596D9"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "42B3D5D2197A9BEE"
+			tasks: [{
+				id: "4069518319351A24"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "0AB629052E2078C1"
+			tasks: [{
+				id: "2878C8FB58F3DD67"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "51BFF9E74F80C2EF"
+			tasks: [{
+				id: "36C58C17D8A5FBA6"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "2069F9F60B92F015"
+			tasks: [{
+				id: "56BFFC5404769B89"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "58CC6FD4AEF1D7C0"
+			tasks: [{
+				id: "4F409A62AC091EE4"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "0361F5647F58A3FF"
+			tasks: [{
+				id: "277933F06A5A907A"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "335673FF2FA90259"
+			tasks: [{
+				id: "593D6F5CF28CFD8B"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "750B328C3C5B6651"
+			tasks: [{
+				id: "2C92FBEF6570CEEE"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "068F4788A9D0FD85"
+			tasks: [{
+				id: "7767D6A7B9807462"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "15251D3A85DF0342"
+			tasks: [{
+				id: "1D9BBB9537B2F761"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_greataxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "416BF6E0816231B8"
+			tasks: [{
+				id: "0A529DF56797EA7C"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1F7AF9229AE2C05A"]
+			description: [" Armas melhores precisam de ferramentas melhores!"]
+			hide_dependency_lines: true
+			id: "001D817651479A4E"
+			shape: "rsquare"
+			tasks: [{
+				id: "666DBF0C22915D15"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7700F526374AEF0A"]
+			id: "0D625972E1D9DCB6"
+			tasks: [{
+				id: "4ABA89EDB477FEE2"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["001D817651479A4E"]
+			description: [" Martelo de diamante em mãos, dois diamantes na outra mão e..."]
+			id: "7B9B82EB27C6025B"
+			tasks: [{
+				count: 2L
+				id: "5049E73E5E2D6953"
+				item: { Count: 2, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7B9B82EB27C6025B"]
+			description: ["Bonk! Isso vai ser extremamente útil daqui pra frente..."]
+			id: "7700F526374AEF0A"
+			tasks: [{
+				id: "32CB5DE1600200BF"
+				item: "mekanism:dust_diamond"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "2756EFDA5B18B49B"
+			tasks: [{
+				id: "3DBF858426C17706"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "614FD1DBC69D198E"
+			tasks: [{
+				id: "3B4E3AEADDEDEBCE"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "684E0E0B565473A1"
+			tasks: [{
+				id: "7175130657907505"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "1A283CF3EA900AE8"
+			tasks: [{
+				id: "23CCB11E804CDE59"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "1CDCB013F683B255"
+			tasks: [{
+				id: "56D9C6B07866B125"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "428E8335A82722F7"
+			tasks: [{
+				id: "48DF6CC22A69E8A2"
+				item: {
+					Count: 1
+					id: "nethersdelight:diamond_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "17C744E1C695C3A3"
+			tasks: [{
+				id: "592FC8F9AD34C334"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:diamond_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "24F074347F6FB2AE"
+			tasks: [{
+				id: "2CC8234BEE154FEB"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:diamond_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "304E83722B6CD914"
+			tasks: [{
+				id: "64C6ECD9219E3434"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "15E7C9FC4D1C7B1F"
+			tasks: [{
+				id: "79A709CAC4CE48B4"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "65BA0A7B75DC09BE"
+			tasks: [{
+				id: "528B1A4F5AFC15E4"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0D625972E1D9DCB6"]
+			id: "00F67774ECB5DF88"
+			tasks: [{
+				id: "3378DBA3164BA876"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["001D817651479A4E"]
+			description: ["Você pode transformar 1 Detritos ancestrais em 4 netherite scrap, se segurar ela na mão secundária, o martelo de ouro na primária e clicar em uma bigorna intacta. Multiplicação!"]
+			id: "1A96E9A0D8210CD5"
+			tasks: [{
+				id: "4EA283570FE5E83E"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:golden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1A96E9A0D8210CD5"]
+			id: "6450A6EE6FDDAC6E"
+			tasks: [{
+				count: 4L
+				id: "63F6A7A410866A3F"
+				item: { Count: 4, id: "minecraft:netherite_scrap" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6450A6EE6FDDAC6E"]
+			id: "333E15CA4AF54F83"
+			tasks: [{
+				id: "1445D4323B11E6F1"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["333E15CA4AF54F83"]
+			id: "5459E09FAFC1B4E1"
+			tasks: [{
+				id: "33699AA66DDE5D77"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:netherite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["001D817651479A4E"]
+			description: ["  Deixe o template na mão secundária e clique na bigorna com um martelo de diamante para duplicar o aprimoramento. Cuidado! Essa ação consome o martelo!"]
+			id: "518A4DA10B4B3F63"
+			tasks: [{
+				count: 2L
+				id: "1D61D68ED6730182"
+				item: { Count: 2, id: "minecraft:netherite_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "6EA3CEC63473DFA9"
+			tasks: [{
+				id: "1C6AD8D346D16951"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "Aprimorar Gemas"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "06B60E15A57A6508"
+			tasks: [
+				{
+					id: "1C5F124206A17AAC"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+				{
+					id: "7988EDDAE1205600"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+			]
+			title: "Reforjando Equipamentos"
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["06B60E15A57A6508"]
+			id: "0D66FA245EAD69C0"
+			shape: "rsquare"
+			tasks: [{
+				id: "5F7F4AA786D579A6"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5459E09FAFC1B4E1"]
+			description: ["16x Gem dusta na mão secundária e martelo de netherite na primária, clique na bigorna!"]
+			id: "0DAC6924E11BB18C"
+			tasks: [{
+				id: "1829016223BB0D4E"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DAC6924E11BB18C"]
+			id: "5A596982D338072A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E3D1F2597D2B5CE"
+				table_id: 704152564406685956L
+				type: "choice"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "1D92E0B03DDC848E"
+					item: { Count: 2, id: "forbidden_arcanus:mundabitur_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "49983CCA7D15496C"
+					item: "kubejs:ponto_ferreiro"
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0DAC6924E11BB18C"]
+			id: "0E6F0116D9A3B65F"
+			tasks: [{
+				id: "63C2AE3F5AD01ACE"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0E6F0116D9A3B65F"]
+			id: "34515F1C7DD67DCC"
+			shape: "hexagon"
+			tasks: [{
+				id: "66A83D06F49A1034"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Mestre Ferreiro!!!"
+			x: 10.75d
+			y: -12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DAC6924E11BB18C"]
+			id: "16F1834C6907E739"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A47D2217F799DD9"
+				table_id: 31334944043766854L
+				type: "choice"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "7FCCF5CBF2805E90"
+					item: { Count: 2, id: "forbidden_arcanus:mundabitur_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "13425D1FE5425C18"
+					item: { Count: 3, id: "kubejs:ponto_ferreiro" }
+					type: "item"
+				}
+			]
+			x: 12.75d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DAC6924E11BB18C"]
+			id: "7FD99C1BDE8302D0"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E3CD2D80F2F8C59"
+				table_id: 344721600204682842L
+				type: "choice"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					id: "7B2798B8564AAE94"
+					item: { Count: 2, id: "forbidden_arcanus:mundabitur_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "251CDAABABFFF558"
+					item: { Count: 3, id: "kubejs:ponto_ferreiro" }
+					type: "item"
+				}
+			]
+			x: 13.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2BD43CB7AB259F51"]
+			id: "4F101EF76BC5EDC5"
+			tasks: [{
+				id: "707140B59B1FDEAF"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0D66FA245EAD69C0"]
+			id: "1BCECDAB5797E709"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6895E608BD010F87"
+					item: "apotheosis:augmenting_table"
+					type: "item"
+				}
+				{
+					id: "22082D153E0D2BBB"
+					item: "apotheosis:sigil_of_enhancement"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["588EE1798B374D8B"]
+			id: "0FED389D7357DBD5"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/team join Ferreiro @s"
+				elevate_perms: true
+				id: "72A4BD82849C6B23"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7C2762EA689B8135"
+				title: "Titulo "
+				type: "checkmark"
+			}]
+			x: -4.75d
+			y: -9.5d
+		}
+	]
+	title: "Ferreiro"
+}

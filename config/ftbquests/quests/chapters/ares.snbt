@@ -1,0 +1,652 @@
+{
+	autofocus_id: "6F48101B22CA0FFE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ares"
+	group: "07086E1A2C4D20AF"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_ares"
+	id: "255DFEFB96D4FEEA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "6F48101B22CA0FFE"
+			optional: true
+			rewards: [{
+				id: "6A99D00955FF2422"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.1f
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "13971F0E4CAB821A"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Ares"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4396D786769CC977"]
+			hide_dependency_lines: false
+			id: "5C9A1D196BF15F06"
+			tasks: [
+				{
+					id: "70E76E0E296B3CC6"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27EB331F4EB6384F"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C9A1D196BF15F06"]
+			hide_dependency_lines: false
+			id: "7F974AB4798BEBD4"
+			tasks: [{
+				id: "47B2350A1AB3B74A"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C9A1D196BF15F06"]
+			id: "3F0EAF33460E2CAF"
+			tasks: [{
+				id: "2762C57E617416BD"
+				item: {
+					Count: 1
+					id: "ae2:nether_quartz_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C9A1D196BF15F06"]
+			id: "2E821B2EE03494CE"
+			tasks: [{
+				id: "28E1D58F35A2C887"
+				item: {
+					Count: 1
+					id: "botania:manasteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F0EAF33460E2CAF"]
+			id: "4023C86C74882A29"
+			tasks: [{
+				id: "1F0DAC1371581C39"
+				item: {
+					Count: 1
+					id: "ae2:fluix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E821B2EE03494CE"]
+			id: "6126670D71DD3EA3"
+			tasks: [{
+				id: "575F06D5A5AA8ABA"
+				item: {
+					Count: 1
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F974AB4798BEBD4"]
+			id: "617988113F01AEAB"
+			tasks: [{
+				id: "4B20770FD7A92B22"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["617988113F01AEAB"]
+			id: "184B10557FAB26AD"
+			tasks: [{
+				id: "1C926D0709DBD07A"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6126670D71DD3EA3"]
+			id: "37EFC774E100CD62"
+			tasks: [{
+				id: "768FDA45FCC7FFB2"
+				item: {
+					Count: 1
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C9A1D196BF15F06"]
+			id: "7FBD450A2DB2C7AC"
+			tasks: [{
+				id: "3AF7CA1C4EF0BCC3"
+				item: {
+					Count: 1
+					id: "sons_of_sins:osseous_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FBD450A2DB2C7AC"]
+			id: "1E29D82B8251F050"
+			tasks: [{
+				id: "3490E3B0DF282E52"
+				item: {
+					Count: 1
+					id: "sons_of_sins:flesh_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E29D82B8251F050"]
+			id: "1E7D22387F669D58"
+			tasks: [{
+				id: "56C62B3C544C1FEB"
+				item: {
+					Count: 1
+					id: "sons_of_sins:ether_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4396D786769CC977"]
+			id: "57629268C1F97DEF"
+			tasks: [
+				{
+					id: "202D764D142BC341"
+					item: {
+						Count: 1
+						id: "simplyswords:iron_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2362F1776DDBC215"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57629268C1F97DEF"]
+			id: "283BD72B81933F3A"
+			tasks: [{
+				id: "0B31B6D01810840C"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["283BD72B81933F3A"]
+			id: "4C11E062BD079B65"
+			tasks: [{
+				id: "097330A78FE27F08"
+				item: {
+					Count: 1
+					id: "simplyswords:netherite_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C11E062BD079B65"]
+			id: "7B692B7B4B8C3C28"
+			tasks: [{
+				id: "09B8B3C883709521"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31F88A8B4F8CB997"]
+			id: "04D17199814076CB"
+			tasks: [{
+				count: 5L
+				id: "4D1C657A634959C3"
+				item: { Count: 5, id: "minecraft:skeleton_skull" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04D17199814076CB"]
+			id: "4C97100D6DCFD358"
+			rewards: [{
+				id: "0ED0AF340D178E01"
+				item: "kubejs:talisma_ares"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "736A1CD1C5ED1DAD"
+				item: { Count: 5, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C97100D6DCFD358"]
+			id: "265E532E668EC4A0"
+			rewards: [{
+				id: "67BF22311DF06D95"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EE88955A6C6783D"
+				item: "born_in_chaos_v1:nightmare_stalker_skull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["265E532E668EC4A0"]
+			hide_dependency_lines: false
+			id: "0A73B505B2509A10"
+			tasks: [
+				{
+					id: "4DF9C7A6F1F02936"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16855FD069398F29"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F472908E4D17CCA"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A1664B4F2B83AF3"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31F88A8B4F8CB997"]
+			id: "1DF3BECE42C004E4"
+			tasks: [{
+				id: "6EAAD544C944099F"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DF3BECE42C004E4"]
+			id: "7D387C5023DF14E3"
+			tasks: [{
+				id: "01014C03D0EF43E3"
+				item: "minecraft:creeper_head"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D387C5023DF14E3"]
+			id: "56CF8D743863793C"
+			tasks: [{
+				id: "5059D6D7DA9B9E2E"
+				item: "botania:gaia_head"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31F88A8B4F8CB997"]
+			id: "5EBE32F897BDFE36"
+			rewards: [{
+				id: "63E9CC6FBA71F76B"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "691A21F908E7F1DE"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EBE32F897BDFE36"]
+			id: "7239C02F2E0A6552"
+			tasks: [{
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+				id: "6438584207A6FB65"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7239C02F2E0A6552"]
+			id: "48D8441E21492FF5"
+			rewards: [
+				{
+					id: "73688593F4F9A353"
+					item: "kubejs:talisma_ares"
+					type: "item"
+				}
+				{
+					id: "6542F5BD0B1A302D"
+					item: "kubejs:talisma_destruicao"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "0A379DBB92A27644"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C9A1D196BF15F06"]
+			id: "5A8CDB586CEE9D6C"
+			tasks: [{
+				id: "60649CF5F533A2AC"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A8CDB586CEE9D6C"]
+			id: "7975EB12238F7830"
+			tasks: [{
+				id: "1757952500F021E6"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:prudentium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7975EB12238F7830"]
+			id: "0F7F40585D96D758"
+			tasks: [{
+				id: "65DEA9EB6B770318"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F7F40585D96D758"]
+			id: "27F66F51B9AAC1F3"
+			tasks: [{
+				id: "076F70A01028898A"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:imperium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27F66F51B9AAC1F3"]
+			id: "14183BC5F6DDB24C"
+			tasks: [{
+				id: "7731EA8B28D87B01"
+				item: "mysticalagriculture:supremium_sword"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14183BC5F6DDB24C"]
+			id: "2AD2915D4A688E80"
+			tasks: [{
+				id: "4D7567BBCB0ED851"
+				item: "mysticalagriculture:awakened_supremium_sword"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4396D786769CC977"]
+			id: "31F88A8B4F8CB997"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "43817E66C01F4460"
+				type: "advancement"
+			}]
+			x: 0.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31F88A8B4F8CB997"]
+			id: "5CF71140428AE73C"
+			tasks: [{
+				entity: "minecraft:snow_golem"
+				id: "46A3C36A49A0F17D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CF71140428AE73C"]
+			id: "483C4ED487551820"
+			rewards: [{
+				id: "65B51F5375EAAD3B"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "70A95232EBB2064C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+	]
+	title: "Ares"
+}

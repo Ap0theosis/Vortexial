@@ -1,0 +1,480 @@
+{
+	autofocus_id: "60F04E6C81C73A1D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atena"
+	group: "07086E1A2C4D20AF"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_atena"
+	id: "383E925548B441E8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "60F04E6C81C73A1D"
+			optional: true
+			rewards: [{
+				id: "59D68F4CDEB8F727"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.3f
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "426598F982A5939B"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Atena"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65B9E4DC38607E65"]
+			id: "3AD12D2046AC8557"
+			tasks: [{
+				id: "1EC422C2CF700840"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3AD12D2046AC8557"]
+			id: "6ED28344805F727C"
+			rewards: [{
+				id: "030C9913DB6A0C8F"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "729AA50377582B86"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AD12D2046AC8557"]
+			id: "2736D9FBF0271FE0"
+			rewards: [
+				{
+					id: "6E02ACB696D20E46"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "1044FF0086891BE8"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E5D1A8919411B2C"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "7A419E1E7F5A1C5E"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AD12D2046AC8557"]
+			id: "08EDC549175C65F1"
+			rewards: [
+				{
+					id: "118C226449F29390"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "7491424AD183AF06"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6BB9B72EB3883CF1"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "3246A93EEE5EFEEA"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08EDC549175C65F1"
+				"2736D9FBF0271FE0"
+				"6ED28344805F727C"
+			]
+			id: "2898F571BB9BC4CE"
+			rewards: [
+				{
+					id: "5A00FA8E692F43C0"
+					item: "ae2:guide"
+					type: "item"
+				}
+				{
+					id: "34BCC8084C5E3CE5"
+					item: "kubejs:talisma_controle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16B103C4180AE889"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2898F571BB9BC4CE"]
+			id: "278170C1A482635E"
+			tasks: [{
+				id: "1483D4E5289CCDD7"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["278170C1A482635E"]
+			id: "0C51BE3D7F88371E"
+			rewards: [{
+				id: "5481C3D2FA19F52C"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "093B04602114B8F4"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C51BE3D7F88371E"]
+			id: "7FEC426635206569"
+			tasks: [{
+				id: "50B848565A1DA2AD"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FEC426635206569"]
+			id: "362A2BDB1368F65C"
+			tasks: [{
+				id: "3668E98B468F29DE"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["362A2BDB1368F65C"]
+			id: "73863F9B00259513"
+			rewards: [{
+				id: "3A9BA89ED5A4BFB5"
+				item: "kubejs:talisma_atena"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C0313B54AF2BC1"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2898F571BB9BC4CE"]
+			id: "69A62111DC0EFCCA"
+			tasks: [{
+				count: 4L
+				id: "731DD0E3121A3C6A"
+				item: { Count: 4, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2898F571BB9BC4CE"]
+			id: "528F8F4A071DF830"
+			tasks: [{
+				id: "4A3E502831AFCD4B"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["528F8F4A071DF830"]
+			id: "2D3295BD4125C108"
+			tasks: [
+				{
+					id: "055B2F812CFB67D4"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "6A5A7B5CC07C27B4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "63353F6596B3465F"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D3295BD4125C108"]
+			id: "633E698AF1522B56"
+			tasks: [{
+				count: 2L
+				id: "4F25D03054E5B4FA"
+				item: { Count: 2, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["633E698AF1522B56"]
+			id: "0F1CAA0478424D5A"
+			tasks: [{
+				id: "704C0CEF02D84438"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F1CAA0478424D5A"]
+			id: "66D1645932D0EBAE"
+			tasks: [{
+				id: "0923FE86287A9660"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["633E698AF1522B56"]
+			id: "3B3C57FC27969F6E"
+			tasks: [{
+				id: "69B87655F6FB07E2"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B3C57FC27969F6E"]
+			id: "23C57A58558E1174"
+			tasks: [{
+				id: "1470594C19B5D0D4"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23C57A58558E1174"]
+			id: "37C72CD554FCDD17"
+			rewards: [{
+				id: "77CF82BA776F758E"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66200F68F3E76A7C"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37C72CD554FCDD17"]
+			id: "76F5D6F57445FC6B"
+			tasks: [{
+				id: "3BB02674FD565A8E"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76F5D6F57445FC6B"]
+			id: "406DEFD3DCE6C785"
+			tasks: [{
+				id: "4DE40C9D41AB09DE"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["406DEFD3DCE6C785"]
+			id: "7D56EE67C77B0AAB"
+			rewards: [{
+				id: "1CEC6F75D4F58BD5"
+				item: "kubejs:talisma_atena"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7661C66A57B58969"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B3C57FC27969F6E"]
+			id: "01F624FBFB2206EF"
+			tasks: [{
+				id: "50F95A5EF074704C"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01F624FBFB2206EF"]
+			id: "4346E0DA1DDBB93B"
+			rewards: [{
+				id: "7759D43D1640E1E8"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "527B670F89E4EAE6"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01F624FBFB2206EF"]
+			id: "73D2630B81964777"
+			tasks: [{
+				id: "71D8952799FFB125"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4346E0DA1DDBB93B"]
+			id: "39E62027E358A830"
+			tasks: [{
+				id: "72CCB02D3918B35A"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["69A62111DC0EFCCA"]
+			id: "2EB3C7EE53D5F7C3"
+			rewards: [{
+				id: "06B7A1DF530C1C22"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6286B51CBF7094E9"
+				item: "kubejs:talisma_atena"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EB3C7EE53D5F7C3"]
+			id: "7E01DA5090671A29"
+			rewards: [{
+				id: "71A9F7B74BB06866"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "63E37D949A06A0C6"
+				item: "kubejs:talisma_atena"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+	]
+	title: "Atena"
+}

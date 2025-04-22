@@ -1,0 +1,271 @@
+{
+	autofocus_id: "77B9F5B23AFAB794"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hefesto"
+	group: "07086E1A2C4D20AF"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_hefesto"
+	id: "7AFE15974773C7A0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "77B9F5B23AFAB794"
+			optional: true
+			rewards: [{
+				id: "1DE1412E81CFC579"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.5f
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "29B70092418721E0"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Hefesto"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37911347217E7387"]
+			id: "0BEC2CE94099A9C6"
+			tasks: [{
+				id: "77CE386D39F0D71E"
+				item: "ironjetpacks:basic_coil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0BEC2CE94099A9C6"]
+			id: "42329E88A5409C12"
+			rewards: [{
+				id: "7A19CE621802D50E"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F48D1E379C0665D"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["42329E88A5409C12"]
+			id: "19ABD5F1E6002295"
+			tasks: [{
+				id: "6273358EF0AA6280"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["19ABD5F1E6002295"]
+			id: "5DDCD07601CBFCB8"
+			rewards: [{
+				id: "61A4773F933E0165"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AD7EE765631A395"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5DDCD07601CBFCB8"]
+			id: "121F4A531823D6E5"
+			tasks: [{
+				id: "0CA74647A1F69BB0"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["121F4A531823D6E5"]
+			id: "1EACD6672CB4152E"
+			tasks: [{
+				id: "1D7D0A97117502F3"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["1EACD6672CB4152E"]
+			id: "459338D0252DB570"
+			rewards: [{
+				id: "262EC34D5DAEC39D"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5900052AF6538EDC"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["1C8EAF7CB6691F5F"]
+			id: "5B84D0C12DF1B19F"
+			tasks: [{
+				count: 64L
+				id: "3D58F927CBD91789"
+				item: { Count: 64, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5B84D0C12DF1B19F"]
+			id: "3B80FD9451755186"
+			tasks: [{
+				count: 4L
+				id: "2FA76F80A7E3EC29"
+				item: { Count: 4, id: "mekanism:block_charcoal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3B80FD9451755186"]
+			id: "37911347217E7387"
+			rewards: [{
+				id: "2D27BE7D103944F3"
+				item: "kubejs:talisma_controle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74E0FDE665BEED7E"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37911347217E7387"]
+			id: "527E82166F49A3C1"
+			optional: true
+			rewards: [{
+				id: "5B08155A5A4921D9"
+				item: "kubejs:talisma_hefesto"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "6C52CCBD9C501E97"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1F65A054C7178640"
+					item: "minecraft:smooth_stone"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37911347217E7387"]
+			id: "0FBE640016CE7718"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "5DB50B0FAC267887"
+				item: "ironjetpacks:basic_coil"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "6C7AE66EC6BFF812"
+				item: "kubejs:talisma_hefesto"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.25d
+		}
+	]
+	title: "Hefesto"
+}

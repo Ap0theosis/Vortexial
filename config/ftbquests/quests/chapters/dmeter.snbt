@@ -1,0 +1,242 @@
+{
+	autofocus_id: "26FBC7F92BBEA313"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dmeter"
+	group: "07086E1A2C4D20AF"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_demeter"
+	id: "423A943271D4889A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "26FBC7F92BBEA313"
+			optional: true
+			rewards: [{
+				id: "6B91BA9FEB0E5CEE"
+				item: "enigmaticlegacy:unwitnessed_amulet"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "398518F62DA33128"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Deméter"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47E7460BC189CCBC"]
+			id: "398DB64FF771F852"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "5014343C0140C068"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2409CB244B92B5AA"]
+			id: "258D3C0EC17D2B4B"
+			tasks: [{
+				id: "083B83BA571CBCC0"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2409CB244B92B5AA"]
+			id: "3327D71C03F3F4FC"
+			tasks: [{
+				id: "4C379BB9118C97C4"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["398DB64FF771F852"]
+			id: "2409CB244B92B5AA"
+			tasks: [{
+				id: "5BD441D3AEA0B6D2"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2409CB244B92B5AA"]
+			id: "1FE92F19B06E11C2"
+			rewards: [{
+				id: "20D0B6D0BC6FE778"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "19A4667DB8E2FA4E"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2409CB244B92B5AA"]
+			id: "5A51E8825B0ED968"
+			tasks: [{
+				id: "55E9C9F59FE59266"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2409CB244B92B5AA"]
+			id: "5A6793349559C4FF"
+			tasks: [{
+				id: "2F47166F0A01A541"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2409CB244B92B5AA"]
+			id: "0884190B47BA805F"
+			rewards: [{
+				id: "07791CEF94217809"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "0A40FB1959C1FFB1"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47E7460BC189CCBC"]
+			id: "53FCED952AF86919"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "5D6F558C237C0A28"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53FCED952AF86919"]
+			id: "6F66A1AC7BD4D013"
+			tasks: [{
+				id: "38604843AEFBE20B"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F66A1AC7BD4D013"]
+			id: "3742FFDC059F8637"
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "5B330AEBC8326A10"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F66A1AC7BD4D013"]
+			id: "703912427F861472"
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "3AF72B3CC478B3B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F66A1AC7BD4D013"]
+			id: "73C15E8418F785A0"
+			rewards: [{
+				id: "6CA134C818A71156"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "1A5BA776A600AEE4"
+				type: "kill"
+				value: 18L
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F66A1AC7BD4D013"]
+			id: "426746980BDA4EB2"
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "07FC9D8A7913A009"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F66A1AC7BD4D013"]
+			id: "1EE112979DEBFA80"
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "4535BFABADBE0EF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F66A1AC7BD4D013"]
+			id: "188A0AA0ACDA5229"
+			rewards: [{
+				id: "02F417896D011FFB"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "75A420628A0E4C68"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+	]
+	title: "Deméter"
+}

@@ -1,0 +1,11 @@
+{
+	id: "59EC478A5993D03C"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 16, item: "farmersdelight:cabbage" }
+		{ count: 16, item: "farmersdelight:tomato" }
+		{ count: 16, item: "farmersdelight:rice" }
+	]
+	title: "Cozinheiro0"
+}

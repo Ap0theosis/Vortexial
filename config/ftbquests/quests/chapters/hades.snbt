@@ -1,0 +1,182 @@
+{
+	autofocus_id: "6E900AE0DC5133C9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hades"
+	group: "07086E1A2C4D20AF"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:talisma_hades"
+	id: "2754B7FDFE6BA9D8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78A893ECA4A313F7"]
+			hide_until_deps_visible: true
+			id: "6E900AE0DC5133C9"
+			optional: true
+			rewards: [{
+				id: "53A43783579ADB3A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.6f
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "006BD077FB77BE9D"
+				item: "kubejs:heranca"
+				type: "item"
+			}]
+			title: "Filho de Hades"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0852EEE96D65161C"]
+			id: "08AC25CF4DE8DB6A"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "630FFA7B85602644"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08AC25CF4DE8DB6A"]
+			id: "49D8EDFBD246C0F2"
+			rewards: [{
+				id: "41856C647DBF6FA1"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "704F9887C306D365"
+				type: "kill"
+				value: 12L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49D8EDFBD246C0F2"]
+			id: "5EE68C172D70DD5B"
+			tasks: [{
+				id: "2F48F52DACDCA604"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49D8EDFBD246C0F2"]
+			id: "348FA332478B6973"
+			tasks: [{
+				id: "616A72898B0821A0"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EE68C172D70DD5B"]
+			id: "1D5498DAF159EF55"
+			tasks: [{
+				id: "7E4F914BEE45C8BF"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["348FA332478B6973"]
+			id: "7B1388A41012E523"
+			rewards: [{
+				id: "0DB4892E0699030A"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "2A2429CE0989E88F"
+				type: "kill"
+				value: 30L
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EE68C172D70DD5B"]
+			id: "19863B3685FDC154"
+			rewards: [{
+				id: "3E0F784502545D53"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "723831061EC7B33D"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["348FA332478B6973"]
+			id: "3BDF3395B86BAC31"
+			rewards: [{
+				id: "2EBA9A0C89B47119"
+				item: "kubejs:talisma_destruicao"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "1DF8899CAB4C8108"
+				type: "kill"
+				value: 9L
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"19863B3685FDC154"
+				"3BDF3395B86BAC31"
+			]
+			id: "4655603AF82F4138"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/kill @s"
+					id: "687466D3D3B623FE"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "58F22990222D6627"
+					item: "kubejs:talisma_hades"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33159645FCC73312"
+				title: "Ceder a alma"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "Hades"
+}

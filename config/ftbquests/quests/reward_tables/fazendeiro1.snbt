@@ -1,0 +1,19 @@
+{
+	id: "2F770C101BB24B66"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 8, item: "minecraft:wheat_seeds" }
+		{ count: 4, item: "minecraft:pumpkin_seeds" }
+		{ count: 4, item: "minecraft:melon_seeds" }
+		{ count: 8, item: "minecraft:beetroot_seeds" }
+		{ count: 8, item: "farmersdelight:cabbage_seeds" }
+		{ count: 8, item: "farmersdelight:tomato_seeds" }
+		{ item: "farmersdelight:potato_crate" }
+		{ count: 4, item: "minecraft:cactus" }
+		{ count: 6, item: "minecraft:sugar_cane" }
+		{ count: 8, item: "farmersdelight:onion" }
+		{ count: 8, item: "minecraft:sweet_berries" }
+	]
+	title: "Fazendeiro1"
+}
